@@ -56,7 +56,7 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "localhost";
+$wgDBserver = "127.0.0.1";
 $wgDBname = getenv("MYSQL_DATABASE");
 $wgDBuser = getenv("MYSQL_USER");
 $wgDBpassword = getenv("MYSQL_PASSWORD");
