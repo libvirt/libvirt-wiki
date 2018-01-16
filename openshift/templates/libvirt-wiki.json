@@ -280,6 +280,11 @@
 					"mountPath": "/var/lib/mysql/data"
 				    }
 				],
+                                "ports": [
+                                    {
+                                        "containerPort": 3306
+                                    }
+                                ],
                                 "env": [
 				    {
 					"name": "MYSQL_DATABASE",
