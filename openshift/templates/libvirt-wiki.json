@@ -232,7 +232,7 @@
 				"volumeMounts": [
 				    {
 					"name": "${NAME}-mediawiki",
-					"mountPath": "/opt/app-root/src"
+					"mountPath": "/srv/wikidata"
 				    }
 				],
 				"readinessProbe": {
