@@ -56,7 +56,7 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "libvirt-wiki-mysql";
+$wgDBserver = "localhost";
 $wgDBname = getenv("MYSQL_DATABASE");
 $wgDBuser = getenv("MYSQL_USER");
 $wgDBpassword = getenv("MYSQL_PASSWORD");
