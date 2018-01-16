@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^/?page(/.*)?$ %{DOCUMENT_ROOT}/index.php [L]
