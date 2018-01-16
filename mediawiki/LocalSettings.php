@@ -56,10 +56,10 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "127.5.185.130";
-$wgDBname = "wiki";
-$wgDBuser = "admin7u7xdu3";
-$wgDBpassword = "2CjRv9IQ7QA1";
+$wgDBserver = "libvirt-wiki-mysql";
+$wgDBname = getenv("MYSQL_DATABASE");
+$wgDBuser = getenv("MYSQL_USER");
+$wgDBpassword = getenv("MYSQL_PASSWORD");
 
 # MySQL specific settings
 $wgDBprefix = "libvirtwiki_";
