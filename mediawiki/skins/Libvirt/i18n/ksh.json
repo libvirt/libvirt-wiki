@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"skinname-libvirt": "Väktor",
+	"libvirt-skin-desc": "En modärne Väsjohn vun dä älldere Bedehnbovverfläsch „Monobooch“ met enem neue Ußsinn un Verbäßeronge bem Bedehne.",
+	"libvirt.css": "/* Dat CSS heh aan dä Schtäll wirrek blohß op de Bedehnbovverfläsch „Väktor“ */",
+	"libvirt.js": "/* De JavaSkreppte fun heh krejje alle Sigge met dä Bedehnbovverfläsch „Väktor“ jeschek */",
+	"libvirt-action-addsection": "Ne neue Afschnet onge drahn!",
+	"libvirt-action-delete": "Fottschmihße!",
+	"libvirt-action-move": "Ömnänne!",
+	"libvirt-action-protect": "Schöze!",
+	"libvirt-action-undelete": "Zerökholle!",
+	"libvirt-action-unprotect": "Schoz ändere!",
+	"libvirt-view-create": "Neu Schrihve!",
+	"libvirt-view-edit": "Änndere!",
+	"libvirt-view-history": "Väsjohne zeije!",
+	"libvirt-view-view": "Lässe!",
+	"libvirt-view-viewsource": "Der Wikkitäx aanlohre!",
+	"libvirt-more-actions": "Mih"
+}

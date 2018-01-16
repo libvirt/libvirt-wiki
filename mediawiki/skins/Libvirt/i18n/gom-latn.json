@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Isidore Dantas",
+			"The Discoverer"
+		]
+	},
+	"libvirt-action-addsection": "Vixoi zodd",
+	"libvirt-action-delete": "Kadd",
+	"libvirt-action-move": "Zago bodol",
+	"libvirt-action-protect": "Rakh",
+	"libvirt-view-create": "Roch",
+	"libvirt-view-edit": "Bodol",
+	"libvirt-view-history": "Itihas polloi",
+	"libvirt-view-view": "Vach",
+	"libvirt-view-viewsource": "Mull polloi",
+	"libvirt-more-actions": "Anik"
+}

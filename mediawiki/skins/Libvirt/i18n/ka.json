@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alsandro",
+			"David1010",
+			"გიორგიმელა"
+		]
+	},
+	"skinname-libvirt": "ვექტორული",
+	"libvirt.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ვექტორული გაფორმების თემაში */",
+	"libvirt-action-addsection": "თემის ჩამატება",
+	"libvirt-action-delete": "წაშლა",
+	"libvirt-action-move": "გადატანა",
+	"libvirt-action-protect": "დაცვა",
+	"libvirt-action-undelete": "აღდგენა",
+	"libvirt-action-unprotect": "დაცვის შეცვლა",
+	"libvirt-view-create": "შექმნა",
+	"libvirt-view-edit": "რედაქტირება",
+	"libvirt-view-history": "ისტორია",
+	"libvirt-view-view": "შემოწმებული სტატია",
+	"libvirt-view-viewsource": "წყაროს ხილვა",
+	"libvirt-more-actions": "მეტი"
+}

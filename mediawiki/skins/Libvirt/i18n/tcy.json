@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"NamwikiTL",
+			"VASANTH S.N."
+		]
+	},
+	"libvirt-action-addsection": "ವಿಷಯ ಸೇರಾಲೆ",
+	"libvirt-action-delete": "ದೆತ್ತ್ ಪಾಡ್ಲೆ",
+	"libvirt-action-move": "ಸ್ಥಳಾಂತರ ಮಲ್ಪುಲೆ",
+	"libvirt-action-protect": "ಸ೦ರಕ್ಷಿಸಾಲೆ",
+	"libvirt-action-undelete": "ಮಾಜಾವಡೆ",
+	"libvirt-action-unprotect": "ಬದಲಾವಣೆನ್ ರಕ್ಷಿಸಾಲೆ",
+	"libvirt-view-create": " ಸುರು ಮಲ್ಪುಲೆ",
+	"libvirt-view-edit": "ಸಂಪಾದನೆ ಮಲ್ಪುಲೆ",
+	"libvirt-view-history": "ಇತಿಹಾಸೊನು ತೂಲೆ",
+	"libvirt-view-view": "ಓದ್ಲೇ",
+	"libvirt-view-viewsource": "ಮೂಲೊನು ತೂಲೆ",
+	"libvirt-more-actions": "ನನಲಾ"
+}

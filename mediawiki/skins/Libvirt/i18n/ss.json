@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sibande"
+		]
+	},
+	"libvirt-action-addsection": "Ngeta sihloko",
+	"libvirt-action-move": "Khweshisa",
+	"libvirt-view-create": "Create",
+	"libvirt-view-edit": "Hlela",
+	"libvirt-view-history": "Bona umlandvo",
+	"libvirt-view-view": "Fundza"
+}

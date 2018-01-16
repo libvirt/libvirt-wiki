@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boukman",
+			"Internoob",
+			"Masterches",
+			"Tisave"
+		]
+	},
+	"libvirt-action-addsection": "Ajoute yon sijè",
+	"libvirt-action-delete": "Efase",
+	"libvirt-action-move": "Chanje non",
+	"libvirt-action-protect": "Pwoteje",
+	"libvirt-action-undelete": "Retabli",
+	"libvirt-action-unprotect": "Pa pwoteje",
+	"libvirt-view-create": "Kreye",
+	"libvirt-view-edit": "Modifye",
+	"libvirt-view-history": "Gade istorik",
+	"libvirt-view-view": "Li",
+	"libvirt-view-viewsource": "Wè kòd tèks sa a",
+	"libvirt-more-actions": "Plis"
+}

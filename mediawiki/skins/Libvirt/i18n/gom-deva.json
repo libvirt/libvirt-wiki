@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"Pooja tople",
+			"Sanket.prabhu26",
+			"Supriya kankumbikar",
+			"The Discoverer"
+		]
+	},
+	"libvirt-action-addsection": "माथाळो ज़ोड",
+	"libvirt-action-delete": "काडून उडयात",
+	"libvirt-action-move": "दुसरेकडे व्हरात",
+	"libvirt-action-protect": "राख",
+	"libvirt-view-create": "रोच",
+	"libvirt-view-edit": "बदल",
+	"libvirt-view-history": "इतिहास पळेयात",
+	"libvirt-view-view": "वाचचें",
+	"libvirt-view-viewsource": "उगम पळेयात",
+	"libvirt-more-actions": "आनीक"
+}

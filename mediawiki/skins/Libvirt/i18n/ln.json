@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eruedin",
+			"Moyogo"
+		]
+	},
+	"libvirt-action-addsection": "Kobakisa mpɔ̂",
+	"libvirt-action-delete": "Kolímwisa",
+	"libvirt-action-move": "Kobóngola nkómbó",
+	"libvirt-action-protect": "Kobátela",
+	"libvirt-action-undelete": "Kolímwisa tɛ̂",
+	"libvirt-action-unprotect": " Kobátela tɛ̂",
+	"libvirt-view-create": "Kokela",
+	"libvirt-view-edit": "Kobɔngisa",
+	"libvirt-view-history": "Komɔ́nisa mokóló",
+	"libvirt-view-view": "Kotánga",
+	"libvirt-view-viewsource": "Komɔ́nisa mosólo",
+	"libvirt-more-actions": "Elandí"
+}

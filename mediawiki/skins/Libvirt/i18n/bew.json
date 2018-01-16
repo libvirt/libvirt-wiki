@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naval Scene"
+		]
+	},
+	"libvirt-action-delete": "Ngapus",
+	"libvirt-action-move": "Pindahin",
+	"libvirt-action-undelete": "Balikin nyang keapus",
+	"libvirt-view-create": "Bikin"
+}

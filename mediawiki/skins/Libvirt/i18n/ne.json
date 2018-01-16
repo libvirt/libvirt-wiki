@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bhawani Gautam",
+			"RajeshPandey",
+			"सरोज कुमार ढकाल",
+			"बिप्लब आनन्द",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"skinname-libvirt": "भेक्टर",
+	"libvirt.css": "/* यहाँ राखिएको CSS ले भेक्टर स्किनको प्रयोगकर्ताहरूलाई प्रभावित गर्ने छ  */",
+	"libvirt-action-addsection": "विषय थप्नुहोस",
+	"libvirt-action-delete": "हटाउने",
+	"libvirt-action-move": "सार्ने",
+	"libvirt-action-protect": "सुरक्षित गर्ने",
+	"libvirt-action-undelete": "हटाएको रद्द गर्ने",
+	"libvirt-action-unprotect": "सुरक्षा परिवर्तन गर्ने",
+	"libvirt-view-create": "सृजना गर्ने",
+	"libvirt-view-edit": "सम्पादन",
+	"libvirt-view-history": "इतिहास हेर्ने",
+	"libvirt-view-view": "पढ्ने",
+	"libvirt-view-viewsource": "स्रोत हेर्ने",
+	"libvirt-more-actions": "थप"
+}

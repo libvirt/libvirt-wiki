@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bdamokos",
+			"Dani",
+			"Dj",
+			"Misibacsi",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"libvirt-skin-desc": "A MonoBook felület modern változata frissebb kinézettel és sok használhatóságot javító fejlesztéssel",
+	"libvirt.css": "/* Az ide elhelyezett CSS hatással lesz a Libvirt felület használóira */",
+	"libvirt.js": "/* A Libvirt felületet használó szerkesztők számára betöltendő JavaScriptek */",
+	"libvirt-action-addsection": "Új téma nyitása",
+	"libvirt-action-delete": "Törlés",
+	"libvirt-action-move": "Átnevezés",
+	"libvirt-action-protect": "Lapvédelem",
+	"libvirt-action-undelete": "Visszaállítás",
+	"libvirt-action-unprotect": "Védelem módosítása",
+	"libvirt-view-create": "Létrehozás",
+	"libvirt-view-edit": "Szerkesztés",
+	"libvirt-view-history": "Laptörténet",
+	"libvirt-view-view": "Olvasás",
+	"libvirt-view-viewsource": "A lap forrása",
+	"libvirt-more-actions": "Több"
+}

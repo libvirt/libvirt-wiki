@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arslan",
+			"Khalid Mahmood"
+		]
+	},
+	"libvirt-action-addsection": "مضمون پاؤ",
+	"libvirt-action-delete": "مکاؤ",
+	"libvirt-action-move": "ٹرو",
+	"libvirt-action-protect": "بچاؤ",
+	"libvirt-action-undelete": "واپس لیاؤ",
+	"libvirt-action-unprotect": "تبدیلی بچاؤ",
+	"libvirt-view-create": "بناؤ",
+	"libvirt-view-edit": "لکھو",
+	"libvirt-view-history": "تریخ وکھاؤ",
+	"libvirt-view-view": "پڑھو",
+	"libvirt-view-viewsource": "ویکھو",
+	"libvirt-more-actions": "ہور"
+}

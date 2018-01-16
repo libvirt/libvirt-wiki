@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes",
+			"Robin0van0der0vliet"
+		]
+	},
+	"libvirt-action-addsection": "Voog köpke toe",
+	"libvirt-action-delete": "Ewegsjaffe",
+	"libvirt-action-move": "Verplaats",
+	"libvirt-action-protect": "Besjirm",
+	"libvirt-action-undelete": "Plaats trök",
+	"libvirt-action-unprotect": "Anger beveiliging",
+	"libvirt-view-create": "Maak aan",
+	"libvirt-view-edit": "Bewirk",
+	"libvirt-view-history": "Bekiek de gesjiedenis",
+	"libvirt-view-view": "Laes",
+	"libvirt-view-viewsource": "Bekiek bróntèks",
+	"libvirt-more-actions": "Mieë"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AdiJapan",
+			"Danutz",
+			"Firilacroco",
+			"Minisarm",
+			"Strainu",
+			"ImGelu"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-skin-desc": "Versiunea modernă pentru MonoBook cu o înfățișare reîmprospătată și multe îmbunătățiri de uzabilitate",
+	"libvirt.css": "/* CSS plasate aici vor afecta utilizatorii stilului Libvirt */",
+	"libvirt-action-addsection": "Mesaj nou",
+	"libvirt-action-delete": "Ștergere",
+	"libvirt-action-move": "Redenumire",
+	"libvirt-action-protect": "Protejare",
+	"libvirt-action-undelete": "Recuperare",
+	"libvirt-action-unprotect": "Modificare protecție",
+	"libvirt-view-create": "Creare",
+	"libvirt-view-edit": "Modificare",
+	"libvirt-view-history": "Istoric",
+	"libvirt-view-view": "Lectură",
+	"libvirt-view-viewsource": "Sursă pagină",
+	"libvirt-more-actions": "Mai mult"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"libvirt-skin-desc": "Modern werjuun faan Monobook mä frisk skak an föl muar mögelkhaiden",
+	"libvirt-action-addsection": "Nei kirew began",
+	"libvirt-action-delete": "Strik",
+	"libvirt-action-move": "Fersküüw",
+	"libvirt-action-protect": "Seekre",
+	"libvirt-action-undelete": "Weder iinstel",
+	"libvirt-action-unprotect": "Sidjenseekerhaid",
+	"libvirt-view-create": "Maage",
+	"libvirt-view-edit": "Bewerke",
+	"libvirt-view-history": "Ferluup uunluke",
+	"libvirt-view-view": "Lees",
+	"libvirt-view-viewsource": "Kweltekst uunluke",
+	"libvirt-more-actions": "Muar"
+}

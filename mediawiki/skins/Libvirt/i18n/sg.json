@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdkidiri"
+		]
+	},
+	"libvirt-action-addsection": "Zîa mbênî lilö daä",
+	"libvirt-action-delete": "Lungûla",
+	"libvirt-action-move": "Sanzêe ïrï",
+	"libvirt-action-protect": "Funga",
+	"libvirt-action-undelete": "Kîri na nî",
+	"libvirt-action-unprotect": "Sanzêe fungä",
+	"libvirt-view-create": "Seka",
+	"libvirt-view-edit": "Sepe",
+	"libvirt-view-history": "Tanda mbai nî",
+	"libvirt-view-view": "Dîko",
+	"libvirt-view-viewsource": "Fa ligbî nî"
+}

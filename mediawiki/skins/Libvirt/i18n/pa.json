@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aalam",
+			"Babanwalia",
+			"Raj Singh",
+			"TariButtar"
+		]
+	},
+	"libvirt-action-addsection": "ਵਿਸ਼ਾ ਜੋੜੋ",
+	"libvirt-action-delete": "ਹਟਾਓ",
+	"libvirt-action-move": "ਭੇਜੋ",
+	"libvirt-action-protect": "ਸੁਰੱਖਿਆ",
+	"libvirt-action-undelete": "ਹਟਾਉਣਾ-ਵਾਪਸ",
+	"libvirt-action-unprotect": "ਸੁਰੱਖਿਆ ਬਦਲੋ",
+	"libvirt-view-create": "ਬਣਾਓ",
+	"libvirt-view-edit": "ਸੋਧੋ",
+	"libvirt-view-history": "ਅਤੀਤ ਵੇਖੋ",
+	"libvirt-view-view": "ਪੜ੍ਹੋ",
+	"libvirt-view-viewsource": "ਸਰੋਤ ਵੇਖੋ",
+	"libvirt-more-actions": "ਹੋਰ"
+}

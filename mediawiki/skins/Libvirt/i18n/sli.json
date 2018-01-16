@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Przemub",
+			"Schläsinger",
+			"Timpul",
+			"Äberlausitzer"
+		]
+	},
+	"libvirt-action-addsection": "Obschnitt hinzufiega",
+	"libvirt-action-delete": "Läscha",
+	"libvirt-action-move": "Verschieba",
+	"libvirt-action-protect": "Schützen",
+	"libvirt-action-undelete": "Wiederherstella",
+	"libvirt-action-unprotect": "Freigahn",
+	"libvirt-view-create": "Erstella",
+	"libvirt-view-edit": "Bearbeita",
+	"libvirt-view-history": "Versionsgeschichte",
+	"libvirt-view-view": "Lessa",
+	"libvirt-view-viewsource": "Quelltext siehn"
+}

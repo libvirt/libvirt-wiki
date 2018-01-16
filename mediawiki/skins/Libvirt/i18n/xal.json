@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huuchin"
+		]
+	},
+	"libvirt-action-addsection": "Төриг немх",
+	"libvirt-action-delete": "Һарһх",
+	"libvirt-action-move": "Көндәх",
+	"libvirt-action-protect": "Харсх",
+	"libvirt-action-undelete": "Һарһх биш",
+	"libvirt-action-unprotect": "Харсх биш",
+	"libvirt-view-create": "Бүтәх",
+	"libvirt-view-edit": "Чиклх",
+	"libvirt-view-history": "Тууҗин хәләвр",
+	"libvirt-view-view": "Умшлһн",
+	"libvirt-view-viewsource": "Темдгллһнә хәләвр"
+}

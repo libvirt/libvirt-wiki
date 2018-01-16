@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl",
+			"Carlos Cristia"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt.css": "/* Os estilos CSS colocaus aquí s'aplicarán ta totz os usuarios que faigan servir l'apariencia Libvirt */",
+	"libvirt.js": "/* Qualsiquier codigo Javascript escrito aquí se cargará ta totz os usuarios que usen a piel Libvirt */",
+	"libvirt-action-addsection": "Adhibir nueva sección",
+	"libvirt-action-delete": "Borrar",
+	"libvirt-action-move": "Tresladar",
+	"libvirt-action-protect": "Protecher",
+	"libvirt-action-undelete": "Restaurar",
+	"libvirt-action-unprotect": "Cambiar protección",
+	"libvirt-view-create": "Creyar",
+	"libvirt-view-edit": "Editar",
+	"libvirt-view-history": "Amostrar l'historial",
+	"libvirt-view-view": "Leyer",
+	"libvirt-view-viewsource": "Veyer o codigo fuent",
+	"libvirt-more-actions": "Mas"
+}

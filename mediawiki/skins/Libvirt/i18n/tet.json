@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"MF-Warburg"
+		]
+	},
+	"libvirt-action-protect": "Proteje",
+	"libvirt-view-create": "Kria",
+	"libvirt-view-edit": "Edita",
+	"libvirt-view-history": "Haree istória",
+	"libvirt-view-view": "Lee"
+}

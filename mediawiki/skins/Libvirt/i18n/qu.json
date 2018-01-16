@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"libvirt-action-addsection": "Allwiyta yapay",
+	"libvirt-action-delete": "Qulluy",
+	"libvirt-action-move": "Astay",
+	"libvirt-action-protect": "Amachay",
+	"libvirt-action-undelete": "Qullusqata paqarichiy",
+	"libvirt-action-unprotect": "Amachayta wakinchay",
+	"libvirt-view-create": "Kamariy",
+	"libvirt-view-edit": "Llamk'apuy",
+	"libvirt-view-history": "Wiñay kawsayta qhaway",
+	"libvirt-view-view": "Ñawiriy",
+	"libvirt-view-viewsource": "Pukyu qillqata qhaway",
+	"libvirt-more-actions": "Aswan"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bua333",
+			"Mucalexx"
+		]
+	},
+	"libvirt-action-addsection": "An Obschnitt dazua doa",
+	"libvirt-action-delete": "Leschn",
+	"libvirt-action-move": "Vaschiabm",
+	"libvirt-action-protect": "Schitzn",
+	"libvirt-action-undelete": "Wiederherstön",
+	"libvirt-action-unprotect": "freigeem",
+	"libvirt-view-create": "Aufbaun",
+	"libvirt-view-edit": "Werkln",
+	"libvirt-view-history": "Gschicht oschaugn",
+	"libvirt-view-view": "Lesn",
+	"libvirt-view-viewsource": "Quejtext ozoagn"
+}

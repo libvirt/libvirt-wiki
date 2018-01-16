@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akeron",
+			"Crochet.david",
+			"DavidL",
+			"Gomoko",
+			"Jean-Frédéric",
+			"Od1n"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-skin-desc": "Version moderne de MonoBook avec un aspect rajeuni et beaucoup d’améliorations ergonomiques",
+	"libvirt.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Libvirt. */",
+	"libvirt.js": "/* Tout code JavaScript placé ici sera chargé pour les utilisateurs de l’habillage Libvirt */",
+	"libvirt-action-addsection": "Ajouter un sujet",
+	"libvirt-action-delete": "Supprimer",
+	"libvirt-action-move": "Renommer",
+	"libvirt-action-protect": "Protéger",
+	"libvirt-action-undelete": "Rétablir",
+	"libvirt-action-unprotect": "Changer la protection",
+	"libvirt-view-create": "Créer",
+	"libvirt-view-edit": "Modifier",
+	"libvirt-view-history": "Historique",
+	"libvirt-view-view": "Lire",
+	"libvirt-view-viewsource": "Voir la source",
+	"libvirt-more-actions": "Plus"
+}

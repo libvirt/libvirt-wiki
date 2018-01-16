@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba",
+			"Kuvaly"
+		]
+	},
+	"libvirt-action-addsection": "Dodôj témã",
+	"libvirt-action-delete": "Rëmôj",
+	"libvirt-action-move": "Przeniesë",
+	"libvirt-action-protect": "Zazychrëjë",
+	"libvirt-action-undelete": "Doprowôdzë nazôd",
+	"libvirt-action-unprotect": "Òdzychrëjë",
+	"libvirt-view-create": "Ùsôdzë",
+	"libvirt-view-edit": "Edicëjô",
+	"libvirt-view-history": "Historëjô lopka",
+	"libvirt-view-view": "Czëtôj",
+	"libvirt-view-viewsource": "Zdrojowi tekst"
+}

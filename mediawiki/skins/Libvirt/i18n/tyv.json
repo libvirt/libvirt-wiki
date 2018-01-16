@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agilight",
+			"Sborsody"
+		]
+	},
+	"skinname-libvirt": "Вектор",
+	"libvirt-action-addsection": "Кол сөстү немелээри",
+	"libvirt-action-delete": "Ырадыры",
+	"libvirt-action-move": "Шимчээри",
+	"libvirt-action-protect": "Камгалаары",
+	"libvirt-action-undelete": "Эгидер",
+	"libvirt-action-unprotect": "Камгалалды өскертири",
+	"libvirt-view-create": "Чаяары",
+	"libvirt-view-edit": "Эдер",
+	"libvirt-view-history": "Төөгүнү көөрү",
+	"libvirt-view-view": "Номчуур",
+	"libvirt-view-viewsource": "Дөзү бижиин көөрү"
+}

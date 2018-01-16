@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Biŋhai",
+			"唐吉訶德的侍從"
+		]
+	},
+	"libvirt-action-delete": "Ca",
+	"libvirt-action-move": "Daen",
+	"libvirt-action-protect": "Bauj",
+	"libvirt-view-create": "Laeb",
+	"libvirt-view-edit": "gaij",
+	"libvirt-view-history": "Cazyawj lizsij",
+	"libvirt-view-view": "Doeg"
+}

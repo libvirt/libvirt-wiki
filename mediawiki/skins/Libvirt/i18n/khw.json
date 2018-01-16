@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"libvirt-action-addsection": "نوغ موضوع",
+	"libvirt-action-delete": "بوغاوے",
+	"libvirt-action-move": "منتقل کورے",
+	"libvirt-action-protect": "محفوظ کورے",
+	"libvirt-action-undelete": "اچی انگیے",
+	"libvirt-action-unprotect": "غیر محفوظ",
+	"libvirt-view-create": "ساوزاوے",
+	"libvirt-view-edit": "ایڈٹ کورے",
+	"libvirt-view-history": "تاریخچہ",
+	"libvirt-view-view": "راوے",
+	"libvirt-view-viewsource": "مسودہ",
+	"libvirt-more-actions": "مزید"
+}

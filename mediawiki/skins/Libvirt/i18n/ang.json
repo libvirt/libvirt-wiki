@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gott wisst",
+			"JJohnson1701"
+		]
+	},
+	"libvirt-action-addsection": "Besettan mearcunge",
+	"libvirt-action-delete": "Forlēosan",
+	"libvirt-action-move": "Wegan",
+	"libvirt-action-protect": "Beorgan",
+	"libvirt-action-undelete": "Scieppan tramet eft",
+	"libvirt-action-unprotect": "Andwendan beorgunge",
+	"libvirt-view-create": "Scieppan",
+	"libvirt-view-edit": "Ādihtan",
+	"libvirt-view-history": "Stǣr",
+	"libvirt-view-view": "Rǣdan",
+	"libvirt-view-viewsource": "Sēon fruman",
+	"libvirt-more-actions": "Mā"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"libvirt-action-addsection": "शिर्षक जोडा जाय",
+	"libvirt-action-delete": "मेटावा जाय",
+	"libvirt-action-move": "घुस्कावा जाय",
+	"libvirt-action-protect": "सुरक्षित करा जाय",
+	"libvirt-action-undelete": "हटाइब वापस लिहा जाय",
+	"libvirt-action-unprotect": "सुरक्षा परिवर्तन करा जाय",
+	"libvirt-view-create": "बनावा जाय",
+	"libvirt-view-edit": "सम्पादन",
+	"libvirt-view-history": "इतिहास देखा जाय",
+	"libvirt-view-view": "पढा जाय",
+	"libvirt-view-viewsource": "स्रोत देखा जाय",
+	"libvirt-more-actions": "अउर"
+}

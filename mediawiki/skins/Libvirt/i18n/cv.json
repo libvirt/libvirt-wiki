@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chavash",
+			"FLAGELLVM DEI",
+			"Chuvash2014"
+		]
+	},
+	"libvirt-action-addsection": "Тема хуш",
+	"libvirt-action-delete": "Кăларса пăрах",
+	"libvirt-action-move": "Ятне улăштар",
+	"libvirt-action-protect": "Хӳтĕле",
+	"libvirt-view-create": "Çĕннине ту",
+	"libvirt-view-edit": "Тӳрлет",
+	"libvirt-view-history": "Истори",
+	"libvirt-view-view": "Вула",
+	"libvirt-view-viewsource": "Кодне пăх",
+	"libvirt-more-actions": "Тата"
+}

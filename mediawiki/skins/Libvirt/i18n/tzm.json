@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moha",
+			"Tifinaghes"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
+	"libvirt-action-delete": "ⵓⴽⵓⵙ",
+	"libvirt-action-move": "ⵙⵎⵓⵜⵜⵉ",
+	"libvirt-action-undelete": "ⵙⵙⵓⵖⴰⵍ ⵓⴽⵓⵙ",
+	"libvirt-action-unprotect": "ⴱⴷⴷⴻⵍ ⵜⴰⵙⵜⴰⵏⵜ",
+	"libvirt-view-create": "ⴰⵔⴰ",
+	"libvirt-view-edit": "ⴱⴷⴷⴻⵍ",
+	"libvirt-view-history": "ⵥⵕ ⴰⵎⵣⵔⵓⵢ",
+	"libvirt-view-view": "ⵖⵔ",
+	"libvirt-view-viewsource": "ⵥⵕ ⴰⵖⴱⴰⵍⵓ"
+}

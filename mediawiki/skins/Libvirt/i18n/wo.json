@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"libvirt-action-addsection": "Yokkuw tëriit",
+	"libvirt-action-delete": "Far",
+	"libvirt-action-move": "Tuddewaat",
+	"libvirt-action-protect": "Aar",
+	"libvirt-action-undelete": "Delloowaat",
+	"libvirt-action-unprotect": "Aaradi",
+	"libvirt-view-create": "Sos",
+	"libvirt-view-edit": "Soppi",
+	"libvirt-view-history": "Wone jaar-jaaram",
+	"libvirt-view-view": "Jàng",
+	"libvirt-view-viewsource": "Wone gongikuwaayam",
+	"libvirt-more-actions": "Yeneen"
+}

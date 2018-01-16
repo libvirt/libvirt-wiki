@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Diego Queiroz",
+			"Giro720",
+			"Helder.wiki",
+			555,
+			"He7d3r"
+		]
+	},
+	"libvirt.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do skin Libvirt */",
+	"libvirt-action-addsection": "Adicionar tópico",
+	"libvirt-action-delete": "Eliminar",
+	"libvirt-action-move": "Mover",
+	"libvirt-action-protect": "Proteger",
+	"libvirt-action-undelete": "Restaurar",
+	"libvirt-action-unprotect": "Alterar a proteção",
+	"libvirt-view-create": "Criar",
+	"libvirt-view-edit": "Editar",
+	"libvirt-view-history": "Ver histórico",
+	"libvirt-view-view": "Ler",
+	"libvirt-view-viewsource": "Ver código-fonte",
+	"libvirt-more-actions": "Mais"
+}

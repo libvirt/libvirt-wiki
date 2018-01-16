@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"libvirt-action-addsection": "Hanampy lohahevitra",
+	"libvirt-action-delete": "Fafana",
+	"libvirt-action-move": "Hanolo anarana",
+	"libvirt-action-protect": "Arovy",
+	"libvirt-action-undelete": "Avereno",
+	"libvirt-action-unprotect": "Hanala ny fiarovana",
+	"libvirt-view-create": "Foronona",
+	"libvirt-view-edit": "Hanova",
+	"libvirt-view-history": "Hijery ny tantara",
+	"libvirt-view-view": "Hamaky",
+	"libvirt-view-viewsource": "Hijery fango",
+	"libvirt-more-actions": "Be kokoa"
+}

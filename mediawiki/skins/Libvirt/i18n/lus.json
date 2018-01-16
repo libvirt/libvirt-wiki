@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"libvirt-action-addsection": "Thupui belhna",
+	"libvirt-action-delete": "Paihna",
+	"libvirt-action-move": "Sawnna",
+	"libvirt-action-protect": "Venhimna",
+	"libvirt-action-undelete": "Lak kir lehna",
+	"libvirt-action-unprotect": "Venhimna dinhmun tidanglam rawh",
+	"libvirt-view-create": "Siamna",
+	"libvirt-view-edit": "Siamţhatna",
+	"libvirt-view-history": "Hunhlui-chanchin",
+	"libvirt-view-view": "Chhiarna",
+	"libvirt-view-viewsource": "A hnar enna"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Protostar"
+		]
+	},
+	"libvirt-action-addsection": "Add tòpik",
+	"libvirt-action-delete": "Delet",
+	"libvirt-action-move": "Muf",
+	"libvirt-action-protect": "Protèkt",
+	"libvirt-view-create": "Kreat",
+	"libvirt-view-edit": "Chenj",
+	"libvirt-view-history": "Luk historia",
+	"libvirt-view-view": "Rid",
+	"libvirt-view-viewsource": "Luk dhi sòrs"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"XanaG"
+		]
+	},
+	"libvirt-view-edit": "Editar",
+	"libvirt-view-history": "Ver historial",
+	"libvirt-view-view": "Leer"
+}

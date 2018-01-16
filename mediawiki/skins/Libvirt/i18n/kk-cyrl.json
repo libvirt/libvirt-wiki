@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Daniyar",
+			"GaiJin",
+			"Kaztrans"
+		]
+	},
+	"libvirt-action-addsection": "Тақырып қосу",
+	"libvirt-action-delete": "Жою",
+	"libvirt-action-move": "Атауын өзгерту",
+	"libvirt-action-protect": "Қорғау",
+	"libvirt-action-undelete": "Жоюды болдырмау",
+	"libvirt-action-unprotect": "Қорғанысын өзгерту",
+	"libvirt-view-create": "Бастау",
+	"libvirt-view-edit": "Өңдеу",
+	"libvirt-view-history": "Өңделу тарихы",
+	"libvirt-view-view": "Оқу",
+	"libvirt-view-viewsource": "Қайнарын қарау",
+	"libvirt-more-actions": "Тағы"
+}

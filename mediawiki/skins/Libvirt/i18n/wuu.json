@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benojan",
+			"Poiuyt"
+		]
+	},
+	"libvirt-action-addsection": "加話題",
+	"libvirt-action-delete": "刪",
+	"libvirt-action-move": "移",
+	"libvirt-action-protect": "保",
+	"libvirt-action-undelete": "弗刪",
+	"libvirt-action-unprotect": "换保护状态",
+	"libvirt-view-create": "建",
+	"libvirt-view-edit": "编",
+	"libvirt-view-history": "望页史",
+	"libvirt-view-view": "读",
+	"libvirt-view-viewsource": "望源码",
+	"libvirt-more-actions": "还多"
+}

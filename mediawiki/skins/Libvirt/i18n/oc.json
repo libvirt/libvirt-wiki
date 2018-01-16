@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boulaur",
+			"Cedric31"
+		]
+	},
+	"libvirt.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Libvirt */",
+	"libvirt.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Libvirt unicament. */",
+	"libvirt-action-addsection": "Apondre un subjècte",
+	"libvirt-action-delete": "Suprimir",
+	"libvirt-action-move": "Tornar nomenar",
+	"libvirt-action-protect": "Protegir",
+	"libvirt-action-undelete": "Restablir",
+	"libvirt-action-unprotect": "Suprimir la proteccion",
+	"libvirt-view-create": "Crear",
+	"libvirt-view-edit": "Modificar",
+	"libvirt-view-history": "Veire l'istoric",
+	"libvirt-view-view": "Legir",
+	"libvirt-view-viewsource": "Veire la font",
+	"libvirt-more-actions": "Mai"
+}

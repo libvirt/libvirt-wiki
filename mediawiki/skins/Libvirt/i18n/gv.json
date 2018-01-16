@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"MacTire02",
+			"Shimmin Beg"
+		]
+	},
+	"libvirt-action-addsection": "Cur cooish noa rish",
+	"libvirt-action-delete": "Scryss",
+	"libvirt-action-move": "Scugh",
+	"libvirt-action-protect": "Coadee",
+	"libvirt-action-undelete": "Jee-scryss",
+	"libvirt-action-unprotect": "Caghlaa coadey",
+	"libvirt-view-create": "Croo",
+	"libvirt-view-edit": "Reagh",
+	"libvirt-view-history": "Jeeagh er shennaghys",
+	"libvirt-view-view": "Lhaih",
+	"libvirt-view-viewsource": "Jeeagh er bun"
+}

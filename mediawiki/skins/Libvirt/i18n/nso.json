@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohau"
+		]
+	},
+	"libvirt-action-addsection": "Lokela sererwa",
+	"libvirt-action-delete": "Phumula",
+	"libvirt-action-move": "Huduša",
+	"libvirt-action-protect": "Lota",
+	"libvirt-view-create": "Hlola",
+	"libvirt-view-edit": "Fetola",
+	"libvirt-view-history": "Laetša histori",
+	"libvirt-view-view": "Bala",
+	"libvirt-view-viewsource": "Lebelela mothopo"
+}

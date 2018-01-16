@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Sp5uhe"
+		]
+	},
+	"skinname-libvirt": "Wektor",
+	"libvirt-skin-desc": "Odświeżona wersja skórki Książka, z nowym wyglądem i usprawnieniami",
+	"libvirt.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Wektor */",
+	"libvirt.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Wektor */",
+	"libvirt-action-addsection": "Dodaj temat",
+	"libvirt-action-delete": "Usuń",
+	"libvirt-action-move": "Przenieś",
+	"libvirt-action-protect": "Zabezpiecz",
+	"libvirt-action-undelete": "Odtwórz",
+	"libvirt-action-unprotect": "Zmień zabezpieczenie",
+	"libvirt-view-create": "Utwórz",
+	"libvirt-view-edit": "Edytuj",
+	"libvirt-view-history": "Wyświetl historię",
+	"libvirt-view-view": "Czytaj",
+	"libvirt-view-viewsource": "Tekst źródłowy",
+	"libvirt-more-actions": "Więcej"
+}

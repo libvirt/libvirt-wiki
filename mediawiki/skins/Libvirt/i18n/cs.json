@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"skinname-libvirt": "Vektor",
+	"libvirt-skin-desc": "Moderní verze MonoBooku s novějším vzhledem a vylepšenou použitelností",
+	"libvirt.css": "/* Zde uvedené CSS bude ovlivňovat pouze styl „Vektor“ */",
+	"libvirt.js": "/* JavaScript pro uživatele používající vzhled „Vektor“ */",
+	"libvirt-action-addsection": "Přidat téma",
+	"libvirt-action-delete": "Smazat",
+	"libvirt-action-move": "Přesunout",
+	"libvirt-action-protect": "Zamknout",
+	"libvirt-action-undelete": "Obnovit",
+	"libvirt-action-unprotect": "Změnit zámek",
+	"libvirt-view-create": "Založit",
+	"libvirt-view-edit": "Editovat",
+	"libvirt-view-history": "Zobrazit historii",
+	"libvirt-view-view": "Číst",
+	"libvirt-view-viewsource": "Zobrazit zdrojový kód",
+	"libvirt-more-actions": "Další"
+}

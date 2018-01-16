@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anson2812",
+			"Jetlag"
+		]
+	},
+	"libvirt-action-addsection": "加入話題",
+	"libvirt-action-delete": "刪除",
+	"libvirt-action-move": "移動",
+	"libvirt-action-protect": "保護",
+	"libvirt-action-undelete": "恢復",
+	"libvirt-action-unprotect": "更改保護",
+	"libvirt-view-create": "建立",
+	"libvirt-view-edit": "編寫",
+	"libvirt-view-history": "查看歷史",
+	"libvirt-view-view": "閱讀",
+	"libvirt-view-viewsource": "查看源碼"
+}

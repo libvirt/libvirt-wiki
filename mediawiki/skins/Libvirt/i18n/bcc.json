@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mostafadaneshvar",
+			"RigiMahnoor"
+		]
+	},
+	"libvirt-action-addsection": "هور کتن عنوان",
+	"libvirt-action-delete": "زورگ",
+	"libvirt-action-move": "جاه په جاه",
+	"libvirt-action-protect": "حفاظت",
+	"libvirt-action-undelete": "ترینگ",
+	"libvirt-action-unprotect": "پروتکشنء ٹگل بدئ",
+	"libvirt-view-create": "شرکتن",
+	"libvirt-view-edit": "اصلاح",
+	"libvirt-view-history": "چارتن تاریح",
+	"libvirt-view-view": "وانتن",
+	"libvirt-view-viewsource": "پیشدارگ بن جاه",
+	"libvirt-more-actions": "گیشتر"
+}

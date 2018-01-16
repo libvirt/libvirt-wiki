@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sindhu"
+		]
+	},
+	"libvirt-action-delete": "ڊاھيو",
+	"libvirt-action-move": "چوريو",
+	"libvirt-action-protect": "تحفظيو",
+	"libvirt-action-unprotect": "اڻتحفظيو",
+	"libvirt-view-create": "سرجيو",
+	"libvirt-view-edit": "سنواريو",
+	"libvirt-view-history": "تاريخ يا سوانح ڏسو",
+	"libvirt-view-view": "پڙه",
+	"libvirt-view-viewsource": "ڪوڊ ڏسو",
+	"libvirt-more-actions": "وڌيڪ"
+}

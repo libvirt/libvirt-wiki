@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro",
+			"Rinatus",
+			"Ильнар",
+			"Рашат Якупов",
+			"Derslek"
+		]
+	},
+	"skinname-libvirt": "Сызымлы",
+	"libvirt-action-addsection": "Яңа тема өстәү",
+	"libvirt-action-delete": "Бетерү",
+	"libvirt-action-move": "Күчерү",
+	"libvirt-action-protect": "Яклау",
+	"libvirt-action-undelete": "Кайтару",
+	"libvirt-action-unprotect": "Яклауны үзгәртү",
+	"libvirt-view-create": "Төзү",
+	"libvirt-view-edit": "Үзгәртү",
+	"libvirt-view-history": "Тарихын карау",
+	"libvirt-view-view": "Уку",
+	"libvirt-view-viewsource": "Чыганагын карау",
+	"libvirt-more-actions": "Тагын"
+}

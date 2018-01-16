@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csisc",
+			"Malekbr",
+			"GeekEmad"
+		]
+	},
+	"libvirt-action-addsection": "أضف موضوعا",
+	"libvirt-action-delete": "احذف",
+	"libvirt-action-move": "انقل",
+	"libvirt-action-protect": "احم",
+	"libvirt-action-undelete": "استرجع الحذف",
+	"libvirt-action-unprotect": "غير الحماية",
+	"libvirt-view-create": "أنشئ",
+	"libvirt-view-edit": "Baddel",
+	"libvirt-view-history": "Warri listorik",
+	"libvirt-view-view": "Aqrê",
+	"libvirt-view-viewsource": "اعرض المصدر",
+	"libvirt-more-actions": "Akŧar"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chelin",
+			"C.R."
+		]
+	},
+	"libvirt-skin-desc": "Verziona muderna 'e MonoBook cu n'aspetto nuovo nuovo e tante migliuramente d'uso",
+	"libvirt-action-addsection": "Aggiunge chiacchierata",
+	"libvirt-action-delete": "Scancèlla",
+	"libvirt-action-move": "Mòve",
+	"libvirt-action-protect": "Prutegge",
+	"libvirt-action-undelete": "Arrepiglia",
+	"libvirt-action-unprotect": "Càgna prutezzione",
+	"libvirt-view-create": "Cria",
+	"libvirt-view-edit": "Càgna",
+	"libvirt-view-history": "Vere cronologgia",
+	"libvirt-view-view": "Liegge",
+	"libvirt-view-viewsource": "Vere sorgente",
+	"libvirt-more-actions": "Cchiù"
+}

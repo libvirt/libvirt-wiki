@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diupwijk",
+			"EileenSanda"
+		]
+	},
+	"libvirt-skin-desc": "Moderna versión af MonoBook við frískari útsjónd og nógvum nýtslubetringum",
+	"libvirt-action-addsection": "Nýtt evni",
+	"libvirt-action-delete": "Strika",
+	"libvirt-action-move": "Flyt",
+	"libvirt-action-protect": "Friða",
+	"libvirt-action-undelete": "Endurstovna",
+	"libvirt-action-unprotect": "Broyt verju",
+	"libvirt-view-create": "Stovna",
+	"libvirt-view-edit": "Rætta",
+	"libvirt-view-history": "Vís søgu",
+	"libvirt-view-view": "Les",
+	"libvirt-view-viewsource": "Vís keldu",
+	"libvirt-more-actions": "Meira"
+}

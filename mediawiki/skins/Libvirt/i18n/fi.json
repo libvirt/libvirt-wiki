@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Nedergard",
+			"Nike",
+			"Pxos",
+			"SuperPete"
+		]
+	},
+	"libvirt-skin-desc": "Uudistettu versio MonoBookista raikkaalla ulkoasulla ja useilla käytettävyysparannuksilla",
+	"libvirt.css": "/* Tämä sivu sisältää Libvirt-ulkoasua muuttavia tyylejä. */",
+	"libvirt.js": "/* Tämän sivun JavaScript-koodi liitetään Libvirt-tyyliin */",
+	"libvirt-action-addsection": "Lisää aihe",
+	"libvirt-action-delete": "Poista",
+	"libvirt-action-move": "Siirrä",
+	"libvirt-action-protect": "Suojaa",
+	"libvirt-action-undelete": "Palauta",
+	"libvirt-action-unprotect": "Muuta suojausta",
+	"libvirt-view-create": "Luo",
+	"libvirt-view-edit": "Muokkaa",
+	"libvirt-view-history": "Näytä historia",
+	"libvirt-view-view": "Lue",
+	"libvirt-view-viewsource": "Näytä lähdekoodi",
+	"libvirt-more-actions": "Muut"
+}

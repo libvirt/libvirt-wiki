@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Marine-Blue",
+			"Penn Station",
+			"Shirayuki",
+			"Whym",
+			"青子守歌",
+			"Takot"
+		]
+	},
+	"skinname-libvirt": "ベクター",
+	"libvirt-skin-desc": "新しい見た目でユーザビリティが改善された、モダンバージョンのMonobook。",
+	"libvirt.css": "/* ここに記述したCSSはベクター外装の利用者に影響します */",
+	"libvirt.js": "/* ここにあるすべてのJavaScriptは、ベクター外装を使用している利用者に対して読み込まれます */",
+	"libvirt-action-addsection": "話題追加",
+	"libvirt-action-delete": "削除",
+	"libvirt-action-move": "移動",
+	"libvirt-action-protect": "保護",
+	"libvirt-action-undelete": "復元",
+	"libvirt-action-unprotect": "保護再設定",
+	"libvirt-view-create": "作成",
+	"libvirt-view-edit": "編集",
+	"libvirt-view-history": "履歴表示",
+	"libvirt-view-view": "閲覧",
+	"libvirt-view-viewsource": "ソースを閲覧",
+	"libvirt-more-actions": "その他"
+}

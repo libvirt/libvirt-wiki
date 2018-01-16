@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Atabek"
+		]
+	},
+	"libvirt-action-addsection": "Tema qosıw",
+	"libvirt-action-delete": "O'shiriw",
+	"libvirt-action-move": "Ko'shiriw",
+	"libvirt-action-protect": "Qorg'aw",
+	"libvirt-action-undelete": "Qayta tiklew",
+	"libvirt-action-unprotect": "Qorg'awdı o'zgertiw",
+	"libvirt-view-create": "Jaratıw",
+	"libvirt-view-edit": "O'zgertiw",
+	"libvirt-view-history": "Tariyxın ko'riw",
+	"libvirt-view-view": "Oqıw",
+	"libvirt-view-viewsource": "Deregin ko'riw"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amdf"
+		]
+	},
+	"libvirt-action-delete": "Карангдаш",
+	"libvirt-action-move": "Лӹмӹм вашталташ",
+	"libvirt-action-protect": "Ӹшӹклӓш",
+	"libvirt-view-create": "Ӹштӓш",
+	"libvirt-view-edit": "Тӧрлӹмӓш",
+	"libvirt-view-history": "Историм анжымаш",
+	"libvirt-view-view": "Лыдмаш",
+	"libvirt-view-viewsource": "Сек пӹтӓриш кодым анжалаш"
+}

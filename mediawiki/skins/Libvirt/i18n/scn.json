@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gmelfi",
+			"Melos",
+			"Pippinu",
+			"Sarvaturi"
+		]
+	},
+	"libvirt-skin-desc": "Virsioni muderna di MonoBook cu n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
+	"libvirt-action-addsection": "Agghiunci n'argumentu",
+	"libvirt-action-delete": "Cancella",
+	"libvirt-action-move": "Sposta",
+	"libvirt-action-protect": "Pruteggi",
+	"libvirt-action-undelete": "Annulla la cancillazzioni",
+	"libvirt-action-unprotect": "Cancia la prutizzioni",
+	"libvirt-view-create": "Crea",
+	"libvirt-view-edit": "Cancia",
+	"libvirt-view-history": "Talìa la cronuluggìa",
+	"libvirt-view-view": "Leggi",
+	"libvirt-view-viewsource": "Talìa la surgenti",
+	"libvirt-more-actions": "Àutri cosi"
+}

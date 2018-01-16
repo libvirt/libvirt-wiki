@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kernoweger",
+			"Kw-Moon",
+			"Nrowe"
+		]
+	},
+	"libvirt-action-addsection": "Keworra testen",
+	"libvirt-action-delete": "Dilea",
+	"libvirt-action-move": "Gwaya",
+	"libvirt-action-protect": "Difres",
+	"libvirt-action-undelete": "Disdhilea",
+	"libvirt-action-unprotect": "Chanjya difresans",
+	"libvirt-view-create": "Gwruthyl",
+	"libvirt-view-edit": "Chanjya",
+	"libvirt-view-history": "Gweles an istori",
+	"libvirt-view-view": "Redya",
+	"libvirt-view-viewsource": "Gweles an bennfenten",
+	"libvirt-more-actions": "Moy"
+}

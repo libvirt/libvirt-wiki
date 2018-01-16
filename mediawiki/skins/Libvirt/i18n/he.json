@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss"
+		]
+	},
+	"skinname-libvirt": "וקטור",
+	"libvirt-skin-desc": "גרסה מודרנית של מונובוק עם מראה רענן והרבה שיפורי שמישות",
+	"libvirt.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב Libvirt בלבד */",
+	"libvirt.js": "/* כל סקריפט JavaScript שנכתב כאן ירוץ רק עבור המשתמשים בעיצוב Libvirt */",
+	"libvirt-action-addsection": "הוספת נושא",
+	"libvirt-action-delete": "מחיקה",
+	"libvirt-action-move": "העברה",
+	"libvirt-action-protect": "הגנה",
+	"libvirt-action-undelete": "ביטול מחיקה",
+	"libvirt-action-unprotect": "שינוי הגנה",
+	"libvirt-view-create": "יצירה",
+	"libvirt-view-edit": "עריכה",
+	"libvirt-view-history": "הצגת היסטוריה",
+	"libvirt-view-view": "קריאה",
+	"libvirt-view-viewsource": "הצגת מקור",
+	"libvirt-more-actions": "עוד"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Unai Fdz. de Betoño",
+			"Xabier Armendaritz",
+			"Fitoschido",
+			"Subi"
+		]
+	},
+	"libvirt-skin-desc": "MonoBook-en bertsio modernoa, itxura berriarekin eta erabilgarritasun hobekuntza askorekin",
+	"libvirt-action-addsection": "Gehitu atala",
+	"libvirt-action-delete": "Ezabatu",
+	"libvirt-action-move": "Mugitu",
+	"libvirt-action-protect": "Babestu",
+	"libvirt-action-undelete": "Berreskuratu",
+	"libvirt-action-unprotect": "Babesa aldatu",
+	"libvirt-view-create": "Sortu",
+	"libvirt-view-edit": "Aldatu",
+	"libvirt-view-history": "Ikusi historia",
+	"libvirt-view-view": "Irakurri",
+	"libvirt-view-viewsource": "Kodea ikusia",
+	"libvirt-more-actions": "Gehiago"
+}

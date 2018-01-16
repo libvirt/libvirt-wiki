@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AZISS",
+			"Arystanbek",
+			"Gulmammad",
+			"Sortilegus",
+			"Vago",
+			"Vugar 1981",
+			"Wertuose"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt.css": "/* Burada yerləşən CSS Libvirt istifadəçilərinə tətbiq olunur */",
+	"libvirt.js": "/* Burada Libvirt skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
+	"libvirt-action-addsection": "Mövzu əlavə et",
+	"libvirt-action-delete": "Sil",
+	"libvirt-action-move": "Adını dəyişdir",
+	"libvirt-action-protect": "Mühafizə et",
+	"libvirt-action-undelete": "Bərpa et",
+	"libvirt-action-unprotect": "Mühafizəni kənarlaşdır",
+	"libvirt-view-create": "Yarat",
+	"libvirt-view-edit": "Redaktə",
+	"libvirt-view-history": "Tarixçəyə bax",
+	"libvirt-view-view": "Oxu",
+	"libvirt-view-viewsource": "Mənbəyə bax",
+	"libvirt-more-actions": "Daha"
+}

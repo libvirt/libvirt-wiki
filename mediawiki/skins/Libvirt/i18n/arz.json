@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"libvirt.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
+	"libvirt.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
+	"libvirt-action-addsection": "ضيف موضوع",
+	"libvirt-action-delete": "مسح",
+	"libvirt-action-move": "نقل",
+	"libvirt-action-protect": "حمايه",
+	"libvirt-action-undelete": "الغى المسح",
+	"libvirt-action-unprotect": "غير الحمايه",
+	"libvirt-view-create": "اعمل",
+	"libvirt-view-edit": "تعديل",
+	"libvirt-view-history": "استعراض التاريخ",
+	"libvirt-view-view": "قرايه",
+	"libvirt-view-viewsource": "استعراض المصدر",
+	"libvirt-more-actions": "اكتر"
+}

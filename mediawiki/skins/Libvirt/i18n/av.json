@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар",
+			"Gazimagomedov"
+		]
+	},
+	"libvirt-skin-desc": "MonoBook'алъул цӀияб версия цияб куцгун ва цӀиял юзабилитиялгун",
+	"libvirt-action-addsection": "Тема жубазе",
+	"libvirt-action-delete": "БацIцIине",
+	"libvirt-action-move": "ЦӀар хисизе",
+	"libvirt-action-protect": "Хиса-басияздасан цIунизе",
+	"libvirt-action-undelete": "БукӀараб гӀадин гьабизе",
+	"libvirt-action-unprotect": "ЦӀуни хисизе",
+	"libvirt-view-create": "Гьабизе",
+	"libvirt-view-edit": "Хисизабизе",
+	"libvirt-view-history": "Тарих балагьизе",
+	"libvirt-view-view": "ЦӀализе",
+	"libvirt-view-viewsource": "Вики-текст балагьизе",
+	"libvirt-more-actions": "Жеги"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"skinname-libvirt": "Vektor",
+	"libvirt.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Vektor */",
+	"libvirt.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Vektor */",
+	"libvirt-action-addsection": "Rannbennad nevez",
+	"libvirt-action-delete": "Diverkañ",
+	"libvirt-action-move": "Adenvel",
+	"libvirt-action-protect": "Gwareziñ",
+	"libvirt-action-undelete": "Diziverkañ",
+	"libvirt-action-unprotect": "Cheñch gwarez",
+	"libvirt-view-create": "Krouiñ",
+	"libvirt-view-edit": "Kemmañ",
+	"libvirt-view-history": "Gwelet an istor",
+	"libvirt-view-view": "Lenn",
+	"libvirt-view-viewsource": "Sellet ouzh tarzh an destenn",
+	"libvirt-more-actions": "Muioc'h"
+}

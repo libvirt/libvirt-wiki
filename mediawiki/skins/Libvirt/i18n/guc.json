@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maor X"
+		]
+	},
+	"libvirt-action-delete": "Ojuichajaa",
+	"libvirt-action-move": "Ansülaa",
+	"libvirt-action-protect": "Eisalajaa",
+	"libvirt-view-create": "Akumajaa",
+	"libvirt-view-edit": "Anaataa",
+	"libvirt-view-history": "Achikii a'wanajaayamaajatü",
+	"libvirt-view-view": "Aashaje'eraa",
+	"libvirt-view-viewsource": "Anüliaa eejeetülee"
+}

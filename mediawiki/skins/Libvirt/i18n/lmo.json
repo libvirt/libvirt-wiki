@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Insübrich",
+			"Ninonino"
+		]
+	},
+	"libvirt-action-addsection": "Giunta argument",
+	"libvirt-action-delete": "Scancela",
+	"libvirt-action-move": "Sposta",
+	"libvirt-action-protect": "Prutegg",
+	"libvirt-action-undelete": "Recüpera",
+	"libvirt-action-unprotect": "Càmbia la protesiù",
+	"libvirt-view-create": "Crea",
+	"libvirt-view-edit": "Mudifega",
+	"libvirt-view-history": "Varda la storia",
+	"libvirt-view-view": "Legg",
+	"libvirt-view-viewsource": "Varda el codes",
+	"libvirt-more-actions": "Amò"
+}

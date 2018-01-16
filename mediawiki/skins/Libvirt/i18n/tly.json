@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Гусейн"
+		]
+	},
+	"libvirt-action-addsection": "Мывзу зијод кардеј",
+	"libvirt-action-delete": "Рәдд кардеј",
+	"libvirt-action-move": "Номи дәгиш кардеј",
+	"libvirt-action-protect": "Мыдофијә кардеј",
+	"libvirt-action-undelete": "Бәрпо кардеј",
+	"libvirt-action-unprotect": "Мыдофијә дәгиш кардеј",
+	"libvirt-view-create": "Офәјеј",
+	"libvirt-view-edit": "Сәрост кардеј",
+	"libvirt-view-history": "Тарых",
+	"libvirt-view-view": "Һандемон",
+	"libvirt-view-viewsource": "Дијә кардеј"
+}

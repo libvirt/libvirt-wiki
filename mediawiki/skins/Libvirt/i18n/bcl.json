@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd",
+			"Geopoet"
+		]
+	},
+	"libvirt-action-addsection": "Idagdag an topic",
+	"libvirt-action-delete": "puráon",
+	"libvirt-action-move": "Ibalyó",
+	"libvirt-action-protect": "Protektaran",
+	"libvirt-action-undelete": "Bawion sa pagkapara",
+	"libvirt-action-unprotect": "Ribayan an proteksyon",
+	"libvirt-view-create": "Magmukna",
+	"libvirt-view-edit": "Liwatón",
+	"libvirt-view-history": "Tanawon sa historiya",
+	"libvirt-view-view": "Basáha",
+	"libvirt-view-viewsource": "Hilingón an ginikánan"
+}

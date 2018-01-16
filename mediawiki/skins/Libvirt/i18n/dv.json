@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ushau97",
+			"Glaisher"
+		]
+	},
+	"libvirt-action-addsection": "ޚިޔާލެއް އިތުރުކުރައްވާ",
+	"libvirt-action-delete": "ފޮހެލައްވާ",
+	"libvirt-action-move": "ތަން ބަދަލުކުރައްވާ",
+	"libvirt-action-protect": "ދިފާޢުކުރައްވާ",
+	"libvirt-action-undelete": "އިޔާދަކުރައްވާ",
+	"libvirt-action-unprotect": "ދިފާޢުކުރުން ބަދަލުކުރައްވާ",
+	"libvirt-view-create": "ފަށްޓަވާ",
+	"libvirt-view-edit": "އުނިއިތުރު ގެންނަވާ",
+	"libvirt-view-history": "ޞަފްޙާގެ ތާރީޚް",
+	"libvirt-view-view": "ކިޔުއްވާ",
+	"libvirt-view-viewsource": "މަސްދަރު ބައްލަވާ",
+	"libvirt-more-actions": "އިތުރަށް"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felis",
+			"Jun Misugi"
+		]
+	},
+	"libvirt-action-addsection": "Aggiungì oggettu",
+	"libvirt-action-delete": "Canzella",
+	"libvirt-action-move": "Ippustha",
+	"libvirt-action-protect": "Pruteggì",
+	"libvirt-view-create": "Cria",
+	"libvirt-view-edit": "Mudifigga",
+	"libvirt-view-history": "Vèdi isthòria",
+	"libvirt-view-view": "Leggi",
+	"libvirt-view-viewsource": "Vèdi fonti"
+}

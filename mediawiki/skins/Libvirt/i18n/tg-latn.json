@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent"
+		]
+	},
+	"libvirt-action-addsection": "Ilovai unvon",
+	"libvirt-action-delete": "Hazf",
+	"libvirt-action-move": "Kūconidan",
+	"libvirt-action-protect": "Muhofizat",
+	"libvirt-action-undelete": "Ehjo",
+	"libvirt-action-unprotect": "Ba dar ovardan az muhofizat",
+	"libvirt-view-create": "Eçod",
+	"libvirt-view-edit": "Viroiş",
+	"libvirt-view-history": "Namoişi ta'rix",
+	"libvirt-view-view": "Xondan",
+	"libvirt-view-viewsource": "Namoişi manba'"
+}

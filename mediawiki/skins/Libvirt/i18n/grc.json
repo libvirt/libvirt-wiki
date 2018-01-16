@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista"
+		]
+	},
+	"libvirt-action-addsection": "Θέμα προστιθέναι",
+	"libvirt-action-delete": "Σβεννύναι",
+	"libvirt-action-move": "Κινεῖν",
+	"libvirt-action-protect": "Φυλάττειν",
+	"libvirt-action-undelete": "Ἀποκαθιστάναι",
+	"libvirt-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"libvirt-view-create": "Ποιεῖν",
+	"libvirt-view-edit": "Μεταγράφειν",
+	"libvirt-view-history": "Ἱστορίαν ὁρᾶν",
+	"libvirt-view-view": "Ἀναγνῶναι",
+	"libvirt-view-viewsource": "Ὁρᾶν τὴν πηγήν"
+}

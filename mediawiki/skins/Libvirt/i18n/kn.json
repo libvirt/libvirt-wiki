@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktkaushik",
+			"Nayvik",
+			"VASANTH S.N.",
+			"Omshivaprakash"
+		]
+	},
+	"libvirt-action-addsection": "ವಿಷಯ ಸೇರಿಸಿ",
+	"libvirt-action-delete": "ಅಳಿಸು",
+	"libvirt-action-move": "ಸ್ಥಳಾಂತರಿಸಿ",
+	"libvirt-action-protect": "ಸಂರಕ್ಷಿಸು",
+	"libvirt-action-undelete": "ಅಳಿಸಬೇಡ",
+	"libvirt-action-unprotect": "ರಕ್ಷಣೆಯನ್ನು ಬದಲಾವಣೆ",
+	"libvirt-view-create": "ಸೃಷ್ಟಿಸು",
+	"libvirt-view-edit": "ಸಂಪಾದಿಸಿ",
+	"libvirt-view-history": "ಇತಿಹಾಸವನ್ನು ನೋಡಿ",
+	"libvirt-view-view": "ಓದು",
+	"libvirt-view-viewsource": "ಆಕರ ವೀಕ್ಷಿಸು",
+	"libvirt-more-actions": "ಇನ್ನಷ್ಟು"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"libvirt-action-addsection": "Abschnidd dzufiesche",
+	"libvirt-action-delete": "Lesche",
+	"libvirt-action-move": "Vaschiewe",
+	"libvirt-action-protect": "Schidze",
+	"libvirt-action-undelete": "Zriggbringe",
+	"libvirt-view-create": "Oaleesche",
+	"libvirt-view-edit": "Droa schaffe",
+	"libvirt-view-history": "Dadaigschischd",
+	"libvirt-view-view": "Lese",
+	"libvirt-view-viewsource": "Gwelltegschd zaische",
+	"libvirt-more-actions": "Mea"
+}

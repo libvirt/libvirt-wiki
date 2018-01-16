@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albinus",
+			"Samar88",
+			"Srabony90"
+		]
+	},
+	"libvirt-action-addsection": "Asol katha joṛaome",
+	"libvirt-action-delete": "Giḍi",
+	"libvirt-action-move": "Ocoḱ́me",
+	"libvirt-action-protect": "Bańcao",
+	"libvirt-action-undelete": "Bań getgiḍi",
+	"libvirt-action-unprotect": "Bodol rukhiyạ",
+	"libvirt-view-create": "Tearme",
+	"libvirt-view-edit": "So̠mpado̠n",
+	"libvirt-view-history": "Jạṛ ńelme",
+	"libvirt-view-view": "Paṛhaḱme",
+	"libvirt-view-viewsource": "Ńamoḱaḱ ńelme"
+}

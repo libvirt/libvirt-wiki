@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Rancher",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"skinname-libvirt": "Векторско",
+	"libvirt.css": "/* CSS постављен овде ће утицати на све кориснике теме „Векторско“ */",
+	"libvirt.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Векторско“ */",
+	"libvirt-action-addsection": "Додај тему",
+	"libvirt-action-delete": "Обриши",
+	"libvirt-action-move": "Премести",
+	"libvirt-action-protect": "Заштити",
+	"libvirt-action-undelete": "Врати",
+	"libvirt-action-unprotect": "Промени заштиту",
+	"libvirt-view-create": "Направи",
+	"libvirt-view-edit": "Уреди",
+	"libvirt-view-history": "Историја",
+	"libvirt-view-view": "Читај",
+	"libvirt-view-viewsource": "Изворни код",
+	"libvirt-more-actions": "Више"
+}

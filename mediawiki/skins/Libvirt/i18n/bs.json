@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"DzWiki",
+			"KWiki",
+			"Edinwiki",
+			"Srdjan m"
+		]
+	},
+	"libvirt-action-addsection": "Dodaj temu",
+	"libvirt-action-delete": "Izbriši",
+	"libvirt-action-move": "Premjesti",
+	"libvirt-action-protect": "Zaštiti",
+	"libvirt-action-undelete": "Vrati obrisano",
+	"libvirt-action-unprotect": "Promijeni zaštitu",
+	"libvirt-view-create": "Napravi",
+	"libvirt-view-edit": "Uredi",
+	"libvirt-view-history": "Historija",
+	"libvirt-view-view": "Čitaj",
+	"libvirt-view-viewsource": "Pogledaj izvor",
+	"libvirt-more-actions": "Više"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"Sinopeus",
+			"ZaDiak"
+		]
+	},
+	"libvirt-action-delete": "Σβήσον",
+	"libvirt-action-move": "Ετεροχλάεμαν",
+	"libvirt-action-protect": "Ασπάλιγμαν",
+	"libvirt-action-undelete": "Κλώσιμον",
+	"libvirt-action-unprotect": "Άνοιγμαν",
+	"libvirt-view-create": "Ποίσον",
+	"libvirt-view-edit": "Άλλαξον",
+	"libvirt-view-history": "Τερέστεν ιστορίαν",
+	"libvirt-view-view": "Δεάβασον",
+	"libvirt-view-viewsource": "Τερέστεν κωδικόν"
+}

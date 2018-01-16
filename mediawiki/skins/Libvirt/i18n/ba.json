@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"Haqmar",
+			"Рустам Нурыев"
+		]
+	},
+	"skinname-libvirt": "Векторлы",
+	"libvirt-action-addsection": "Тема өҫтәргә",
+	"libvirt-action-delete": "Юйырға",
+	"libvirt-action-move": "Исемен үҙгәртергә",
+	"libvirt-action-protect": "Һаҡларға",
+	"libvirt-action-undelete": "Тергеҙергә",
+	"libvirt-action-unprotect": "Һаҡлауҙы үҙгәртергә",
+	"libvirt-view-create": "Яһау",
+	"libvirt-view-edit": "Үҙгәртергә",
+	"libvirt-view-history": "Тарихты ҡарау",
+	"libvirt-view-view": "Уҡыу",
+	"libvirt-view-viewsource": "Сығанаҡты ҡарарға",
+	"libvirt-more-actions": "Тағы"
+}

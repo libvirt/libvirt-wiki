@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanberke"
+		]
+	},
+	"libvirt-action-addsection": "Tema goş",
+	"libvirt-action-delete": "Öçür",
+	"libvirt-action-move": "Adyny üýtget",
+	"libvirt-action-protect": "Goraga al",
+	"libvirt-action-undelete": "Öçürmäni yzyna al",
+	"libvirt-action-unprotect": "Goragy üýtget",
+	"libvirt-view-create": "Döret",
+	"libvirt-view-edit": "Üýtget",
+	"libvirt-view-history": "Taryhy gör",
+	"libvirt-view-view": "Oka",
+	"libvirt-view-viewsource": "Çeşmäni gör"
+}

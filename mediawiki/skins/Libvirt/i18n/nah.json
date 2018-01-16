@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ricardo gs"
+		]
+	},
+	"libvirt-action-delete": "Ticpolōz",
+	"libvirt-action-move": "Ticzacāz",
+	"libvirt-action-protect": "Ticquīxtīz",
+	"libvirt-view-create": "Ticchīhuāz",
+	"libvirt-view-edit": "Ticpatlāz",
+	"libvirt-view-history": "Tlahcuilōlli tlahcuilōlloh",
+	"libvirt-view-view": "Tāmapōhuaz",
+	"libvirt-view-viewsource": "Tiquittāz in mēyalli"
+}

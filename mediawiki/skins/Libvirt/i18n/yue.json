@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt",
+			"Waihorace",
+			"Yueman"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-skin-desc": "MonoBook嘅摩登版，有新嘅樣，又有好多功能改進",
+	"libvirt.css": "/* 響呢度放 CSS 碼去改用戶用嘅域達畫面 */",
+	"libvirt.js": "/* 響每一次個頁面載入時，用域達畫面嘅用戶都會載入呢度任何嘅JavaScript */",
+	"libvirt-action-addsection": "加主題",
+	"libvirt-action-delete": "剷走",
+	"libvirt-action-move": "搬",
+	"libvirt-action-protect": "保護",
+	"libvirt-action-undelete": "取消剷走",
+	"libvirt-action-unprotect": "改保護",
+	"libvirt-view-create": "開",
+	"libvirt-view-edit": "改",
+	"libvirt-view-history": "睇吓歷史",
+	"libvirt-view-view": "閱",
+	"libvirt-view-viewsource": "睇吓原始碼",
+	"libvirt-more-actions": "更多"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mmistmurt"
+		]
+	},
+	"libvirt-action-addsection": "Rnud ameggay",
+	"libvirt-action-delete": "Mḥu",
+	"libvirt-action-move": "Smimeḍ",
+	"libvirt-action-protect": "Mmesten",
+	"libvirt-action-undelete": "Uɣaled",
+	"libvirt-action-unprotect": "Beddel amesten",
+	"libvirt-view-create": "Snulfu",
+	"libvirt-view-edit": "Ẓẓiẓreg",
+	"libvirt-view-history": "Ẓeṛ amazray",
+	"libvirt-view-view": "Ɣer",
+	"libvirt-view-viewsource": "Ẓer aɣbalu"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар"
+		]
+	},
+	"skinname-libvirt": "Векторан",
+	"libvirt-action-addsection": "ТӀетоха хьедар",
+	"libvirt-action-delete": "ДӀаяккхар",
+	"libvirt-action-move": "ЦӀе хийцар",
+	"libvirt-action-protect": "Ларъяр",
+	"libvirt-action-undelete": "МеттахӀоттае",
+	"libvirt-action-unprotect": "ГӀароллех къаста",
+	"libvirt-view-create": "Кхоллар",
+	"libvirt-view-edit": "Нисъе",
+	"libvirt-view-history": "АгӀона хийцамаш",
+	"libvirt-view-view": "Éшар",
+	"libvirt-view-viewsource": "Билглонашка хьажа",
+	"libvirt-more-actions": "Кхин"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Christian List",
+			"Peter Alberti"
+		]
+	},
+	"libvirt-skin-desc": "Moderne version af MonoBook med frisk udseende og mange forbedringer af brugervenligheden",
+	"libvirt-action-addsection": "Nyt emne",
+	"libvirt-action-delete": "Slet",
+	"libvirt-action-move": "Flyt",
+	"libvirt-action-protect": "Beskyt",
+	"libvirt-action-undelete": "Gendan",
+	"libvirt-action-unprotect": "Ændr beskyttelse",
+	"libvirt-view-create": "Opret",
+	"libvirt-view-edit": "Redigér",
+	"libvirt-view-history": "Se historik",
+	"libvirt-view-view": "Læs",
+	"libvirt-view-viewsource": "Se kilden",
+	"libvirt-more-actions": "Mere"
+}

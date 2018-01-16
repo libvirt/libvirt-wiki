@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"libvirt-action-addsection": "Lüükön yegädi",
+	"libvirt-action-delete": "Moükön",
+	"libvirt-action-move": "Topätükön",
+	"libvirt-action-protect": "Jelön",
+	"libvirt-action-undelete": "Sämoükön",
+	"libvirt-action-unprotect": "Votükön jeli",
+	"libvirt-view-create": "Jafön",
+	"libvirt-view-edit": "Redakön",
+	"libvirt-view-history": "Logön jenotemi",
+	"libvirt-view-view": "Reidön",
+	"libvirt-view-viewsource": "Logön fonäti",
+	"libvirt-more-actions": "Pluikos"
+}

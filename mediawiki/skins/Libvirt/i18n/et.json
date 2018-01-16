@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ker",
+			"Pikne",
+			"WikedKentaur"
+		]
+	},
+	"skinname-libvirt": "Vektor",
+	"libvirt-skin-desc": "MonoBooki uuem versioon värskema väljanägemise ja mitme kasutajasõbralikuma täiendusega",
+	"libvirt.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Vektori-kujunduse kasutajaid. */",
+	"libvirt.js": "/* Siin asuv JavaScript laaditakse kõigi Vektori-kujunduse kasutajate jaoks. */",
+	"libvirt-action-addsection": "Lisa teema",
+	"libvirt-action-delete": "Kustuta",
+	"libvirt-action-move": "Teisalda",
+	"libvirt-action-protect": "Kaitse",
+	"libvirt-action-undelete": "Taasta",
+	"libvirt-action-unprotect": "Muuda kaitset",
+	"libvirt-view-create": "Loo",
+	"libvirt-view-edit": "Muuda",
+	"libvirt-view-history": "Näita ajalugu",
+	"libvirt-view-view": "Vaata",
+	"libvirt-view-viewsource": "Vaata lähteteksti",
+	"libvirt-more-actions": "Veel"
+}

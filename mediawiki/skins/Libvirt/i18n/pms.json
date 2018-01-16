@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt"
+		]
+	},
+	"libvirt-action-addsection": "Gionté n'argoment",
+	"libvirt-action-delete": "Scancelé",
+	"libvirt-action-move": "Tramudé",
+	"libvirt-action-protect": "Protege",
+	"libvirt-action-undelete": "Arcuperé",
+	"libvirt-action-unprotect": "Cangé la protession",
+	"libvirt-view-create": "Creé",
+	"libvirt-view-edit": "Modifiché",
+	"libvirt-view-history": "Smon-e la stòria",
+	"libvirt-view-view": "Lese",
+	"libvirt-view-viewsource": "Vëdde la sorgiss",
+	"libvirt-more-actions": "Ëd pi"
+}

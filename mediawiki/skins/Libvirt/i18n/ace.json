@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fadli Idris",
+			"Si Gam Acèh"
+		]
+	},
+	"libvirt-action-addsection": "Tamah bhaih",
+	"libvirt-action-delete": "Sampôh",
+	"libvirt-action-move": "Pupinah",
+	"libvirt-action-protect": "Peulindông",
+	"libvirt-action-undelete": "Bateuë sampôh",
+	"libvirt-action-unprotect": "Gantoe neulindông",
+	"libvirt-view-create": "Peugöt",
+	"libvirt-view-edit": "Andam",
+	"libvirt-view-history": "Eu riwayat",
+	"libvirt-view-view": "Beuët",
+	"libvirt-view-viewsource": "Eu nè",
+	"libvirt-more-actions": "Lom"
+}

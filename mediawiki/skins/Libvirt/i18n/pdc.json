@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xqt"
+		]
+	},
+	"libvirt-action-delete": "Verwische",
+	"libvirt-action-move": "Ziehe",
+	"libvirt-action-protect": "Schitze",
+	"libvirt-view-create": "Schtaerte",
+	"libvirt-view-edit": "Ennere",
+	"libvirt-view-history": "Gschicht zeige",
+	"libvirt-view-view": "Lese"
+}

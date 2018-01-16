@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Botuzhaleny-sodamo"
+		]
+	},
+	"libvirt-action-addsection": "Поладомс мезде кортамс",
+	"libvirt-action-delete": "Нардамс",
+	"libvirt-action-move": "Печтевтемс",
+	"libvirt-action-protect": "Аравтомс ванстомас",
+	"libvirt-action-undelete": "Вельмевтемс нардазенть",
+	"libvirt-action-unprotect": "Полавтомс ванстоманзо",
+	"libvirt-view-create": "Теемс-Шкамс",
+	"libvirt-view-edit": "Витнемс-петнемс",
+	"libvirt-view-history": "Ваномс юронзо-путовксонзо",
+	"libvirt-view-view": "Ловномс",
+	"libvirt-view-viewsource": "Ваномс косто саезь"
+}

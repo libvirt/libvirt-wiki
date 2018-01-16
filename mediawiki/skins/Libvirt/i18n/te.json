@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Kiranmayee",
+			"Praveen Illa",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"skinname-libvirt": "వెక్టర్",
+	"libvirt-action-addsection": "విషయాన్ని చేర్చు",
+	"libvirt-action-delete": "తొలగించు",
+	"libvirt-action-move": "తరలించు",
+	"libvirt-action-protect": "సంరక్షించు",
+	"libvirt-action-undelete": "తొలగింపును రద్దుచెయ్యి",
+	"libvirt-action-unprotect": "సంరక్షణను మార్చు",
+	"libvirt-view-create": "సృష్టించు",
+	"libvirt-view-edit": "సవరించు",
+	"libvirt-view-history": "చరిత్రను చూడండి",
+	"libvirt-view-view": "చదువు",
+	"libvirt-view-viewsource": "మూలాన్ని చూపించు",
+	"libvirt-more-actions": "మరిన్ని"
+}

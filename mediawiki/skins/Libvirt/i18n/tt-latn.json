@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"skinname-libvirt": "Sızımlı",
+	"libvirt-action-addsection": "Yaña tema östäw",
+	"libvirt-action-delete": "Beterü",
+	"libvirt-action-move": "Küçerü",
+	"libvirt-action-protect": "Yaqlaw",
+	"libvirt-action-undelete": "Qaytaru",
+	"libvirt-action-unprotect": "Yaqlawnı beterü",
+	"libvirt-view-create": "Tözü",
+	"libvirt-view-edit": "Üzgärtü",
+	"libvirt-view-history": "Tarixın qaraw",
+	"libvirt-view-view": "Uqu",
+	"libvirt-view-viewsource": "Çığanağın qaraw"
+}

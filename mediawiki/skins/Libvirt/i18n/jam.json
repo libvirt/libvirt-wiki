@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hazard-SJ",
+			"Yocahuna"
+		]
+	},
+	"libvirt-action-addsection": "Ad tapik",
+	"libvirt-action-delete": "Diliit",
+	"libvirt-action-move": "Muuv",
+	"libvirt-action-protect": "Protek",
+	"libvirt-action-undelete": "Andiliit",
+	"libvirt-action-unprotect": "Neu protektian",
+	"libvirt-view-create": "Kriet",
+	"libvirt-view-edit": "Hedit",
+	"libvirt-view-history": "Vyuu ischri",
+	"libvirt-view-view": "Riid",
+	"libvirt-view-viewsource": "Vyuu Suos"
+}

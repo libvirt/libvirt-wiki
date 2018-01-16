@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bresta"
+		]
+	},
+	"libvirt.css": "/* CSSi i vednosun këtu ka me i prekë shfrytëzuesit e dukjes Libvirt */",
+	"libvirt.js": "/* Çdo JavaScript këtu ka me u ngarkue për shfrytëzuesit që përdorin dukjen Libvirt */",
+	"libvirt-action-addsection": "Shto temë",
+	"libvirt-action-delete": "Fshij",
+	"libvirt-action-move": "Zhvendos",
+	"libvirt-action-protect": "Mbroj",
+	"libvirt-action-undelete": "Kthe fshimjen mbrapsht",
+	"libvirt-action-unprotect": "Hiq mbrojtjen",
+	"libvirt-view-create": "Krijo",
+	"libvirt-view-edit": "Redakto",
+	"libvirt-view-history": "Shih historinë",
+	"libvirt-view-view": "Lexo",
+	"libvirt-view-viewsource": "Shih kodin"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arlin",
+			"Sahran",
+			"Tel'et"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt.css": "/* CSS placed here will affect users of the Libvirt skin */",
+	"libvirt.js": "/* Any JavaScript here will be loaded for users using the Libvirt skin */",
+	"libvirt-action-addsection": "يېڭى تېما قوش",
+	"libvirt-action-delete": "ئۆچۈر",
+	"libvirt-action-move": "يۆتكە",
+	"libvirt-action-protect": "قوغدا",
+	"libvirt-action-undelete": "ئەسلىگە قايتۇر",
+	"libvirt-action-unprotect": "قوغداش ئۆزگەرت",
+	"libvirt-view-create": "قۇر",
+	"libvirt-view-edit": "تەھرىر",
+	"libvirt-view-history": "تارىخ كۆرسەت",
+	"libvirt-view-view": "ئوقۇ",
+	"libvirt-view-viewsource": "مەنبەنى كۆرسەت"
+}

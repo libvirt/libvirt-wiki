@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eukesh"
+		]
+	},
+	"libvirt-action-move": "संकादिसँ",
+	"libvirt-view-create": "दयेकादिसँ",
+	"libvirt-view-edit": "सम्पादन",
+	"libvirt-view-history": "इतिहास स्वयादिसँ",
+	"libvirt-view-view": "ब्वनादिसँ"
+}

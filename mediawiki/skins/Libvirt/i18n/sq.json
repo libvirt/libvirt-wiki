@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dasius",
+			"GretaDoci",
+			"MicroBoy",
+			"Mikullovci11",
+			"Olsi"
+		]
+	},
+	"libvirt-action-addsection": "Shto një temë",
+	"libvirt-action-delete": "Grise",
+	"libvirt-action-move": "Zhvendose",
+	"libvirt-action-protect": "Mbroje",
+	"libvirt-action-undelete": "Anullo fshirjen",
+	"libvirt-action-unprotect": "Ndrysho mbrojtjen",
+	"libvirt-view-create": "Krijo",
+	"libvirt-view-edit": "Redakto",
+	"libvirt-view-history": "Shiko historikun",
+	"libvirt-view-view": "Lexo",
+	"libvirt-view-viewsource": "Shiko tekstin",
+	"libvirt-more-actions": "Më tepër..."
+}

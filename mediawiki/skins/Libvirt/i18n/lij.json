@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gastaz",
+			"Giromin Cangiaxo"
+		]
+	},
+	"libvirt-action-addsection": "Azónzi discusción",
+	"libvirt-action-delete": "Scancella",
+	"libvirt-action-move": "Mescia",
+	"libvirt-action-protect": "Protezi",
+	"libvirt-action-undelete": "Recuppera",
+	"libvirt-action-unprotect": "Cangia a proteçion",
+	"libvirt-view-create": "Crea",
+	"libvirt-view-edit": "Càngia",
+	"libvirt-view-history": "Fanni védde a Stöia",
+	"libvirt-view-view": "Lêzi",
+	"libvirt-view-viewsource": "Veddi a sorgénte"
+}

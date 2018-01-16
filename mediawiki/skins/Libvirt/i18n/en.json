@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-skin-desc": "Modern version of MonoBook with fresh look and many usability improvements",
+	"libvirt.css": "/* CSS placed here will affect users of the Libvirt skin */",
+	"libvirt.js": "/* Any JavaScript here will be loaded for users using the Libvirt skin */",
+	"libvirt-action-addsection": "Add topic",
+	"libvirt-action-delete": "Delete",
+	"libvirt-action-move": "Move",
+	"libvirt-action-protect": "Protect",
+	"libvirt-action-undelete": "Undelete",
+	"libvirt-action-unprotect": "Change protection",
+	"libvirt-view-create": "Create",
+	"libvirt-view-edit": "Edit",
+	"libvirt-view-history": "View history",
+	"libvirt-view-view": "Read",
+	"libvirt-view-viewsource": "View source",
+	"libvirt-more-actions": "More"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr",
+			"Muddyb Blast Producer"
+		]
+	},
+	"libvirt-action-addsection": "Weka mada",
+	"libvirt-action-delete": "Futa",
+	"libvirt-action-move": "Hamisha",
+	"libvirt-action-protect": "Linda",
+	"libvirt-action-undelete": "Rudisha",
+	"libvirt-action-unprotect": "Badilisha ulinzi",
+	"libvirt-view-create": "Anzisha",
+	"libvirt-view-edit": "Hariri",
+	"libvirt-view-history": "Fungua historia",
+	"libvirt-view-view": "Soma",
+	"libvirt-view-viewsource": "Tazama msimbo"
+}

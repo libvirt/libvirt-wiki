@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sylvain2803"
+		]
+	},
+	"libvirt-action-addsection": "Shuk mushuk rimanakuyta kallarina",
+	"libvirt-action-delete": "Pichana",
+	"libvirt-action-move": "Apakuna",
+	"libvirt-action-protect": "Harkana",
+	"libvirt-action-undelete": "Kutin wacharichina",
+	"libvirt-action-unprotect": "Harkayta shukchina",
+	"libvirt-view-create": "Kamarina",
+	"libvirt-view-edit": "Killkana",
+	"libvirt-view-history": "Wiñay kawsayta rikuna",
+	"libvirt-view-view": "Killkakatina",
+	"libvirt-view-viewsource": "Pukyu killkata rikuna"
+}

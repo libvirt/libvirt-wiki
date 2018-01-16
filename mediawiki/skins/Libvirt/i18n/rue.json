@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb",
+			"Tkalyn"
+		]
+	},
+	"libvirt-action-addsection": "Придати тему",
+	"libvirt-action-delete": "Вымазати",
+	"libvirt-action-move": "Переменовати",
+	"libvirt-action-protect": "Всокотити",
+	"libvirt-action-undelete": "Обновити",
+	"libvirt-action-unprotect": "Змінити замок",
+	"libvirt-view-create": "Створити",
+	"libvirt-view-edit": "Едітовати",
+	"libvirt-view-history": "Видїти історію",
+	"libvirt-view-view": "Чітати",
+	"libvirt-view-viewsource": "Видїти код",
+	"libvirt-more-actions": "Веце"
+}

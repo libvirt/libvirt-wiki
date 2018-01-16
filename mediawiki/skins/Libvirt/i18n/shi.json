@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalinanir"
+		]
+	},
+	"libvirt-action-addsection": "Zayd amli",
+	"libvirt-action-delete": "Ḥiyd",
+	"libvirt-action-move": "Smmatti",
+	"libvirt-action-protect": "Ḥbu",
+	"libvirt-action-undelete": "Rard may mayḥiydn",
+	"libvirt-action-unprotect": "Ḥiyd aḥbu",
+	"libvirt-view-create": "Skert",
+	"libvirt-view-edit": "Ara",
+	"libvirt-view-history": "Mel amzruy",
+	"libvirt-view-view": "ɣr",
+	"libvirt-view-viewsource": "Ẓr asagm"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrewboltachev"
+		]
+	},
+	"libvirt-action-addsection": "Выль темаез ватсано",
+	"libvirt-action-delete": "Быдтоно",
+	"libvirt-action-move": "Мукет интые выжтыны",
+	"libvirt-action-protect": "Утьыны",
+	"libvirt-view-create": "Кылдытоно",
+	"libvirt-view-edit": "Тупатоно",
+	"libvirt-view-history": "История",
+	"libvirt-view-view": "Лыдӟоно",
+	"libvirt-view-viewsource": "Кодзэ учкыны"
+}

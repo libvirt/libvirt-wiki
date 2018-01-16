@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gleki"
+		]
+	},
+	"skinname-libvirt": "la vektor",
+	"libvirt-skin-desc": "lo cabna versio be la monobuk i vifne tarmi i so'i da nu xamgu zenba",
+	"libvirt-action-addsection": "jmina la'e se casnu",
+	"libvirt-action-delete": "vimcu",
+	"libvirt-action-move": "stika lo cmene",
+	"libvirt-action-protect": "bandu",
+	"libvirt-action-undelete": "volvygau",
+	"libvirt-action-unprotect": "cnegau lo bandu",
+	"libvirt-view-create": "zbasu",
+	"libvirt-view-edit": "stika",
+	"libvirt-view-history": "lo ckupau citri",
+	"libvirt-view-view": "tcidu",
+	"libvirt-view-viewsource": "cpacu lo krasi",
+	"libvirt-more-actions": "ji'a"
+}

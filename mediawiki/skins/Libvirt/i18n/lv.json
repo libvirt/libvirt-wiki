@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marozols",
+			"Papuass"
+		]
+	},
+	"libvirt-action-addsection": "Jauna sadaļa",
+	"libvirt-action-delete": "Dzēst",
+	"libvirt-action-move": "Pārvietot",
+	"libvirt-action-protect": "Aizsargāt",
+	"libvirt-action-undelete": "Atjaunot",
+	"libvirt-action-unprotect": "Mainīt aizsardzību",
+	"libvirt-view-create": "Izveidot",
+	"libvirt-view-edit": "Labot",
+	"libvirt-view-history": "Hronoloģija",
+	"libvirt-view-view": "Skatīt",
+	"libvirt-view-viewsource": "Aplūkot kodu",
+	"libvirt-more-actions": "Vairāk"
+}

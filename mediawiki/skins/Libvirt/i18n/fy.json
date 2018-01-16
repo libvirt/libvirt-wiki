@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kening Aldgilles",
+			"SK-luuut",
+			"Robin0van0der0vliet"
+		]
+	},
+	"libvirt-action-addsection": "Kopke tafoegje",
+	"libvirt-action-delete": "Fuortsmite",
+	"libvirt-action-move": "Omneame",
+	"libvirt-action-protect": "Beskermje",
+	"libvirt-action-undelete": "Tebeksette",
+	"libvirt-action-unprotect": "Beskerming fuorthelje",
+	"libvirt-view-create": "Oanmeitsje",
+	"libvirt-view-edit": "Bewurkje",
+	"libvirt-view-history": "Skiednis sjen litte",
+	"libvirt-view-view": "Lês",
+	"libvirt-view-viewsource": "Besjoch de boarne",
+	"libvirt-more-actions": "Mear"
+}

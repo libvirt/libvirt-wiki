@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr",
+			"محک"
+		]
+	},
+	"libvirt-action-addsection": "ترنه گپ بزوئن",
+	"libvirt-action-delete": "پاک هاکردن",
+	"libvirt-action-move": "دکش هاکردن",
+	"libvirt-action-protect": "زلفن بزوئن",
+	"libvirt-action-undelete": "دباره بنویشته بیّن",
+	"libvirt-action-unprotect": "زلفن عوض هاکردن",
+	"libvirt-view-create": "بساتن",
+	"libvirt-view-edit": "دچی‌ین",
+	"libvirt-view-history": "تاریخچه ره بَدی‌ین",
+	"libvirt-view-view": "بخوندستن",
+	"libvirt-view-viewsource": "ونه منبع ره هارشائن",
+	"libvirt-more-actions": "ویشته"
+}

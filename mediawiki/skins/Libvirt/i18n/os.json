@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amikeco",
+			"Bouron"
+		]
+	},
+	"libvirt-action-addsection": "Нæуæг ныхас бакæнын",
+	"libvirt-action-delete": "Схафын",
+	"libvirt-action-move": "Ном ивын",
+	"libvirt-action-protect": "Сæхгæнын",
+	"libvirt-action-undelete": "Рацаразын",
+	"libvirt-action-unprotect": "Ивын хъахъхъæд",
+	"libvirt-view-create": "Скæнын",
+	"libvirt-view-edit": "Ивын",
+	"libvirt-view-history": "Истори",
+	"libvirt-view-view": "Кæсын",
+	"libvirt-view-viewsource": "Код кæсын",
+	"libvirt-more-actions": "Фылдæр"
+}

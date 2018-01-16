@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Szonja"
+		]
+	},
+	"libvirt-action-addsection": "Tilja topikos",
+	"libvirt-action-delete": "Tšuu nikki",
+	"libvirt-action-undelete": "Tšuu paale",
+	"libvirt-view-create": "Luona",
+	"libvirt-view-edit": "Muoka",
+	"libvirt-view-history": "Sik histores",
+	"libvirt-view-view": "Draba",
+	"libvirt-view-viewsource": "Sik navasiinako koodos"
+}

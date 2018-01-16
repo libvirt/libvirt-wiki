@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Natsubee",
+			"Aguve"
+		]
+	},
+	"libvirt-action-delete": "Tutui",
+	"libvirt-action-move": "Ɖɔli eƒe nɔƒe",
+	"libvirt-view-create": "Dze egɔme",
+	"libvirt-view-edit": "Trɔ asi le eŋu",
+	"libvirt-view-history": "Kpɔ xoxoawo",
+	"libvirt-view-view": "Xlẽ",
+	"libvirt-view-viewsource": "Kpɔ alesi woŋlɔe",
+	"libvirt-more-actions": "Bubuwo"
+}

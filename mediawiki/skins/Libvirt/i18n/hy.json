@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Teak",
+			"Vadgt",
+			"Xelgen",
+			"Arman musikyan"
+		]
+	},
+	"skinname-libvirt": "Սովորական",
+	"libvirt-action-addsection": "Ավելացնել քննարկում",
+	"libvirt-action-delete": "Ջնջել",
+	"libvirt-action-move": "Տեղափոխել այս էջը",
+	"libvirt-action-protect": "Պաշտպանել",
+	"libvirt-action-undelete": "Վերականգնել",
+	"libvirt-action-unprotect": "Փոխել պաշտպանումը",
+	"libvirt-view-create": "Ստեղծել",
+	"libvirt-view-edit": "Խմբագրել",
+	"libvirt-view-history": "Դիտել պատմությունը",
+	"libvirt-view-view": "Կարդալ",
+	"libvirt-view-viewsource": "Դիտել ելատեքստը",
+	"libvirt-more-actions": "Ավելին"
+}

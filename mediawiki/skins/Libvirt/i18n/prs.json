@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr"
+		]
+	},
+	"libvirt-view-edit": "ویرایش",
+	"libvirt-view-history": "نمایش تاریخچه",
+	"libvirt-view-view": "خواندن",
+	"libvirt-more-actions": "بیشتر"
+}

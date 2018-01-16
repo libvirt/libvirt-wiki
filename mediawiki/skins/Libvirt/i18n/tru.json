@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ariyo"
+		]
+	},
+	"libvirt-action-addsection": "Maḥat Fusoqo ḥaṭo",
+	"libvirt-action-delete": "Slag",
+	"libvirt-action-move": "Mtaxar",
+	"libvirt-action-protect": "Mastar",
+	"libvirt-view-create": "Xlaq",
+	"libvirt-view-edit": "Mşaḥlaf",
+	"libvirt-view-history": "Maktabzabno",
+	"libvirt-view-view": "Qray",
+	"libvirt-view-viewsource": "Maḥway li aMabu³e."
+}

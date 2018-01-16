@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DasRakel"
+		]
+	},
+	"libvirt-action-delete": "Wegdoen",
+	"libvirt-action-move": "Ernoemn",
+	"libvirt-view-create": "Anmoakn",
+	"libvirt-view-edit": "Bewerkn",
+	"libvirt-view-history": "Geschiedenisse bekykn",
+	"libvirt-view-view": "Leezn",
+	"libvirt-view-viewsource": "Brontekst bekykn"
+}

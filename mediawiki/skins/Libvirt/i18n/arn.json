@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Clerc",
+			"Fiestoforo"
+		]
+	},
+	"libvirt-action-addsection": "Püñamtun dungu",
+	"libvirt-action-delete": "Liftun",
+	"libvirt-action-move": "Wiñamün",
+	"libvirt-action-protect": "Nürüfkünun",
+	"libvirt-action-undelete": "Wüñoñamümün",
+	"libvirt-action-unprotect": "Kalekünun Nürüfkünun",
+	"libvirt-view-create": "Dewman",
+	"libvirt-view-edit": "Kümeelün",
+	"libvirt-view-history": "Pengelün rupañmael",
+	"libvirt-view-view": "Chillkatun",
+	"libvirt-view-viewsource": "Kimam chew küpan chi wirin",
+	"libvirt-more-actions": "Doy"
+}

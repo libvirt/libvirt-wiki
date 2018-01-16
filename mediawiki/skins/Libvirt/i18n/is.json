@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Friðrik Bragi Dýrfjörð",
+			"Maxí",
+			"Snævar",
+			"Ævar Arnfjörð Bjarmason"
+		]
+	},
+	"libvirt-action-addsection": "Bæta við umræðu",
+	"libvirt-action-delete": "Eyða",
+	"libvirt-action-move": "Færa",
+	"libvirt-action-protect": "Vernda",
+	"libvirt-action-undelete": "Hætta við eyðingu",
+	"libvirt-action-unprotect": "Breyta verndunarstigi",
+	"libvirt-view-create": "Skapa",
+	"libvirt-view-edit": "Breyta",
+	"libvirt-view-history": "Breytingaskrá",
+	"libvirt-view-view": "Lesa",
+	"libvirt-view-viewsource": "Sýna frumkóða",
+	"libvirt-more-actions": "Meira"
+}

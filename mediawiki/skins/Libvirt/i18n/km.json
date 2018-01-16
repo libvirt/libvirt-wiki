@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន",
+			"វ័ណថារិទ្ធ"
+		]
+	},
+	"skinname-libvirt": "វ៉ិចទ័រ​​",
+	"libvirt.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Libvirt */",
+	"libvirt-action-addsection": "បន្ថែម​ប្រធានបទ​",
+	"libvirt-action-delete": "លុបចោល",
+	"libvirt-action-move": "ប្តូរទីតាំង",
+	"libvirt-action-protect": "ការពារ",
+	"libvirt-action-undelete": "ឈប់លុបចោល",
+	"libvirt-action-unprotect": "ប្ដូរការការពារ",
+	"libvirt-view-create": "បង្កើត​",
+	"libvirt-view-edit": "កែប្រែ​",
+	"libvirt-view-history": "មើល​ប្រវត្តិ​",
+	"libvirt-view-view": "អាន",
+	"libvirt-view-viewsource": "មើល​កូដ",
+	"libvirt-more-actions": "បន្ថែមទៀត"
+}

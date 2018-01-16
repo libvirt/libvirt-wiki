@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arifin.wijaya",
+			"Bennylin",
+			"Farras",
+			"Iwan Novirion",
+			"Rex"
+		]
+	},
+	"skinname-libvirt": "Vektor",
+	"libvirt-skin-desc": "Versi modern dari MonoBook dengan tampilan segar dan banyak perbaikan kegunaan",
+	"libvirt.css": "/* CSS yang ada di sini akan diterapkan pada kulit Vektor. */",
+	"libvirt.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Libvirt */",
+	"libvirt-action-addsection": "Bagian baru",
+	"libvirt-action-delete": "Hapus",
+	"libvirt-action-move": "Pindahkan",
+	"libvirt-action-protect": "Lindungi",
+	"libvirt-action-undelete": "Pembatalan penghapusan",
+	"libvirt-action-unprotect": "Ubah perlindungan",
+	"libvirt-view-create": "Buat",
+	"libvirt-view-edit": "Sunting",
+	"libvirt-view-history": "Versi terdahulu",
+	"libvirt-view-view": "Baca",
+	"libvirt-view-viewsource": "Lihat sumber",
+	"libvirt-more-actions": "Lainnya"
+}

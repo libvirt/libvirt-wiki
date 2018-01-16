@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Calak",
+			"Crazymadlover",
+			"Evropi",
+			"Omnipaedista",
+			"Protnet",
+			"ZaDiak",
+			"Geraki"
+		]
+	},
+	"libvirt-skin-desc": "Σύγχρονη έκδοση του MonoBook με φρέσκια ματιά και πολλές βελτιώσεις χρηστικότητας",
+	"libvirt.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Libvirt skin */",
+	"libvirt.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Libvirt skin */",
+	"libvirt-action-addsection": "Προσθήκη θέματος",
+	"libvirt-action-delete": "Διαγραφή",
+	"libvirt-action-move": "Μετακίνηση",
+	"libvirt-action-protect": "Προστασία",
+	"libvirt-action-undelete": "Επαναφορά",
+	"libvirt-action-unprotect": "Αλλαγή προστασίας",
+	"libvirt-view-create": "Δημιουργία",
+	"libvirt-view-edit": "Επεξεργασία",
+	"libvirt-view-history": "Προβολή ιστορικού",
+	"libvirt-view-view": "Ανάγνωση",
+	"libvirt-view-viewsource": "Προβολή κώδικα",
+	"libvirt-more-actions": "Περισσότερα"
+}

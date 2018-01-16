@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bombola",
+			"Ceas08",
+			"Erdemaslancan"
+		]
+	},
+	"libvirt-action-delete": "Jili",
+	"libvirt-action-move": "Tori",
+	"libvirt-action-protect": "İçvi",
+	"libvirt-view-create": "dokʼidi",
+	"libvirt-view-edit": "Doktiri",
+	"libvirt-view-view": "İǩitxi"
+}

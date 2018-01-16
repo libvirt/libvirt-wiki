@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imdadb"
+		]
+	},
+	"libvirt-action-addsection": "Púskun sarhál",
+	"libvirt-action-delete": "Mesa",
+	"libvirt-action-move": "Surif",
+	"libvirt-action-protect": "Rakk",
+	"libvirt-view-create": "Biná",
+	"libvirt-view-edit": "Radbadal",
+	"libvirt-view-history": "Lekav e ur",
+	"libvirt-view-view": "Xuán",
+	"libvirt-view-viewsource": "Bumpad e ur"
+}

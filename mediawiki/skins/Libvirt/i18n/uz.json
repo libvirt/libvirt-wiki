@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdulla",
+			"Arystanbek",
+			"Casual",
+			"CoderSI",
+			"Sociologist",
+			"Nataev"
+		]
+	},
+	"skinname-libvirt": "Vektor",
+	"libvirt-action-addsection": "Mavzu qoʻshish",
+	"libvirt-action-delete": "O‘chirish",
+	"libvirt-action-move": "Ko‘chirish",
+	"libvirt-action-protect": "Himoyalash",
+	"libvirt-action-undelete": "Tiklash",
+	"libvirt-action-unprotect": "Himoyani oʻzgartirish",
+	"libvirt-view-create": "Yaratish",
+	"libvirt-view-edit": "Tahrirlash",
+	"libvirt-view-history": "Tarix",
+	"libvirt-view-view": "Mutolaa",
+	"libvirt-view-viewsource": "Manbasini koʻrish",
+	"libvirt-more-actions": "Yana"
+}

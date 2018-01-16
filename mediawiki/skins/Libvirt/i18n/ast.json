@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"skinname-libvirt": "Libvirt",
+	"libvirt-skin-desc": "Versión moderna de MonoBook, con un aspeutu frescu y munchos ameyoramientos d'usabilidá",
+	"libvirt.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Libvirt */",
+	"libvirt.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Libvirt */",
+	"libvirt-action-addsection": "Amestar seición",
+	"libvirt-action-delete": "Desaniciar",
+	"libvirt-action-move": "Treslladar",
+	"libvirt-action-protect": "Protexer",
+	"libvirt-action-undelete": "Restaurar",
+	"libvirt-action-unprotect": "Camudar la proteición",
+	"libvirt-view-create": "Crear",
+	"libvirt-view-edit": "Editar",
+	"libvirt-view-history": "Ver historial",
+	"libvirt-view-view": "Lleer",
+	"libvirt-view-viewsource": "Ver fonte",
+	"libvirt-more-actions": "Más"
+}

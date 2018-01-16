@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Symane"
+		]
+	},
+	"libvirt-action-addsection": "添主題",
+	"libvirt-action-delete": "刪吥",
+	"libvirt-action-move": "移吥",
+	"libvirt-action-protect": "護到",
+	"libvirt-action-undelete": "望下刪吥嗰頁面",
+	"libvirt-action-unprotect": "解除保護",
+	"libvirt-view-create": "創建",
+	"libvirt-view-edit": "編輯",
+	"libvirt-view-history": "望下歷史",
+	"libvirt-view-view": "讀",
+	"libvirt-view-viewsource": "望下原始碼"
+}

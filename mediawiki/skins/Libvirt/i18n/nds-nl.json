@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"libvirt-action-addsection": "Niej onderwarp",
+	"libvirt-action-delete": "Vortdoon",
+	"libvirt-action-move": "Herneumen",
+	"libvirt-action-protect": "Beveiligen",
+	"libvirt-action-undelete": "Weerummeplaotsen",
+	"libvirt-action-unprotect": "Beveiliging wiezigen",
+	"libvirt-view-create": "Anmaken",
+	"libvirt-view-edit": "Bewarken",
+	"libvirt-view-history": "Geschiedenisse bekieken",
+	"libvirt-view-view": "Lezen",
+	"libvirt-view-viewsource": "Brontekste bekieken",
+	"libvirt-more-actions": "Meer"
+}

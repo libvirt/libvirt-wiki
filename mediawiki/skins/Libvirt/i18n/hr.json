@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13",
+			"Tivek",
+			"Bugoslav"
+		]
+	},
+	"libvirt-action-addsection": "Dodaj temu",
+	"libvirt-action-delete": "Izbriši",
+	"libvirt-action-move": "Premjesti",
+	"libvirt-action-protect": "Zaštiti",
+	"libvirt-action-undelete": "Vrati",
+	"libvirt-action-unprotect": "Promijeni zaštitu",
+	"libvirt-view-create": "Započni",
+	"libvirt-view-edit": "Uredi",
+	"libvirt-view-history": "Vidi stare izmjene",
+	"libvirt-view-view": "Čitaj",
+	"libvirt-view-viewsource": "Vidi izvor",
+	"libvirt-more-actions": "Više"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avicennasis",
+			"John Reid",
+			"Omnipaedista"
+		]
+	},
+	"libvirt-skin-desc": "Modern version o MonoBook wi ae fresh luik n monie uisabeelitie impruivments",
+	"libvirt-action-addsection": "Eik topic",
+	"libvirt-action-delete": "Delyte",
+	"libvirt-action-move": "Muiv",
+	"libvirt-action-protect": "Fend",
+	"libvirt-action-undelete": "Ondelyte",
+	"libvirt-action-unprotect": "Chynge protection",
+	"libvirt-view-create": "Ceaut",
+	"libvirt-view-edit": "Eedit",
+	"libvirt-view-history": "See histerie",
+	"libvirt-view-view": "Read",
+	"libvirt-view-viewsource": "See Soorce",
+	"libvirt-more-actions": "Mair"
+}

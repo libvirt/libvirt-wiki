@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"libvirt-action-addsection": "Ousnit bietouföigje",
+	"libvirt-action-delete": "Läskje",
+	"libvirt-action-move": "Ferskuuwe",
+	"libvirt-action-protect": "Skutsje",
+	"libvirt-action-undelete": "Wierhäärstaale",
+	"libvirt-action-unprotect": "Siedenskuts annerje",
+	"libvirt-view-create": "Moakje",
+	"libvirt-view-edit": "Beoarbaidje",
+	"libvirt-view-history": "Versionsgeskichte",
+	"libvirt-view-view": "Leese",
+	"libvirt-view-viewsource": "Wältext bekiekje"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adi Mayndra",
+			"BASAbali"
+		]
+	},
+	"libvirt-action-addsection": "imbuhin indik wacana",
+	"libvirt-action-delete": "ngapus",
+	"libvirt-action-move": "kisidang",
+	"libvirt-action-protect": "nyaga",
+	"libvirt-view-create": "ngawe",
+	"libvirt-view-edit": "mecikang",
+	"libvirt-view-history": "indik sane lintang",
+	"libvirt-view-view": "Waca",
+	"libvirt-view-viewsource": "cingak witnyane"
+}

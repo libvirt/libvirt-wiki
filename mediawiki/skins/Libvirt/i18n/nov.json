@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"libvirt-action-delete": "Ekarta",
+	"libvirt-view-edit": "Modifika",
+	"libvirt-view-view": "Lekte"
+}

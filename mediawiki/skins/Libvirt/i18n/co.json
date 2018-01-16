@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paulu"
+		]
+	},
+	"libvirt-action-addsection": "Aghjunghje discussione",
+	"libvirt-action-delete": "Supprimà",
+	"libvirt-action-move": "Cullucà",
+	"libvirt-action-protect": "Pruteghje",
+	"libvirt-action-unprotect": "Cambià a prutezzione",
+	"libvirt-view-create": "Creà",
+	"libvirt-view-edit": "Mudificà",
+	"libvirt-view-history": "Vede a cronolugia",
+	"libvirt-view-view": "Leghje",
+	"libvirt-view-viewsource": "Vede a surghjente"
+}

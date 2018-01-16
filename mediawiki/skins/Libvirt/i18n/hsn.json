@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"YulouCN"
+		]
+	},
+	"libvirt-view-edit": "增改",
+	"libvirt-view-history": "履歷",
+	"libvirt-view-view": "讀"
+}
