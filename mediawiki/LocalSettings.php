@@ -102,11 +102,11 @@ $wgShellLocale = "en_US.utf8";
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "942ac2633ea0a2e347f59e1d5edd0d2b28fa94272804c954be6b39de707e991e";
+$wgSecretKey = getenv("MEDIAWIKI_SECRET_KEY");
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "842b76f6ab57ab46";
+$wgUpgradeKey = getenv("MEDIAWIKI_UPGRADE_KEY");
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
