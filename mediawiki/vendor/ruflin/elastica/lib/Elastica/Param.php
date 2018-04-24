@@ -6,25 +6,25 @@ use Elastica\Exception\InvalidException;
 /**
  * Class to handle params.
  *
- * This function can be used to handle params for queries, filter, facets
+ * This function can be used to handle params for queries, filter
  *
  * @author Nicolas Ruflin <spam@ruflin.com>
  */
-class Param
+class Param implements ArrayableInterface
 {
     /**
      * Params.
      *
      * @var array
      */
-    protected $_params = array();
+    protected $_params = [];
 
     /**
      * Raw Params.
      *
      * @var array
      */
-    protected $_rawParams = array();
+    protected $_rawParams = [];
 
     /**
      * Converts the params to an array. A default implementation exist to create
@@ -35,13 +35,37 @@ class Param
      */
     public function toArray()
     {
-        $data = array($this->_getBaseName() => $this->getParams());
+        $data = [$this->_getBaseName() => $this->getParams()];
 
         if (!empty($this->_rawParams)) {
             $data = array_merge($data, $this->_rawParams);
         }
 
-        return $data;
+        return $this->_convertArrayable($data);
+    }
+
+    /**
+     * Cast objects to arrays.
+     *
+     * @param array $array
+     *
+     * @return array
+     */
+    protected function _convertArrayable(array $array)
+    {
+        $arr = [];
+
+        foreach ($array as $key => $value) {
+            if ($value instanceof ArrayableInterface) {
+                $arr[$value instanceof NameableInterface ? $value->getName() : $key] = $value->toArray();
+            } elseif (is_array($value)) {
+                $arr[$key] = $this->_convertArrayable($value);
+            } else {
+                $arr[$key] = $value;
+            }
+        }
+
+        return $arr;
     }
 
     /**
@@ -113,10 +137,6 @@ class Param
     public function addParam($key, $value)
     {
         if ($key != null) {
-            if (!isset($this->_params[$key])) {
-                $this->_params[$key] = array();
-            }
-
             $this->_params[$key][] = $value;
         } else {
             $this->_params = $value;

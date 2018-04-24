@@ -13,119 +13,67 @@ class WikiEditorHooks {
 
 	/* Protected Static Members */
 
-	protected static $features = array(
+	protected static $features = [
 
 		/* Toolbar Features */
 
-		'toolbar' => array(
-			'preferences' => array(
+		// 'toolbar' is the main wikieditor feature, including toolbars and dialogs.
+		// The legacy name preserves user preferences for disabling the feature.
+		'toolbar' => [
+			'preferences' => [
 				// Ideally this key would be 'wikieditor-toolbar'
-				'usebetatoolbar' => array(
+				'usebetatoolbar' => [
 					'type' => 'toggle',
 					'label-message' => 'wikieditor-toolbar-preference',
 					'section' => 'editing/editor',
-				),
-			),
-			'requirements' => array(
+				],
+			],
+			'requirements' => [
 				'usebetatoolbar' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.toolbar',
-			),
-			'stylemodules' => array(
-				'ext.wikiEditor.toolbar.styles',
-			),
-		),
-		'dialogs' => array(
-			'preferences' => array(
-				// Ideally this key would be 'wikieditor-toolbar-dialogs'
-				'usebetatoolbar-cgd' => array(
-					'type' => 'toggle',
-					'label-message' => 'wikieditor-toolbar-dialogs-preference',
-					'section' => 'editing/editor',
-				),
-			),
-			'requirements' => array(
-				'usebetatoolbar-cgd' => true,
-				'usebetatoolbar' => true,
-			),
-			'modules' => array(
-				'ext.wikiEditor.dialogs',
-			),
-		),
+			],
+			'modules' => [
+				'ext.wikiEditor',
+			],
+			'stylemodules' => [
+				'ext.wikiEditor.styles',
+			],
+		],
 
 		/* Labs Features */
 
-		'preview' => array(
-			'preferences' => array(
-				'wikieditor-preview' => array(
+		'preview' => [
+			'preferences' => [
+				'wikieditor-preview' => [
 					'type' => 'toggle',
 					'label-message' => 'wikieditor-preview-preference',
 					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
+				],
+			],
+			'requirements' => [
 				'wikieditor-preview' => true,
-			),
-			'modules' => array(
+			],
+			'modules' => [
 				'ext.wikiEditor.preview',
-			),
-		),
-		'publish' => array(
-			'preferences' => array(
-				'wikieditor-publish' => array(
+			],
+		],
+		'publish' => [
+			'preferences' => [
+				'wikieditor-publish' => [
 					'type' => 'toggle',
 					'label-message' => 'wikieditor-publish-preference',
 					'section' => 'editing/labs',
-				),
-			),
-			'requirements' => array(
+				],
+			],
+			'requirements' => [
 				'wikieditor-publish' => true,
-			),
-			'modules' => array(
+			],
+			'modules' => [
 				'ext.wikiEditor.publish',
-			),
-		)
-	);
+			],
+		]
+	];
 
 	/* Static Methods */
-
-	/**
-	 * T99257: Extension registration does not properly support 2d arrays so set it as a global for now
-	 */
-	public static function onRegistration() {
-		// Each module may be configured individually to be globally on/off or user preference based
-		$features = array(
-
-			/* Textarea / i-frame compatible (OK to deploy) */
-
-			'toolbar' => array( 'global' => false, 'user' => true ),
-			// Provides interactive tools
-			'dialogs' => array( 'global' => false, 'user' => true ),
-
-			/* Textarea / i-frame compatible, but still experimental and unstable (do not deploy!) */
-
-			// Adds a tab for previewing in-line
-			'preview' => array( 'global' => false, 'user' => true ),
-			// Adds a button and dialog for step-by-step publishing
-			'publish' => array( 'global' => false, 'user' => true ),
-		);
-
-		// Eww, do a 2d array merge so we don't wipe out settings
-		global $wgWikiEditorFeatures;
-		if ( $wgWikiEditorFeatures ) {
-			foreach ( $features as $name => $settings ) {
-				if ( isset( $wgWikiEditorFeatures[$name] ) ) {
-					$wgWikiEditorFeatures[$name] += $settings;
-				} else {
-					$wgWikiEditorFeatures[$name] = $settings;
-				}
-			}
-		} else {
-			$wgWikiEditorFeatures = $features;
-		}
-
-	}
 
 	/**
 	 * Checks if a certain option is enabled
@@ -133,7 +81,7 @@ class WikiEditorHooks {
 	 * This method is public to allow other extensions that use WikiEditor to use the
 	 * same configuration as WikiEditor itself
 	 *
-	 * @param $name string Name of the feature, should be a key of $features
+	 * @param string $name Name of the feature, should be a key of $features
 	 * @return bool
 	 */
 	public static function isEnabled( $name ) {
@@ -170,7 +118,7 @@ class WikiEditorHooks {
 	 * @param array $data Data to log for this action
 	 * @return bool Whether the event was logged or not.
 	 */
-	public static function doEventLogging( $action, $article, $data = array() ) {
+	public static function doEventLogging( $action, $article, $data = [] ) {
 		global $wgVersion;
 		if ( !class_exists( 'EventLogging' ) ) {
 			return false;
@@ -184,7 +132,7 @@ class WikiEditorHooks {
 		$page = $article->getPage();
 		$title = $article->getTitle();
 
-		$data = array(
+		$data = [
 			'action' => $action,
 			'version' => 1,
 			'editor' => 'wikitext',
@@ -197,7 +145,7 @@ class WikiEditorHooks {
 			'user.id' => $user->getId(),
 			'user.editCount' => $user->getEditCount() ?: 0,
 			'mediawiki.version' => $wgVersion
-		) + $data;
+		] + $data;
 
 		if ( $user->isAnon() ) {
 			$data['user.class'] = 'IP';
@@ -215,7 +163,7 @@ class WikiEditorHooks {
 	 * @param OutputPage $outputPage object.
 	 * @return bool
 	 */
-	public static function editPageShowEditFormInitial( $editPage, $outputPage ) {
+	public static function editPageShowEditFormInitial( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return true;
 		}
@@ -239,7 +187,7 @@ class WikiEditorHooks {
 		// user just pressed 'Show preview' or 'Show changes', or switched from VE keeping
 		// changes.
 		if ( class_exists( 'EventLogging' ) && !$request->wasPosted() ) {
-			$data = array();
+			$data = [];
 			$data['editingSessionId'] = self::getEditingStatsId();
 			if ( $request->getVal( 'section' ) ) {
 				$data['action.init.type'] = 'section';
@@ -271,12 +219,12 @@ class WikiEditorHooks {
 	 * @param OutputPage $outputPage object.
 	 * @return bool
 	 */
-	public static function editPageShowEditFormFields( $editPage, $outputPage ) {
+	public static function editPageShowEditFormFields( EditPage $editPage, OutputPage $outputPage ) {
 		if ( $editPage->contentModel !== CONTENT_MODEL_WIKITEXT ) {
 			return true;
 		}
 
-		$req = $outputPage->getContext()->getRequest();
+		$req = $outputPage->getRequest();
 		$editingStatsId = $req->getVal( 'editingStatsId' );
 		if ( !$editingStatsId || !$req->wasPosted() ) {
 			$editingStatsId = self::getEditingStatsId();
@@ -285,12 +233,12 @@ class WikiEditorHooks {
 		$outputPage->addHTML(
 			Xml::element(
 				'input',
-				array(
+				[
 					'type' => 'hidden',
 					'name' => 'editingStatsId',
 					'id' => 'editingStatsId',
 					'value' => $editingStatsId
-				)
+				]
 			)
 		);
 		return true;
@@ -301,17 +249,20 @@ class WikiEditorHooks {
 	 *
 	 * Disable the old toolbar if the new one is enabled
 	 *
-	 * @param $toolbar html
+	 * @param string &$toolbar
 	 * @return bool
 	 */
 	public static function EditPageBeforeEditToolbar( &$toolbar ) {
 		if ( self::isEnabled( 'toolbar' ) ) {
 			$toolbar = Html::rawElement(
-				'div', array(
+				'div', [
 					'class' => 'wikiEditor-oldToolbar'
-				),
+				],
 				$toolbar
 			);
+			// Return false to signify that the toolbar has been over-written, so
+			// the old toolbar code shouldn't be added to the page.
+			return false;
 		}
 		return true;
 	}
@@ -322,7 +273,7 @@ class WikiEditorHooks {
 	 * Adds WikiEditor-related items to the preferences
 	 *
 	 * @param User $user current user
-	 * @param array $defaultPreferences list of default user preference controls
+	 * @param array &$defaultPreferences list of default user preference controls
 	 * @return bool
 	 */
 	public static function getPreferences( $user, &$defaultPreferences ) {
@@ -347,7 +298,9 @@ class WikiEditorHooks {
 	 */
 	public static function resourceLoaderGetConfigVars( &$vars ) {
 		// expose magic words for use by the wikieditor toolbar
-		WikiEditorHooks::getMagicWords( $vars );
+		self::getMagicWords( $vars );
+
+		$vars['mw.msg.wikieditor'] = wfMessage( 'sig-text', '~~~~' )->inContentLanguage()->text();
 
 		return true;
 	}
@@ -363,12 +316,12 @@ class WikiEditorHooks {
 	 * @return bool
 	 */
 	public static function resourceLoaderTestModules( &$testModules, &$resourceLoader ) {
-		$testModules['qunit']['ext.wikiEditor.toolbar.test'] = array(
-			'scripts' => array( 'tests/qunit/ext.wikiEditor.toolbar.test.js' ),
-			'dependencies' => array( 'ext.wikiEditor.toolbar' ),
+		$testModules['qunit']['ext.wikiEditor.toolbar.test'] = [
+			'scripts' => [ 'tests/qunit/ext.wikiEditor.toolbar.test.js' ],
+			'dependencies' => [ 'ext.wikiEditor.toolbar' ],
 			'localBasePath' => __DIR__,
 			'remoteExtPath' => 'WikiEditor',
-		);
+		];
 		return true;
 	}
 
@@ -381,7 +334,7 @@ class WikiEditorHooks {
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
 		// Build and export old-style wgWikiEditorEnabledModules object for back compat
-		$enabledModules = array();
+		$enabledModules = [];
 		foreach ( self::$features as $name => $feature ) {
 			$enabledModules[$name] = self::isEnabled( $name );
 		}
@@ -396,7 +349,7 @@ class WikiEditorHooks {
 	 * @return bool
 	 */
 	private static function getMagicWords( &$vars ) {
-		$requiredMagicWords = array(
+		$requiredMagicWords = [
 			'redirect',
 			'img_right',
 			'img_left',
@@ -405,14 +358,13 @@ class WikiEditorHooks {
 			'img_thumbnail',
 			'img_framed',
 			'img_frameless',
-		);
-		$magicWords = array();
+		];
+		$magicWords = [];
 		foreach ( $requiredMagicWords as $name ) {
 			$magicWords[$name] = MagicWord::get( $name )->getSynonym( 0 );
 		}
 		$vars['wgWikiEditorMagicWords'] = $magicWords;
 	}
-
 
 	/**
 	 * Gets a 32 character alphanumeric random string to be used for stats.
@@ -429,8 +381,7 @@ class WikiEditorHooks {
 	 * This is attached to the MediaWiki 'EditPage::attemptSave' hook.
 	 *
 	 * @param EditPage $editPage
-	 * @param Status $status
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function editPageAttemptSave( EditPage $editPage ) {
 		$article = $editPage->getArticle();
@@ -439,7 +390,7 @@ class WikiEditorHooks {
 			self::doEventLogging(
 				'saveAttempt',
 				$article,
-				array( 'editingSessionId' => $request->getVal( 'editingStatsId' ) )
+				[ 'editingSessionId' => $request->getVal( 'editingStatsId' ) ]
 			);
 		}
 
@@ -451,13 +402,13 @@ class WikiEditorHooks {
 	 *
 	 * @param EditPage $editPage
 	 * @param Status $status
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function editPageAttemptSaveAfter( EditPage $editPage, Status $status ) {
 		$article = $editPage->getArticle();
 		$request = $article->getContext()->getRequest();
 		if ( $request->getVal( 'editingStatsId' ) ) {
-			$data = array();
+			$data = [];
 			$data['editingSessionId'] = $request->getVal( 'editingStatsId' );
 
 			if ( $status->isOK() ) {

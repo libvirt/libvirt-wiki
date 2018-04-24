@@ -9,6 +9,9 @@
 	"namemsg": "skinname-monobook",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
 	"ValidSkinNames": {
 		"monobook": "MonoBook"
 	},
@@ -33,6 +36,13 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteSkinPath": "MonoBook"
+	},
+	"ResourceModuleSkinStyles": {
+		"monobook": {
+			"+mediawiki.action.view.redirectPage": "skinStyles/mediawiki.action.view.redirectPage.css",
+			"+mediawiki.special.preferences.styles": "skinStyles/mediawiki.special.preferences.styles.less",
+			"+mediawiki.notification": "skinStyles/mediawiki.notification.less"
+		}
 	},
 	"AutoloadClasses": {
 		"SkinMonoBook": "SkinMonoBook.php",

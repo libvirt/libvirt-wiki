@@ -26,25 +26,22 @@ class IndexDocument extends AbstractDocument
     }
 
     /**
-     * @param \Elastica\AbstractUpdateAction $source
+     * @param \Elastica\AbstractUpdateAction $action
      *
      * @return array
      */
     protected function _getMetadata(AbstractUpdateAction $action)
     {
-        $params = array(
+        $params = [
             'index',
             'type',
             'id',
             'version',
             'version_type',
             'routing',
-            'percolate',
             'parent',
-            'ttl',
-            'timestamp',
             'retry_on_conflict',
-        );
+        ];
 
         $metadata = $action->getOptions($params, true);
 

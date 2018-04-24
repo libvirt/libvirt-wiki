@@ -29,6 +29,13 @@ class Connection extends Param
     const DEFAULT_TRANSPORT = 'Http';
 
     /**
+     * Default compression.
+     *
+     * @var string
+     */
+    const DEFAULT_COMPRESSION = false;
+
+    /**
      * Number of seconds after a timeout occurs for every request
      * If using indexing of file large value necessary.
      */
@@ -46,14 +53,14 @@ class Connection extends Param
      *
      * @param array $params OPTIONAL Connection params: host, port, transport, timeout. All are optional
      */
-    public function __construct(array $params = array())
+    public function __construct(array $params = [])
     {
         $this->setParams($params);
         $this->setEnabled(true);
 
         // Set empty config param if not exists
         if (!$this->hasParam('config')) {
-            $this->setParam('config', array());
+            $this->setParam('config', []);
         }
     }
 
@@ -132,6 +139,24 @@ class Connection extends Param
     public function setTransport($transport)
     {
         return $this->setParam('transport', $transport);
+    }
+
+    /**
+     * @return bool
+     */
+    public function hasCompression()
+    {
+        return (bool) $this->hasParam('compression') ? $this->getParam('compression') : self::DEFAULT_COMPRESSION;
+    }
+
+    /**
+     * @param bool $compression
+     *
+     * @return $this
+     */
+    public function setCompression($compression = null)
+    {
+        return $this->setParam('compression', $compression);
     }
 
     /**
@@ -303,18 +328,32 @@ class Connection extends Param
      *
      * @return self
      */
-    public static function create($params = array())
+    public static function create($params = [])
     {
-        $connection = null;
-
-        if ($params instanceof self) {
-            $connection = $params;
-        } elseif (is_array($params)) {
-            $connection = new self($params);
-        } else {
-            throw new InvalidException('Invalid data type');
+        if (is_array($params)) {
+            return new self($params);
         }
 
-        return $connection;
+        if ($params instanceof self) {
+            return $params;
+        }
+
+        throw new InvalidException('Invalid data type');
+    }
+
+    /**
+     * @return string User
+     */
+    public function getUsername()
+    {
+        return $this->hasParam('username') ? $this->getParam('username') : null;
+    }
+
+    /**
+     * @return string Password
+     */
+    public function getPassword()
+    {
+        return $this->hasParam('password') ? $this->getParam('password') : null;
     }
 }

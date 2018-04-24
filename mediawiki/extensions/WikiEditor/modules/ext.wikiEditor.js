@@ -34,12 +34,12 @@
 			}, data );
 
 			if ( mw.user.isAnon() ) {
-				data['user.class'] = 'IP';
+				data[ 'user.class' ] = 'IP';
 			}
 
-			data['action.' + action + '.type'] = data.type;
-			data['action.' + action + '.mechanism'] = data.mechanism;
-			data['action.' + action + '.timing'] = data.timing === undefined ?
+			data[ 'action.' + action + '.type' ] = data.type;
+			data[ 'action.' + action + '.mechanism' ] = data.mechanism;
+			data[ 'action.' + action + '.timing' ] = data.timing === undefined ?
 				0 : Math.floor( data.timing );
 			// Remove renamed properties
 			delete data.type;
@@ -56,9 +56,6 @@
 			origText = $textarea.val(),
 			submitting, onUnloadFallback;
 
-		// Initialize wikiEditor
-		$textarea.wikiEditor();
-
 		if ( $editingSessionIdInput.length ) {
 			editingSessionId = $editingSessionIdInput.val();
 			logEditEvent( 'ready', {
@@ -70,7 +67,7 @@
 			onUnloadFallback = window.onunload;
 			window.onunload = function () {
 				var fallbackResult, abortType,
-					caVeEdit = $( '#ca-ve-edit' )[0],
+					caVeEdit = $( '#ca-ve-edit' )[ 0 ],
 					switchingToVE = caVeEdit && (
 						document.activeElement === caVeEdit ||
 						$.contains( caVeEdit, document.activeElement )

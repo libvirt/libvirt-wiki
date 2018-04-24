@@ -35,49 +35,49 @@ abstract class AbstractType implements SearchableInterface
      *
      * @var string Index name
      */
-    protected $_indexName = '';
+    protected $_indexName;
 
     /**
      * Index name.
      *
      * @var string Index name
      */
-    protected $_typeName = '';
+    protected $_typeName;
 
     /**
      * Client.
      *
      * @var \Elastica\Client Client object
      */
-    protected $_client = null;
+    protected $_client;
 
     /**
      * Index.
      *
      * @var \Elastica\Index Index object
      */
-    protected $_index = null;
+    protected $_index;
 
     /**
      * Type.
      *
      * @var \Elastica\Type Type object
      */
-    protected $_type = null;
+    protected $_type;
 
     /**
      * Mapping.
      *
      * @var array Mapping
      */
-    protected $_mapping = array();
+    protected $_mapping = [];
 
     /**
      * Index params.
      *
      * @var array Index  params
      */
-    protected $_indexParams = array();
+    protected $_indexParams = [];
 
     /**
      * Source.
@@ -126,13 +126,13 @@ abstract class AbstractType implements SearchableInterface
 
         $mapping = new Mapping($this->getType());
         $mapping->setProperties($this->_mapping);
-        $mapping->setSource(array('enabled' => $this->_source));
+        $mapping->setSource(['enabled' => $this->_source]);
         $mapping->send();
     }
 
     /**
-     * @param \Elastica\Query $query
-     * @param array|int       $options
+     * @param string|\Elastica\Query $query
+     * @param array|int              $options
      *
      * @return \Elastica\Search
      */
@@ -144,9 +144,10 @@ abstract class AbstractType implements SearchableInterface
     /**
      * Search on the type.
      *
-     * @param string|array|\Elastica\Query $query Array with all query data inside or a Elastica\Query object
+     * @param string|array|\Elastica\Query $query   Array with all query data inside or a Elastica\Query object
+     * @param null                         $options
      *
-     * @return \Elastica\ResultSet ResultSet with all results inside
+     * @return \Elastica\ResultSet with all results inside
      *
      * @see \Elastica\SearchableInterface::search
      */

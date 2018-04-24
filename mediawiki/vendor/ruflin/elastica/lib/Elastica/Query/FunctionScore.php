@@ -1,20 +1,19 @@
 <?php
 namespace Elastica\Query;
 
-use Elastica\Filter\AbstractFilter;
-use Elastica\Script;
+use Elastica\Script\AbstractScript;
 
 /**
  * Class FunctionScore.
  *
- * @link http://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html
+ * @link https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-function-score-query.html
  */
 class FunctionScore extends AbstractQuery
 {
     const BOOST_MODE_MULTIPLY = 'multiply';
     const BOOST_MODE_REPLACE = 'replace';
     const BOOST_MODE_SUM = 'sum';
-    const BOOST_MODE_AVERAGE = 'average';
+    const BOOST_MODE_AVERAGE = 'avg';
     const BOOST_MODE_MAX = 'max';
     const BOOST_MODE_MIN = 'min';
 
@@ -29,7 +28,23 @@ class FunctionScore extends AbstractQuery
     const DECAY_EXPONENTIAL = 'exp';
     const DECAY_LINEAR = 'linear';
 
-    protected $_functions = array();
+    const FIELD_VALUE_FACTOR_MODIFIER_NONE = 'none';
+    const FIELD_VALUE_FACTOR_MODIFIER_LOG = 'log';
+    const FIELD_VALUE_FACTOR_MODIFIER_LOG1P = 'log1p';
+    const FIELD_VALUE_FACTOR_MODIFIER_LOG2P = 'log2p';
+    const FIELD_VALUE_FACTOR_MODIFIER_LN = 'ln';
+    const FIELD_VALUE_FACTOR_MODIFIER_LN1P = 'ln1p';
+    const FIELD_VALUE_FACTOR_MODIFIER_LN2P = 'ln2p';
+    const FIELD_VALUE_FACTOR_MODIFIER_SQUARE = 'square';
+    const FIELD_VALUE_FACTOR_MODIFIER_SQRT = 'sqrt';
+    const FIELD_VALUE_FACTOR_MODIFIER_RECIPROCAL = 'reciprocal';
+
+    const MULTI_VALUE_MODE_MIN = 'min';
+    const MULTI_VALUE_MODE_MAX = 'max';
+    const MULTI_VALUE_MODE_AVG = 'avg';
+    const MULTI_VALUE_MODE_SUM = 'sum';
+
+    protected $_functions = [];
 
     /**
      * Set the child query for this function_score query.
@@ -40,37 +55,29 @@ class FunctionScore extends AbstractQuery
      */
     public function setQuery(AbstractQuery $query)
     {
-        return $this->setParam('query', $query->toArray());
-    }
-
-    /**
-     * @param AbstractFilter $filter
-     *
-     * @return $this
-     */
-    public function setFilter(AbstractFilter $filter)
-    {
-        return $this->setParam('filter', $filter->toArray());
+        return $this->setParam('query', $query);
     }
 
     /**
      * Add a function to the function_score query.
      *
-     * @param string         $functionType   valid values are DECAY_* constants and script_score
-     * @param array|float    $functionParams the body of the function. See documentation for proper syntax.
-     * @param AbstractFilter $filter         optional filter to apply to the function
-     * @param float          $weight         function weight
+     * @param string        $functionType   valid values are DECAY_* constants and script_score
+     * @param array|float   $functionParams the body of the function. See documentation for proper syntax.
+     * @param AbstractQuery $filter         optional filter to apply to the function
+     * @param float         $weight         function weight
      *
      * @return $this
      */
-    public function addFunction($functionType, $functionParams, AbstractFilter $filter = null, $weight = null)
+    public function addFunction($functionType, $functionParams, AbstractQuery $filter = null, $weight = null)
     {
-        $function = array(
+        $function = [
             $functionType => $functionParams,
-        );
+        ];
+
         if (!is_null($filter)) {
-            $function['filter'] = $filter->toArray();
+            $function['filter'] = $filter;
         }
+
         if ($weight !== null) {
             $function['weight'] = $weight;
         }
@@ -83,29 +90,29 @@ class FunctionScore extends AbstractQuery
     /**
      * Add a script_score function to the query.
      *
-     * @param Script         $script a Script object
-     * @param AbstractFilter $filter an optional filter to apply to the function
-     * @param float          $weight the weight of the function
+     * @param \Elastica\Script\AbstractScript $script a Script object
+     * @param AbstractQuery                   $filter an optional filter to apply to the function
+     * @param float                           $weight the weight of the function
      *
      * @return $this
      */
-    public function addScriptScoreFunction(Script $script, AbstractFilter $filter = null, $weight = null)
+    public function addScriptScoreFunction(AbstractScript $script, AbstractQuery $filter = null, $weight = null)
     {
-        return $this->addFunction('script_score', $script->toArray(), $filter, $weight);
+        return $this->addFunction('script_score', $script, $filter, $weight);
     }
 
     /**
      * Add a decay function to the query.
      *
-     * @param string         $function    see DECAY_* constants for valid options
-     * @param string         $field       the document field on which to perform the decay function
-     * @param string         $origin      the origin value for this decay function
-     * @param string         $scale       a scale to define the rate of decay for this function
-     * @param string         $offset      If defined, this function will only be computed for documents with a distance from the origin greater than this value
-     * @param float          $decay       optionally defines how documents are scored at the distance given by the $scale parameter
-     * @param float          $scaleWeight optional factor by which to multiply the score at the value provided by the $scale parameter
-     * @param float          $weight      optional factor by which to multiply the score at the value provided by the $scale parameter
-     * @param AbstractFilter $filter      a filter associated with this function
+     * @param string        $function       see DECAY_* constants for valid options
+     * @param string        $field          the document field on which to perform the decay function
+     * @param string        $origin         the origin value for this decay function
+     * @param string        $scale          a scale to define the rate of decay for this function
+     * @param string        $offset         If defined, this function will only be computed for documents with a distance from the origin greater than this value
+     * @param float         $decay          optionally defines how documents are scored at the distance given by the $scale parameter
+     * @param float         $weight         optional factor by which to multiply the score at the value provided by the $scale parameter
+     * @param AbstractQuery $filter         a filter associated with this function
+     * @param string        $multiValueMode see MULTI_VALUE_MODE_* constants for valid options
      *
      * @return $this
      */
@@ -117,14 +124,15 @@ class FunctionScore extends AbstractQuery
         $offset = null,
         $decay = null,
         $weight = null,
-        AbstractFilter $filter = null
+        AbstractQuery $filter = null,
+        $multiValueMode = null
     ) {
-        $functionParams = array(
-            $field => array(
+        $functionParams = [
+            $field => [
                 'origin' => $origin,
                 'scale' => $scale,
-            ),
-        );
+            ],
+        ];
         if (!is_null($offset)) {
             $functionParams[$field]['offset'] = $offset;
         }
@@ -132,41 +140,63 @@ class FunctionScore extends AbstractQuery
             $functionParams[$field]['decay'] = (float) $decay;
         }
 
+        if (null !== $multiValueMode) {
+            $functionParams['multi_value_mode'] = $multiValueMode;
+        }
+
         return $this->addFunction($function, $functionParams, $filter, $weight);
     }
 
-    /**
-     * Add a boost_factor function to the query.
-     *
-     * @param float          $boostFactor the boost factor value
-     * @param AbstractFilter $filter      a filter associated with this function
-     *
-     * @deprecated
-     */
-    public function addBoostFactorFunction($boostFactor, AbstractFilter $filter = null)
-    {
-        $this->addWeightFunction($boostFactor, $filter);
+    public function addFieldValueFactorFunction(
+        $field,
+        $factor = null,
+        $modifier = null,
+        $missing = null,
+        $weight = null,
+        AbstractQuery $filter = null
+    ) {
+        $functionParams = [
+            'field' => $field,
+        ];
+
+        if (!is_null($factor)) {
+            $functionParams['factor'] = $factor;
+        }
+
+        if (!is_null($modifier)) {
+            $functionParams['modifier'] = $modifier;
+        }
+
+        if (!is_null($missing)) {
+            $functionParams['missing'] = $missing;
+        }
+
+        return $this->addFunction('field_value_factor', $functionParams, $filter, $weight);
     }
 
     /**
-     * @param float          $weight the weight of the function
-     * @param AbstractFilter $filter a filter associated with this function
+     * @param float         $weight the weight of the function
+     * @param AbstractQuery $filter a filter associated with this function
+     *
+     * @return $this
      */
-    public function addWeightFunction($weight, AbstractFilter $filter = null)
+    public function addWeightFunction($weight, AbstractQuery $filter = null)
     {
-        $this->addFunction('weight', $weight, $filter);
+        return $this->addFunction('weight', $weight, $filter);
     }
 
     /**
      * Add a random_score function to the query.
      *
-     * @param number         $seed   the seed value
-     * @param AbstractFilter $filter a filter associated with this function
-     * @param float          $weight an optional boost value associated with this function
+     * @param number        $seed   the seed value
+     * @param AbstractQuery $filter a filter associated with this function
+     * @param float         $weight an optional boost value associated with this function
+     *
+     * @return $this
      */
-    public function addRandomScoreFunction($seed, AbstractFilter $filter = null, $weight = null)
+    public function addRandomScoreFunction($seed, AbstractQuery $filter = null, $weight = null)
     {
-        $this->addFunction('random_score', array('seed' => $seed), $filter, $weight);
+        return $this->addFunction('random_score', ['seed' => $seed], $filter, $weight);
     }
 
     /**

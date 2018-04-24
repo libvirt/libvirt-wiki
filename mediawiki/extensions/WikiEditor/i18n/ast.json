@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Xuacu",
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"wikieditor": "Interfaz avanzada d'edición de testu wiki",
@@ -70,6 +71,7 @@
 	"wikieditor-toolbar-file-format-none": "dengún",
 	"wikieditor-toolbar-tool-file-insert": "Inxertar",
 	"wikieditor-toolbar-tool-file-cancel": "Encaboxar",
+	"wikieditor-toolbar-tool-file-upload": "Xubir",
 	"wikieditor-toolbar-tool-reference": "Referencia",
 	"wikieditor-toolbar-tool-reference-example": "Escribir equí el testu de la nota al pie",
 	"wikieditor-toolbar-tool-reference-cancel": "Encaboxar",
@@ -155,9 +157,9 @@
 	"wikieditor-toolbar-help-content-bold-description": "Negrina",
 	"wikieditor-toolbar-help-content-bold-syntax": "'''Testu en negrina'''",
 	"wikieditor-toolbar-help-content-bold-result": "<strong>Testu en negrina</strong>",
-	"wikieditor-toolbar-help-content-bolditalic-description": "Negrina &amp; cursiva",
+	"wikieditor-toolbar-help-content-bolditalic-description": "Negrina y cursiva",
 	"wikieditor-toolbar-help-content-bolditalic-syntax": "'''''Testu en negrina y cursiva'''''",
-	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Testu en negrina &amp; cursiva</em></strong>",
+	"wikieditor-toolbar-help-content-bolditalic-result": "<strong><em>Testu en negrina y cursiva</em></strong>",
 	"wikieditor-toolbar-help-content-ilink-description": "Enllaz internu",
 	"wikieditor-toolbar-help-content-ilink-syntax": "[[Títulu de la páxina]]<br />[[Títulu de la páxina|Etiqueta del enllaz]]",
 	"wikieditor-toolbar-help-content-ilink-result": "<a href='#'>Títulu de la páxina</a><br /><a href='#'>Etiqueta del enllaz</a>",
@@ -196,9 +198,9 @@
 	"wikieditor-toolbar-help-content-showreferences-description": "Amosar les referencies",
 	"wikieditor-toolbar-help-content-showreferences-result": "<ol class='references'><li id='cite_note-test-0'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Testu del enllaz</a>, otru testu.</li><li id='cite_note-test-1'><b><a title='' href='#'>^</a></b> <a rel='nofollow' title='http://www.example.org' class='external text' href='#'>Testu del enllaz</a></li></ol>",
 	"wikieditor-toolbar-help-content-signaturetimestamp-description": "Robla con data y hora",
-	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='{{#special:mypage}}'>Nome d'usuariu</a> (<a href='#' title='{{#special:mytalk}}'>alderique</a>) 15:54, 10 xunu 2009 (UTC)",
+	"wikieditor-toolbar-help-content-signaturetimestamp-result": "--<a href='#' title='$1:Username'>Nome d'usuariu</a> (<a href='#' title='$2:Username'>alderique</a>) 15:54, 10 xunu 2009 (UTC)",
 	"wikieditor-toolbar-help-content-signature-description": "Robla",
-	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='{{#special:mypage}}'>Nome d'usuariu</a> (<a href='#' title='{{#special:mytalk}}'>alderique</a>)",
+	"wikieditor-toolbar-help-content-signature-result": "<a href='#' title='$1:Username'>Nome d'usuariu</a> (<a href='#' title='$2:Username'>alderique</a>)",
 	"wikieditor-toolbar-help-content-indent-description": "Sangría",
 	"wikieditor-toolbar-help-content-indent-syntax": "Testu normal<br />:Testu con sangría<br />::Testu con sangría",
 	"wikieditor-toolbar-help-content-indent-result": "Testu normal<dl><dd>Testu con sangría<dl><dd>Testu con sangría</dd></dl></dd></dl>"
