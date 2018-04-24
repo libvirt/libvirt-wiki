@@ -1,0 +1,5 @@
+scripts/mediawiki-*/
+scripts/mediawiki-*.tar.gz
+*~
+scripts/new-files.txt
+scripts/old-files.txt
