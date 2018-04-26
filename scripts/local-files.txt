@@ -85,6 +85,7 @@
 ./favicon-32x32.png
 ./favicon.ico
 ./.htaccess
+./httpd-cfg/images.conf
 ./LocalSettings.php
 ./manifest.json
 ./mstile-150x150.png
