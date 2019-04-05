@@ -184,7 +184,7 @@ class LibvirtTemplate extends BaseTemplate {
           </li><li>
             <a href="http://libvirt.org/contribute.html">Contribute</a>
           </li><li>
-            <a href="http://libvirt.org/docs.html">Learn</a>
+            <a href="http://libvirt.org/docs.html">Docs</a>
           </li></ul>
       </div>
       <div id="search">
