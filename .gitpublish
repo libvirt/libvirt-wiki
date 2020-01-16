@@ -1,4 +1,4 @@
 [gitpublishprofile "default"]
 base = master
 to = libvir-list@redhat.com
-prefix = wiki PATCH
+prefix = libvirt-wiki PATCH
