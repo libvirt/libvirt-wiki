@@ -517,7 +517,7 @@ class CategoryTree {
 		foreach ( $res as $row ) {
 			$t = Title::newFromRow( $row );
 
-			$label = htmlspecialchars( $t->getText() );
+			$label = $t->getText();
 
 			$wikiLink = $special->getLocalURL( 'target=' . $t->getPartialURL() .
 				'&' . $this->getOptionsAsUrlParameters() );
@@ -527,8 +527,7 @@ class CategoryTree {
 			}
 
 			$s .= Xml::openElement( 'span', [ 'class' => 'CategoryTreeItem' ] );
-			$s .= Xml::openElement( 'a', [ 'class' => 'CategoryTreeLabel', 'href' => $wikiLink ] )
-				. $label . Xml::closeElement( 'a' );
+			$s .= Xml::element( 'a', [ 'class' => 'CategoryTreeLabel', 'href' => $wikiLink ], $label );
 			$s .= Xml::closeElement( 'span' );
 
 			$s .= "\n\t\t";
@@ -587,9 +586,9 @@ class CategoryTree {
 		// configuration setting
 		// patch contributed by Manuel Schneider <manuel.schneider@wikimedia.ch>, Bug 8011
 		if ( $hideprefix ) {
-			$label = htmlspecialchars( $title->getText() );
+			$label = $title->getText();
 		} else {
-			$label = htmlspecialchars( $title->getPrefixedText() );
+			$label = $title->getPrefixedText();
 		}
 
 		$labelClass = 'CategoryTreeLabel ' . ' CategoryTreeLabelNs' . $ns;
@@ -634,7 +633,7 @@ class CategoryTree {
 				}
 			}
 			if ( $count === 0 ) {
-				$bullet = wfMessage( 'categorytree-empty-bullet' )->plain() . ' ';
+				$bullet = wfMessage( 'categorytree-empty-bullet' )->escaped() . ' ';
 				$attr['class'] = 'CategoryTreeEmptyBullet';
 			} else {
 				$linkattr = [];
@@ -644,10 +643,13 @@ class CategoryTree {
 
 				$tag = 'span';
 				if ( $children == 0 ) {
-					$txt = wfMessage( 'categorytree-expand-bullet' )->plain();
+					// Use ->plain() and htmlspecialchars() to ensure
+					// identical to what is done by JS, which does:
+					// $link.text( mw.msg( 'categorytree-expand-bullet' ) )
+					$txt = htmlspecialchars( wfMessage( 'categorytree-expand-bullet' )->plain() );
 					$linkattr[ 'data-ct-state' ] = 'collapsed';
 				} else {
-					$txt = wfMessage( 'categorytree-collapse-bullet' )->plain();
+					$txt = htmlspecialchars( wfMessage( 'categorytree-collapse-bullet' )->plain() );
 					$linkattr[ 'data-ct-loaded' ] = true;
 					$linkattr[ 'data-ct-state' ] = 'expanded';
 				}
@@ -655,12 +657,19 @@ class CategoryTree {
 				$bullet = Xml::openElement( $tag, $linkattr ) . $txt . Xml::closeElement( $tag ) . ' ';
 			}
 		} else {
-			$bullet = wfMessage( 'categorytree-page-bullet' )->plain();
+			$bullet = wfMessage( 'categorytree-page-bullet' )->escaped();
 		}
 		$s .= Xml::tags( 'span', $attr, $bullet ) . ' ';
 
-		$s .= Xml::openElement( 'a', [ 'class' => $labelClass, 'href' => $wikiLink ] )
-			. $label . Xml::closeElement( 'a' );
+		$s .= Xml::element(
+			'a',
+			[
+				'class' => $labelClass,
+				'href' => $wikiLink,
+				'title' => $title->getPrefixedText()
+			],
+			$label
+		);
 
 		if ( $count !== false && $this->getOption( 'showcount' ) ) {
 			$s .= self::createCountString( RequestContext::getMain(), $cat, $count );
@@ -681,13 +690,13 @@ class CategoryTree {
 			if ( $children == '' ) {
 				$s .= Xml::openElement( 'i', [ 'class' => 'CategoryTreeNotice' ] );
 				if ( $mode == CategoryTreeMode::CATEGORIES ) {
-					$s .= wfMessage( 'categorytree-no-subcategories' )->text();
+					$s .= wfMessage( 'categorytree-no-subcategories' )->escaped();
 				} elseif ( $mode == CategoryTreeMode::PAGES ) {
-					$s .= wfMessage( 'categorytree-no-pages' )->text();
+					$s .= wfMessage( 'categorytree-no-pages' )->escaped();
 				} elseif ( $mode == CategoryTreeMode::PARENTS ) {
-					$s .= wfMessage( 'categorytree-no-parent-categories' )->text();
+					$s .= wfMessage( 'categorytree-no-parent-categories' )->escaped();
 				} else {
-					$s .= wfMessage( 'categorytree-nothing-found' )->text();
+					$s .= wfMessage( 'categorytree-nothing-found' )->escaped();
 				}
 				$s .= Xml::closeElement( 'i' );
 			} else {

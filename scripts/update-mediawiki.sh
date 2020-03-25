@@ -35,7 +35,7 @@ do
 done
 
 cp -a $DIR/* ../mediawiki/
-cp -a $DIR/.???* ../mediawiki/
+#cp -a $DIR/.???* ../mediawiki/
 
 for i in `cat new-files.txt`
 do
