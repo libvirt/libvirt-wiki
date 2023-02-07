@@ -1,5 +1,20 @@
-scripts/mediawiki-*/
-scripts/mediawiki-*.tar.gz
+# vim related ignores
+*.swp
+.lvimrc
+
+# emacs related ignores
+*#*#
+*.#*#
+.#*
 *~
-scripts/new-files.txt
-scripts/old-files.txt
+
+# git related ignores
+*.rej
+*.orig
+.git-module-status
+
+# python related ignores
+__pycache__/
+
+# libvirt related ignores
+/build/

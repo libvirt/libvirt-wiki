@@ -1,0 +1,638 @@
+#nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    background: rgb(0, 95, 97);
+    border-bottom: 3px solid rgb(60, 133, 124);
+    width: 100%;
+    display: table;
+}
+
+#home {
+    background-image: url(../logos/logo-banner-light-256.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100px;
+    width: 269px;
+    margin-left: 1em;
+    text-indent: 100%; white-space: nowrap; overflow: hidden;
+}
+
+#home a {
+    color:  rgb(0, 95, 97);
+    height: 100px;
+    width: 269px;
+    display: block;
+}
+
+#jumplinks {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16pt;
+    text-align: right;
+}
+
+#jumplinks ul {
+    list-style: none;
+}
+
+#jumplinks li {
+    display: inline;
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+#jumplinks a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#jumplinks a:hover {
+    color: rgb(255, 230, 0);
+}
+
+#search {
+    display: table-cell;
+    vertical-align: middle;
+    width: 13em;
+    text-align: right;
+    padding: 1em;
+}
+
+#search input {
+    border: 0px;
+    height: 2em;
+}
+
+#search input[type=text] {
+    background: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    width: 10em;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#search input[type=submit] {
+    background: rgb(60, 133, 124);
+    color: rgb(255, 255, 255);
+    width: 3em;
+    font-weight: bold;
+}
+
+#search input[type=submit]:active,
+#search input[type=submit]:hover {
+    color: rgb(255, 230, 0);
+}
+
+#body {
+    border: 0px;
+    left: 0px;
+    margin: 0px;
+    margin-top: 120px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+main,
+.document {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    padding-bottom: 1em;
+    max-width: 95%;
+    width: 70em;
+}
+
+main#index,
+#index.document,
+main#hvsupport,
+#hvsupport.document,
+main#documentation,
+#documentation.document,
+main#knowledge-base,
+#knowledge-base.document
+{
+    width: inherit;
+}
+
+pre {
+    border: 1px solid #999999;
+    background: #eeeeee;
+    color: black;
+    padding: 1em;
+}
+
+a {
+    color: rgb(0, 95, 97);
+}
+
+div.api {
+    border: 1px solid #999999;
+    background: #eeeeee;
+    color: black;
+    padding: 3px;
+}
+
+div.api pre {
+    margin: 0px;
+    border: 0px;
+    background: inherit;
+    padding: inherit;
+}
+
+div.api table {
+    margin: 0px;
+    padding-left: 2em;
+    border-spacing: 0px;
+}
+
+div.api table td, div.variablelist table td {
+    vertical-align: top;
+    padding-left: 1em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#changelog .author {
+    color: #3c857c;
+    font-weight: bold;
+}
+
+p.image {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th {
+    background: rgb(0, 95, 97);
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+}
+
+table th a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+table td, table th {
+    border: 1px solid rgb(60, 133, 124);
+}
+
+table td {
+    padding: 4px;
+}
+
+table tr:hover td, table col:hover td {
+    background: #eeeeee;
+}
+
+table tr td:hover {
+    background: #c5dbd8;
+}
+
+#projects {
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#projects dl {
+    margin: 0px;
+    border: 0px solid white;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#projects #p1 {
+    margin-left: 25%;
+    width: 75%;
+}
+
+#projects #p2 {
+    margin-left: 50%;
+    width: 50%;
+}
+
+#projects #p3 {
+    margin-left: 75%;
+    width: 25%;
+}
+
+#projects dt, #projects dd {
+    padding: 0px;
+    margin: 0px;
+}
+
+#projects #p1 dt, #projects #p1 dd {
+    width: 33%;
+}
+
+#projects #p2 dt, #projects #p2 dd {
+    width: 50%;
+}
+
+#projects #p3 dt, #projects #p3 dd {
+    width: 99%;
+}
+
+#projects span {
+    font-size: 0.8em;
+    display: block;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+
+#projects a {
+    font-size: 0.8em;
+    display: block;
+    padding-left: 0.8em;
+    padding-top: 1em;
+}
+
+#projects a {
+    color: white;
+    text-decoration: inherit;
+}
+
+#projects span {
+    color: #ccc;
+}
+
+span.since {
+    color: #3c857c;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.removed {
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img.diagram {
+    background: rgb(230,230,230);
+    border: 2px dotted rgb(178,178,178);
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table tbody td.y {
+    background: rgb(220,255,220);
+    text-align: center;
+}
+table tbody td.n {
+    background: rgb(255,220,220);
+    text-align: center;
+}
+
+.api {
+    font-family: monospace;
+}
+
+.api .type {
+    font-weight: bold;
+    white-space: nowrap;
+    color: darkslateblue;
+}
+
+.api .keyword {
+    font-weight: bold;
+    color: #A2F;
+}
+
+.api .comment {
+    color: #080;
+    margin-left: 2em;
+    position: relative;
+}
+
+.api .comment:before {
+    content: ": ";
+    position: absolute;
+    left: -1.3em;
+}
+
+.api .undisclosed {
+    font-style: italic;
+    letter-spacing: .3ex;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+.api .directive {
+    color: teal;
+}
+
+.api :link:hover, .api :link:focus {
+    color: blue;
+    border-color: blue;
+}
+
+.api :link {
+    text-decoration: none;
+}
+
+.api table td,.api table th {
+    border: 0px;
+}
+
+.api table tr:hover td, .api table col:hover td {
+    background: inherit;
+}
+
+.api table tr td:hover {
+    background: inherit;
+}
+
+dl.variablelist > dt {
+    display: block;
+    float: left;
+    font-style: italic;
+    font-weight: inherit;
+}
+
+.variablelist dd {
+    padding-left: 10em;
+}
+
+dl.variablelist > dt:after {
+    content: ": ";
+}
+
+div.description pre.code {
+    border: 1px dashed grey;
+    background-color: inherit;
+    padding: 5px 10px 5px 10px;
+    margin-left: 2.5em;
+}
+
+a.headerlink {
+    text-decoration: none!important;
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink {
+    visibility: visible;
+}
+
+div.panel,
+#documentation section,
+#documentation .section,
+#knowledge-base section,
+#knowledge-base .section
+{
+    width: 24%;
+    margin-left: 7%;
+    float: left;
+    background: rgb(230, 230, 230);
+}
+
+div.panel h2,
+#documentation section h2,
+#documentation .section h1,
+#knowledge-base section h2,
+#knowledge-base .section h1 {
+    margin-top: 0px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: rgb(0, 95, 97);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#index.document h1 {
+    border: 0px;
+    text-indent: 100%; white-space: nowrap; overflow: hidden;
+    background: url(../logos/logo-banner-dark-800.png) no-repeat center center;
+    height: 300px;
+}
+
+#documentation > h1,
+#knowledge-base > h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+br.clear {
+    clear: both;
+    border: 0px;
+}
+
+#footer {
+    clear: both;
+    border-top: 3px solid rgb(60, 133, 124);
+    margin-top: 2em;
+    padding: 1em;
+    background: rgb(0, 95, 97);
+    color: rgb(255, 255, 255);
+}
+
+#footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: rgb(255, 230, 0);
+}
+
+#conduct {
+    float: right;
+    text-align: right;
+    font-size: smaller;
+    margin-right: 3em;
+}
+
+#conduct a {
+    text-decoration: underline;
+}
+
+#contact, #community, #contribute {
+    float: left;
+    padding: 0px;
+    margin-left: 3em;
+}
+
+#footer h3 {
+    margin:0px;
+    font-size: 1em;
+    color: rgb(60, 133, 124);
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0px;
+    font-size: smaller;
+}
+
+div.panel dd,
+#documentation dd,
+#knowledge-base dd {
+    font-size: smaller;
+}
+
+div.panel a,
+#documentation a,
+#knowledge-base a {
+    text-decoration: none;
+}
+
+div.panel ul,
+div.panel p,
+div.panel dl,
+#documentation ul,
+#documentation p,
+#documentation dl,
+#knowledge-base ul,
+#knowledge-base p,
+#knowledge-base dl {
+    padding: 0.5em;
+    margin: 0px;
+}
+
+div.panel ul,
+#documentation ul,
+#knowledge-base ul {
+    margin-left: 1em;
+}
+
+div.panel dt,
+#documentation dt,
+#knowledge-base dt {
+    margin: 0px;
+}
+
+div.panel dd,
+#documentation dd,
+#knowledge-base dd {
+    margin: 0px;
+    margin-bottom: 1em;
+}
+
+dl.mail dt {
+    background: rgb(0, 97, 95);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0.5em;
+}
+dl.mail dt a {
+    color: inherit;
+    text-decoration: none;
+}
+dl.mail dt a:hover {
+    color:  rgb(255, 230, 0);
+    text-decoration: none;
+}
+
+td.enumvalue {
+    white-space: nowrap;
+}
+
+#advancedsearch {
+    display: none;
+    vertical-align: bottom;
+    position: absolute;
+    padding: 1em;
+    padding-top: 0em;
+    margin-top: 0em;
+    top: 100px;
+    right: 0px;
+    width: 13em;
+    text-align: left;
+    color: white;
+    background: rgb(0, 95, 97);
+    border-left: 3px solid rgb(60, 133, 124);
+    border-bottom: 3px solid rgb(60, 133, 124);
+}
+
+/* Use div.advancedsearch, not #advancedsearch because the
+ * 'advancedsearch' class is set dynamically when javascript
+ * loads. This ensures that the advancedsearch options are
+ * not displayed when javascript is disabled.
+*/
+#search:hover div.advancedsearch {
+    display: table;
+}
+
+#advancedsearch span {
+    display: block;
+}
+
+#advancedsearch input[type=radio] {
+    height: inherit;
+    display: inline;
+}
+
+#advancedsearch label {
+    display: inline;
+}
+
+.removedhv {
+    color: darkred;
+}
+
+.literal, code {
+    font-family: monospace;
+    background: #eeeeee;
+}
+
+.contents li p {
+    margin: 2px;
+}
+
+td.gitmirror {
+    font-size: smaller;
+    font-style: italic;
+}
+
+td.gitmirror a {
+    color: inherit;
+}
+
+th p, td p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Elements with id 'contents' contain the table of contents generated by docutils */
+
+#contents {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: rgb(230, 230, 230);
+    padding: 0.5em;
+    padding-left: 0px;
+    display: inline-block;
+    border: 1px solid #999999;
+}
+
+#contents p.topic-title {
+    display: none;
+}
