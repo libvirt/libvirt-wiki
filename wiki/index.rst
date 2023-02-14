@@ -9,6 +9,9 @@ the 'Edit this page' link in the footer of pages) or clone the
 https://gitlab.com/libvirt/libvirt-wiki repository and then submit a merge
 request with your changes.
 
+Note that for linking within this wiki the link in the ``.rst`` file must
+use ``.html`` suffix instead to link to the proper output file.
+
 .. contents::
 
 General project documentation
@@ -111,6 +114,16 @@ Examples of live block operations
 
 Other
 =====
+
+ - `April Fools patch submissions' <AprilFools.html>`__
+ - `How to populate libosinfo database <HowToPopulateLibosinfoDB.html>`__
+ - `libvirt gconfig <Libvirt-gconfig.html>`__
+ - `libvirt SNMP <Libvirt-snmp.html>`__
+ - `managing text consoles <LibvirtConsoleManagement.html>`__
+ - `using the qemu guest agent <Qemu_guest_agent.html>`__
+ - `migrating VMs with storage hosted on local filesystems <NBD_storage_migration.html>`__
+ - `list of old maintenance releases with backports <Maintenance_Releases.html>`__
+ - `sysctl setup for bridging <Net.bridge.bridge-nf-call_and_sysctl.conf.html>`__
 
 Images
 ~~~~~~

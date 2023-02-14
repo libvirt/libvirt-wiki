@@ -42,6 +42,9 @@ network <Guest_can_reach_host_but_cant_reach_outside_network.html>`__
 `Guest can reach outside network, but can't reach host
 (macvtap) <TroubleshootMacvtapHostFail.html>`__
 
+`Guest can reach , but can't reach outside network (macvtap)
+<Guest_can_reach_outside_network_but_cant_reach_host_macvtap.html>`__
+
 `Could not add rule to fixup DHCP response checksums on network
 'default' <Could_not_add_rule_to_fixup_DHCP_response_checksums_on_network_default.html>`__
 
@@ -68,3 +71,6 @@ documentation <Libvirt_identifies_host_processor_as_a_different_model_from_the_h
 `I created an external snapshot, but libvirt will not let me delete or
 revert to
 it <I_created_an_external_snapshot_but_libvirt_will_not_let_me_delete_or_revert_to_it.html>`__
+
+`Unable to connect to a console of a running domain
+<Unable_to_connect_to_console_of_a_running_domain.html>`__
