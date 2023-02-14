@@ -1,21 +1,15 @@
-.. contents::
-
+============
 libvirt Wiki
 ============
 
 This is the libvirt Wiki for user contributed content.
 
-**Due to frequent attacks from spammers who are able to defeat the
-various anti-spam measures, it has become necessary to disable new
-account creation.**
+To edit the pages either use the gitlab integrated editor (e.g. by following
+the 'Edit this page' link in the footer of pages) or clone the
+https://gitlab.com/libvirt/libvirt-wiki repository and then submit a merge
+request with your changes.
 
-We still **welcome contributions** from anyone interested in updating
-content. Simply send an email to the main libvirt development list
-asking for an account and one will be created for you with as little
-delay as practical. Please tell us your preferred wiki user name in the
-email - if you have no preferences we will create one with
-"ForenameSurname" style.
-
+.. contents::
 
 General project documentation
 =============================
