@@ -7,7 +7,8 @@ This is the libvirt Wiki for user contributed content.
 To edit the pages either use the gitlab integrated editor (e.g. by following
 the 'Edit this page' link in the footer of pages) or clone the
 https://gitlab.com/libvirt/libvirt-wiki repository and then submit a merge
-request with your changes.
+request with your changes. Note that contributions to the wiki are licensed
+under **LGPLv2+**.
 
 Note that for linking within this wiki the link in the ``.rst`` file must
 use ``.html`` suffix instead to link to the proper output file.

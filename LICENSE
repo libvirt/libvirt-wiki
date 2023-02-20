@@ -1,0 +1,15 @@
+The contents of the libvirt-wiki sub-project consist of the following parts:
+
+1) The build system and website layout
+
+  This includes everything except `wiki/` and `images/` directories. The build
+  system and website components were adapted from the main 'libvirt' project and
+  thus are licensed under LGPLv2+.
+
+2) User contributed content
+
+  The user-contributed content was received in the context of a LGPLv2+ licensed
+  project and website and thus are infered to be licensed under LGPLv2+.
+
+This repository and all new contributions are thus intended to be licensed under
+LGPLv2+. You can find a copy of the license in the `COPYING.LESSER` file.
