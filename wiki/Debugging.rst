@@ -1,7 +1,7 @@
 .. contents::
 
 When trying to figure out what libvirt does,
-`DebugLogs <DebugLogs.html>`__ might not always be enough. And sometimes
+`DebugLogs <https://libvirt.org/kbase/debuglogs.html>`__ might not always be enough. And sometimes
 you might want to get some information from a user, but you do not want
 to waste both your and their time by explaining how to do stuff in gdb
 to, for example, get a backtrace. Here are some useful tips that you

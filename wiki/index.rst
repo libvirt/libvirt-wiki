@@ -107,10 +107,8 @@ Disk and Memory Snapshots
 Examples of live block operations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `Live disk backup with active
-   blockcommit <Live-disk-backup-with-active-blockcommit.html>`__
--  `Live merge an entire disk image chain including current active
-   disk <Live-merge-an-entire-disk-image-chain-including-current-active-disk.html>`__
+-  `Live disk backup with active blockcommit <https://libvirt.org/kbase/live_full_disk_backup.html>`__
+-  `Live merge an entire disk image chain including current active disk <https://libvirt.org/kbase/merging_disk_image_chains.html>`__
 
 Other
 =====
@@ -139,7 +137,7 @@ Debugging
 
 In case you want to turn on debuging in libvirt follow:
 
--  `DebugLogs <DebugLogs.html>`__
+-  `DebugLogs <https://libvirt.org/kbase/debuglogs.html>`__
 
 For other (partially automated) debugging techniques, check
 

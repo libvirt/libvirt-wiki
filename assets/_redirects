@@ -5,7 +5,7 @@
 /page/Could_not_add_rule_to_fixup_DHCP_response_checksums_on_network_%27default%27 /Could_not_add_rule_to_fixup_DHCP_response_checksums_on_network_default.html 301
 /page/CreatingNewVM_in_VirtualMachineManager /CreatingNewVM_in_VirtualMachineManager.html 301
 /page/Creating_VMWare_ESXi_domain_failed_with_error_%22this_function_is_not_supported_by_the_connection_driver:_virDomainCreateXML%22 /Creating_VMWare_ESXi_domain_failed_with_error_this_function_is_not_supported_by_the_connection_driver_virDomainCreateXML.html 301
-/page/DebugLogs /DebugLogs.html 301
+/page/DebugLogs https://libvirt.org/kbase/debuglogs.html 301
 /page/Debugging /Debugging.html 301
 /page/DeletingVirtualMachine_in_VirtualMachineManager /DeletingVirtualMachine_in_VirtualMachineManager.html 301
 /page/Determining_version_information,_dealing_with_%22unknown_procedure%22 /Determining_version_information_dealing_with_unknown_procedure.html 301
@@ -39,8 +39,8 @@
 /page/Libvirt_daemon_is_not_listening_on_tcp_ports_although_configured_to /Libvirt_daemon_is_not_listening_on_tcp_ports_although_configured_to.html 301
 /page/Libvirt_identifies_host_processor_as_a_different_model_from_the_hardware_documentation /Libvirt_identifies_host_processor_as_a_different_model_from_the_hardware_documentation.html 301
 /page/Libvirtd_and_dnsmasq /Libvirtd_and_dnsmasq.html 301
-/page/Live-disk-backup-with-active-blockcommit /Live-disk-backup-with-active-blockcommit.html 301
-/page/Live-merge-an-entire-disk-image-chain-including-current-active-disk /Live-merge-an-entire-disk-image-chain-including-current-active-disk.html 301
+/page/Live-disk-backup-with-active-blockcommit https://libvirt.org/kbase/live_full_disk_backup.html 301
+/page/Live-merge-an-entire-disk-image-chain-including-current-active-disk https://libvirt.org/kbase/merging_disk_image_chains.html 301
 /page/Main_Page /index.html 301
 /page/Maintenance_Releases /Maintenance_Releases.html 301
 /page/Migration_fails_because_disk_image_cannot_be_found /Migration_fails_because_disk_image_cannot_be_found.html 301
