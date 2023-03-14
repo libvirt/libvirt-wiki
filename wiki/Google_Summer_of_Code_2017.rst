@@ -79,13 +79,12 @@ implement export to OCI format.
 
 Some code pointers to get started:
 
--  `src/lxc/lxc_native.c <http://libvirt.org/git/?p=libvirt.git;a=blob;f=src/lxc/lxc_native.c>`__
+-  ``src/lxc/lxc_native.c``
    is the place where the lxc import is implemented.
--  The starting point in the lxc driver is the
-   `connectDomainXMLFromNative <http://libvirt.org/git/?p=libvirt.git;a=blob;f=src/lxc/lxc_driver.c#l5815>`__
+-  The starting point in the lxc driver is the ``connectDomainXMLFromNative``
    function pointer.
 -  To add export capabilities, the
-   `connectDomainXMLToNative <http://libvirt.org/git/?p=libvirt.git;a=blob;f=src/driver-hypervisor.h#l282>`__
+   ``connectDomainXMLToNative``
    will have to be defined.
 
 Note that there may be tricky things to handle, like disk images
