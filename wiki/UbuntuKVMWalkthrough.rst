@@ -33,9 +33,6 @@ tips <Networking.html>`__.
 Create The Domain
 -----------------
 
-If you don't understand what a 'domain' is in libvirt-lingo, see the
-libvirt `Architecture <http://libvirt.org/intro.html>`__ page.
-
 Create Domain Using python-virtinst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

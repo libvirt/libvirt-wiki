@@ -561,7 +561,7 @@ info blockstats
 ~~~~~~~~~~~~~~~
 
 Triggered from the
-`virDomainGetBlockStats <http://libvirt.org/html/libvirt-libvirt.html#virDomainBlockStats>`__
+`virDomainGetBlockStats <http://libvirt.org/html/libvirt-libvirt-domain.html#virDomainBlockStats>`__
 command to determine the I/O stats for a block device.
 
 cont

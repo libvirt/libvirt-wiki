@@ -83,8 +83,7 @@ For more info, see: http://libvirt.org/remote.html
 -  **Virtual NAT and Route based networking**: Any host running the
    libvirt daemon can manage and create virtual networks. Libvirt
    virtual networks use firewall rules to act as a router, providing VMs
-   transparent access to the host machines network. For more info, see:
-   http://libvirt.org/archnetwork.html
+   transparent access to the host machines network.
 
 What hypervisors does libvirt support?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
