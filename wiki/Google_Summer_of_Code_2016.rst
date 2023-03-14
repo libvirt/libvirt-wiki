@@ -348,9 +348,3 @@ Template
     * Language: C
     * Mentor: Email address and IRC nick
     * Suggested by: Person who suggested the idea
-
-Student final submissions
-=========================
-
--  Jovanka Gulicoska:
-   http://wiki.libvirt.org/page/Google_Summer_of_Code_2016/Asynchronous_lifecycle_events_for_storage_objects
