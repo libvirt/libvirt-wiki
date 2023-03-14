@@ -11,8 +11,6 @@ procedure" <Determining_version_information_dealing_with_unknown_procedure.html>
 `Failed to connect to the
 hypervisor <Failed_to_connect_to_the_hypervisor.html>`__
 
-`Domain cannot be installed <Domain_cannot_be_installed.html>`__
-
 `The domain cannot be started when specifying different
 processor <The_domain_cannot_be_started_when_specifying_different_processor.html>`__
 
