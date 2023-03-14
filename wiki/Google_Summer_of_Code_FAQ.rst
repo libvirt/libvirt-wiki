@@ -59,7 +59,7 @@ As strange as it might look like, this is a proof that you've managed to
 clone and build your own libvirt and subscribed to the list. Don't
 worry, there are no requirements on the initial contribution when it
 comes to complexity or a size of the change. We keep a
-`list <http://wiki.libvirt.org/page/BiteSizedTasks>`__ of fairly easy
+`list <BiteSizedTasks.html>`__ of fairly easy
 tasks for newcomers. Before working on a patch, please read `contributor
 guidelines <http://libvirt.org/hacking.html>`__ and `project
 governance <http://libvirt.org/governance.html>`__.
@@ -104,7 +104,7 @@ is a nicely summarized list of mentor responsibilities.
 Is there a list of ideas for Libvirt?
 -------------------------------------
 
-`Sure <http://wiki.libvirt.org/page/Google_Summer_of_Code_Ideas>`__.
+`Sure <Google_Summer_of_Code_Ideas.html>`__.
 
 I have my own not listed idea!
 ------------------------------

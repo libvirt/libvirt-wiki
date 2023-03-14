@@ -410,9 +410,7 @@ To edit the virtual machine's configuration, use:
 
 virsh edit <VM name>
 
-For more information, see the FAQ entry at:
-
-http://wiki.libvirt.org/page/FAQ#Where_are_VM_config_files_stored.3F_How_do_I_edit_a_VM.27s_XML_config.3F
+For more information, see this `FAQ entry <FAQ.html#where-are-vm-config-files-stored-how-do-i-edit-a-vm-s-xml-config>`__
 
 PCI Passthrough of host network devices
 ---------------------------------------

@@ -255,9 +255,7 @@ with:
 
 If you are using QEMU/KVM and you created your VM with virt-manager, the
 URI you probably want is qemu:///system. If that doesn't work, read
-`What is the difference between qemu:///system and qemu:///session the
-FAQ entry for qemu:///system vs.
-qemu:///session. <http://wiki.libvirt.org/page/FAQ#What_is_the_difference_between_qemu:.2F.2F.2Fsystem_and_qemu:.2F.2F.2Fsession.3F_Which_one_should_I_use.3F>`__
+`What is the difference between qemu:///system and qemu:///session? Which one should I use?`_
 
 Error: Failed to add tap interface 'vnet%d' to bridge 'virbr0' No such file or directory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -414,8 +412,8 @@ qemu:///session (which can be used as any user, and is the default used
 by virsh when not run as root) as opposed to qemu:///system (which can
 only be accessed by root, and is the default used by virsh when run as
 root). To solve this problem, be sure to su to root prior to running
-virsh. See `What is the difference between qemu:///system and
-qemu:///session <http://wiki.libvirt.org/page/FAQ#What_is_the_difference_between_qemu:.2F.2F.2Fsystem_and_qemu:.2F.2F.2Fsession.3F_Which_one_should_I_use.3F>`__
+virsh. See
+`What is the difference between qemu:///system and qemu:///session? Which one should I use?`_
 for more details.
 
 3) Another problem is missing third-party binaries required on the host
@@ -506,7 +504,7 @@ What monitor commands does libvirt support? What QEMU/KVM command line flags doe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For a complete list, please see:
-http://wiki.libvirt.org/page/QEMUSwitchToLibvirt
+`QEMUSwitchToLibvirt <QEMUSwitchToLibvirt.html>`__
 
 What is the difference between qemu:///system and qemu:///session? Which one should I use?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -573,8 +571,7 @@ acts as a NAT router for virtual machines, routing traffic to the
 network connected to your host machine. This functionality uses
 iptables.
 
-For more info, see:
-http://wiki.libvirt.org/page/Networking#NAT_forwarding_.28aka_.22virtual_networks.22.29
+For more info, see: `nat-forwarding-aka-virtual-networks <Networking.html#nat-forwarding-aka-virtual-networks>`__
 
 How can I make libvirt stop using iptables?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -606,20 +603,17 @@ http://www.gnome.org/~markmc/virtual-networking.html
 How do I manually configure a network bridge?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See: `Setting up a Host
-Bridge <http://wiki.libvirt.org/page/Networking#Host_configuration_2>`__
+See: `Setting up a Host Bridge <Networking.html#host-configuration-bridged>`__
 
 How do I get my VM to use an existing network bridge?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See: `Configuring Guests to use a Host
-Bridge <http://wiki.libvirt.org/page/Networking#Guest_configuration_2>`__
+See: `Configuring Guests to use a Host Bridge <Networking.html#guest-configuration-bridge>`__
 
 How do I forward incoming connections to a guest that is connected via a NATed virtual network? =
 -------------------------------------------------------------------------------------------------
 
-See: `Forwarding Incoming
-Connections <http://wiki.libvirt.org/page/Networking#Forwarding_Incoming_Connections>`__
+See: `Forwarding Incoming Connections <Networking.html#forwarding-incoming-connections>`__
 
 Developing with libvirt
 -----------------------

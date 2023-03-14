@@ -66,5 +66,4 @@ Create a Host Bridge Manually
 
 For older versions of libvirt and other OS distros that don't support
 the virsh iface-\*, you can manually create a bridge device on the host
-using `these
-instructions <http://wiki.libvirt.org/page/Networking#Host_configuration_2>`__.
+using `these instructions <Networking.html#host-configuration-bridged>`__.
