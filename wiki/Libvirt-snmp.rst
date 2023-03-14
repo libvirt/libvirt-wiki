@@ -55,13 +55,13 @@ Sources can be downloaded via git:
 
 ::
 
-   $ git clone git://libvirt.org/libvirt-snmp.git
+   $ git clone https://gitlab.com/libvirt/libvirt-snmp.git
 
 or viewed online:
 
 ::
 
-   http://libvirt.org/git/?p=libvirt-snmp.git;a=summary
+   https://gitlab.com/libvirt/libvirt-snmp
 
 Development Guide
 -----------------
