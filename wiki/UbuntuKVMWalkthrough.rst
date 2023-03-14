@@ -115,7 +115,7 @@ correct (random) one will be generated for you.
    </domain>
 
 For more information, see the `domain format
-documentation <http://libvirt.org/formatdomain.html>`__.
+documentation <https://libvirt.org/formatdomain.html>`__.
 
 After that file is created, you can define it in libvirt with the
 following command:

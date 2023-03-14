@@ -255,7 +255,7 @@ doing the replacement and implement it as well.
 
 **Links:**
 
--  http://libvirt.org/storage.html
+-  https://libvirt.org/storage.html
 -  https://github.com/sahlberg/libiscsi
 
 **Details:**

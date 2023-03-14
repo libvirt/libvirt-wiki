@@ -63,7 +63,7 @@ Some of the major libvirt features are:
 
       virsh --connect qemu+ssh://root@example.com/system
 
-For more info, see: http://libvirt.org/remote.html
+For more info, see: https://libvirt.org/remote.html
 
 -  **Storage management**: Any host running the libvirt daemon can be
    used to manage various types of storage: create file images of
@@ -72,7 +72,7 @@ For more info, see: http://libvirt.org/remote.html
    volumes, partition raw disk devices, mount iSCSI shares, and much
    more. Since libvirt works remotely as well, all these options are
    available for remote hosts as well. For more info, see:
-   http://libvirt.org/storage.html
+   https://libvirt.org/storage.html
 
 -  **Network interface management**: Any host running the libvirt daemon
    can be used to manage physical and logical network interfaces.
@@ -88,7 +88,7 @@ For more info, see: http://libvirt.org/remote.html
 What hypervisors does libvirt support?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A complete list can be found here: http://libvirt.org/drivers.html
+A complete list can be found here: https://libvirt.org/drivers.html
 
 How can I check my libvirt version?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,12 +114,12 @@ For the library and default hypervisor version:
 What are the libvirt mailing lists/IRC?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See: http://libvirt.org/contact.html
+See: https://libvirt.org/contact.html
 
 Where should I report libvirt bugs?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For bug reporting, see: http://libvirt.org/bugs.html
+For bug reporting, see: https://libvirt.org/bugs.html
 
 Is libvirt the 'lowest common denominator' of hypervisor features?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -356,7 +356,7 @@ error: Unknown Failure
 
 This is caused by faulty error reporting in libvirt. Whenever you
 encounter this error, please `file a
-bug <http://libvirt.org/bugs.html>`__. You can typically get more
+bug <https://libvirt.org/bugs.html>`__. You can typically get more
 information by running
 
 ::
@@ -627,7 +627,7 @@ the file COPYING.LIB in the distribution for the precise wording.
 Where can I get the source code? How do I compile and install?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See http://libvirt.org/downloads.html
+See https://libvirt.org/downloads.html
 
 If you are using Fedora, the following packages are pre-requisites to a
 minimal build that will pass 'make check':

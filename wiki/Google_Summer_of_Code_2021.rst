@@ -72,7 +72,7 @@ Test driver API coverage
 The test driver (as accessed via the test:/// URI scheme) is a fake virt
 driver designed to let applications test against libvirt with fake data
 and not have any effect on the host. As can be seen from the API
-coverage report http://libvirt.org/hvsupport.html there are quite a few
+coverage report https://libvirt.org/hvsupport.html there are quite a few
 APIs not yet implemented in the test driver. Ideally the test driver
 would have 100% API coverage, and so the goal of the project is to
 address gaps in the API coverage. The work is incremental, so does not
@@ -81,8 +81,8 @@ amount of expanded coverage is sufficient and useful.
 
 **Links:**
 
--  API coverage http://libvirt.org/hvsupport.html
--  Test driver http://libvirt.org/drvtest.html
+-  API coverage https://libvirt.org/hvsupport.html
+-  Test driver https://libvirt.org/drvtest.html
 
 **Details:**
 

@@ -217,7 +217,7 @@ started on the source and target host.
 
 Similar to the node device driver creation, choose the HBA to be used
 for the vHBA in order to create a 'scsi' storage pool using the `storage
-pool XML <http://libvirt.org/formatstorage.html>`__ syntax as follows:
+pool XML <https://libvirt.org/formatstorage.html>`__ syntax as follows:
 
 ::
 
@@ -432,7 +432,7 @@ Using a LUN from a vHBA created by the storage pool (pool)
 
 The vHBA LUNs can be added to the domain XML configuration or hotplugged
 to the domain as either a "disk" or pass-through "lun". The `domain
-XML <http://libvirt.org/formatdomain.html#elementsDisks>`__ format
+XML <https://libvirt.org/formatdomain.html#elementsDisks>`__ format
 documentation describes the various details regarding usage of a "disk"
 or "lun". When hot-plugging a device, use the "virsh attach-device"
 command syntax.

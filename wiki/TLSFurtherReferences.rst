@@ -14,7 +14,7 @@ Setup <VNCTLSSetup.html>`__ page.
 **libvirtd.conf** - The libvirt daemon configuration file has more
 options than described in these pages. They are all shown and briefly
 described in `the libvirt.org reference
-page <http://libvirt.org/remote.html#Remote_libvirtd_configuration>`__.
+page <https://libvirt.org/remote.html#Remote_libvirtd_configuration>`__.
 
 **certtool** - The utility used to generate private keys and
 certificates, has its `full manual page

@@ -12,7 +12,7 @@ Terminology
 
 It is always important to know what is meant by the terms used in
 documentation and *meaning* of commands and syntax. Please refer to
-`this <http://libvirt.org/goals.html>`__ page if you are not familiar
+`this <https://libvirt.org/goals.html>`__ page if you are not familiar
 with basic libvirt concepts such as nodes and domains and to get an
 overview of the libvirt project goals and scope.
 
@@ -226,7 +226,7 @@ and run virsh with the appropriate commands: vol-create and define.
 Volumes are joined in a pool. By default, there exists one pool called
 "*default*". This is a directory-type pool, which means all volumes are
 stored as files in one directory. But please read `this
-page <http://libvirt.org/storage.html>`__ if you are not completely
+page <https://libvirt.org/storage.html>`__ if you are not completely
 aware of libvirt storage management. You may find more suitable storage
 solution there.
 
@@ -300,7 +300,7 @@ To define a new presistent domain:
    # virsh define MyNewVM.xml
 
 Domain XML format has many optional elements which you may find useful.
-Therefore read `this page <http://libvirt.org/formatdomain.html>`__
+Therefore read `this page <https://libvirt.org/formatdomain.html>`__
 which is a complete domain XML format reference including examples and
 most common scenarios.
 
@@ -514,7 +514,7 @@ Reference
 
 These pages may also provide useful further information:
 
--  `Domain XML format <http://libvirt.org/formatdomain.html>`__
+-  `Domain XML format <https://libvirt.org/formatdomain.html>`__
 -  `RHEL 8 - Configuring and managing
    virtualization <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_virtualization/virtualization-in-rhel-8-an-overview_configuring-and-managing-virtualization>`__
 -  `Anatomy of the libvirt virtualization

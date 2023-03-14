@@ -27,8 +27,8 @@ requirements <https://developers.google.com/open-source/gsoc/faq#what_are_the_el
 you will have to meet the following:
 
 -  Successfully `clone and
-   compile <http://libvirt.org/compiling.html>`__ libvirt
--  Subscribe to the `list <http://libvirt.org/contact.html#email>`__
+   compile <https://libvirt.org/compiling.html>`__ libvirt
+-  Subscribe to the `list <https://libvirt.org/contact.html#email>`__
 -  Pass interview
 -  Have a small upstream contribution
 
@@ -61,8 +61,8 @@ worry, there are no requirements on the initial contribution when it
 comes to complexity or a size of the change. We keep a
 `list <BiteSizedTasks.html>`__ of fairly easy
 tasks for newcomers. Before working on a patch, please read `contributor
-guidelines <http://libvirt.org/hacking.html>`__ and `project
-governance <http://libvirt.org/governance.html>`__.
+guidelines <https://libvirt.org/hacking.html>`__ and `project
+governance <https://libvirt.org/governance.html>`__.
 
 How to apply to Google Summer of Code?
 --------------------------------------
@@ -95,7 +95,7 @@ What can I expect from my mentor?
 -  They will help you set up your development environment, answer
    technical questions
 -  They will help you send your patches to the
-   `list <http://libvirt.org/contact.html#email>`__
+   `list <https://libvirt.org/contact.html#email>`__
 -  They will provide you with feedback on your progress
 
 `Here <https://developers.google.com/open-source/gsoc/help/responsibilities#to_your_students>`__

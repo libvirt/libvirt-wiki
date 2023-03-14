@@ -22,7 +22,7 @@ libvirt XML configuration elements.
 
 The QEMU command line options for specifying disk drives map to the
 `<disk> configuration
-element <http://libvirt.org/formatdomain.html#elementsDisks>`__ .
+element <https://libvirt.org/formatdomain.html#elementsDisks>`__ .
 libvirt only uses -hda /-fda for very old QEMU, prefering -drive
 whereever available.
 
@@ -561,7 +561,7 @@ info blockstats
 ~~~~~~~~~~~~~~~
 
 Triggered from the
-`virDomainGetBlockStats <http://libvirt.org/html/libvirt-libvirt-domain.html#virDomainBlockStats>`__
+`virDomainGetBlockStats <https://libvirt.org/html/libvirt-libvirt-domain.html#virDomainBlockStats>`__
 command to determine the I/O stats for a block device.
 
 cont

@@ -67,7 +67,7 @@ Development Guide
 -----------------
 
 Since this is a sub-project, all rules from libvirt apply. For more read
-libvirt `contributor guidelines <http://libvirt.org/hacking.html>`__.
+libvirt `contributor guidelines <https://libvirt.org/hacking.html>`__.
 Contributions to this project are **VERY** welcome.
 
 Compilation & Install
@@ -133,7 +133,7 @@ first defines read-write access community name, the second will enable
 the AgentX functionality. The last two says where are traps send and
 default community string to be used when sending traps.
 
-The libvirt `connection uri <http://libvirt.org/uri.html>`__ can be set
+The libvirt `connection uri <https://libvirt.org/uri.html>`__ can be set
 via environment variable LIBVIRT_DEFAULT_URI. For instance:
 
 ::

@@ -66,7 +66,7 @@ Meanwhile, the client side can report several versions:
    0.9.10
    $ virsh --version=long # more details
    Virsh command line tool of libvirt 0.9.10
-   See web site at http://libvirt.org/
+   See web site at https://libvirt.org/
 
    Compiled with support for:
     Hypervisors: Xen QEmu/KVM UML OpenVZ VirtualBox LXC ESX PHYP Test
@@ -80,7 +80,7 @@ Meanwhile, the client side can report several versions:
    Running hypervisor: QEMU 1.0.0
    Running against daemon: 0.9.9
 
-`The Hypervisor Support <http://libvirt.org/hvsupport.html>`__ page is
+`The Hypervisor Support <https://libvirt.org/hvsupport.html>`__ page is
 useful for tracking down situations where the client knows how to use a
 particular API, but where the hypervisor driver did not support the
 call. However, this page does not (yet) detail when support for

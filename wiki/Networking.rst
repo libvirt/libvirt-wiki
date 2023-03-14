@@ -178,7 +178,7 @@ guest GNAME:
    configure the guest OS with static ip information, or add a <host>
    element inside the <dhcp> element of the network that is used by your
    guest. See `the libvirt network XML documentation address
-   section <http://libvirt.org/formatnetwork.html#elementsAddress>`__ for
+   section <https://libvirt.org/formatnetwork.html#elementsAddress>`__ for
    defails and an example.)
 
 2) Stop the guest if it's running.
@@ -390,7 +390,7 @@ Guest configuration (Bridge)
 In order to let your virtual machines use this bridge, their
 configuration should include the interface definition as described in
 `Bridge to
-LAN <http://libvirt.org/formatdomain.html#elementsNICSBridge>`__. In
+LAN <https://libvirt.org/formatdomain.html#elementsNICSBridge>`__. In
 essence you are specifying the bridge name to connect to. Assuming a
 shared physical device where the bridge is called "br0", the following
 guest XML would be used:
