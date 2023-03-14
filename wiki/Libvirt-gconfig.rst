@@ -18,13 +18,7 @@ libvirt-gobject
    GObjects for mangling libvirt object
 
 It's distributed under LGPLv2+. The latest official releases can be
-found at ftp://libvirt.org/libvirt/glib
-
-Glossary of terms
-~~~~~~~~~~~~~~~~~
-
-See
-http://libvirt.org/guide/html/Application_Development_Guide-Introduction-Glossary.html
+found at https://download.libvirt.org/glib
 
 Architecture
 ------------
