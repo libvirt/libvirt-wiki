@@ -454,7 +454,7 @@ settings (since <hostdev> is for a generic PCI device, it knows nothing
 of function-specific items like MAC address). In order to solve this
 problem, libvirt-0.9.10 added a new <interface type='hostdev'>
 (`documented
-here <http://www.libvirt.org/formatdomain.html#elementsNICSHostdev>`__).
+here <https://libvirt.org/formatdomain.html#elementsNICSHostdev>`__).
 This new type of interface device behaves as a hybrid of an <interface>
 and a <hostdev> - libvirt will first do any network-specific
 hardware/switch initialization indicated (such as setting the MAC

@@ -5,7 +5,7 @@ Guest can reach outside network, but can't reach host (macvtap)
 
 macvtap interfaces (type='direct' - `see the libvirt documentation on
 the
-topic <http://www.libvirt.org/formatdomain.html#elementsNICSDirect>`__)
+topic <https://libvirt.org/formatdomain.html#elementsNICSDirect>`__)
 can be useful even when not connecting to a VEPA or VNLINK capable
 switch - setting the mode of such an interface to 'bridge' will allow
 the guest to be directly connected to the physical network in a very
