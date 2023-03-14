@@ -10,7 +10,7 @@ Libvirt maintenance releases
 ~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-3.2.1 <http://libvirt.org/sources/stable_updates/libvirt-3.2.1.tar.xz>`__
+libvirt-3.2.1 <https://download.libvirt.org/stable_updates/libvirt-3.2.1.tar.xz>`__
 
 Changes in this version:
 
@@ -109,7 +109,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-2.2.1 <http://libvirt.org/sources/stable_updates/libvirt-2.2.1.tar.xz>`__
+libvirt-2.2.1 <https://download.libvirt.org/stable_updates/libvirt-2.2.1.tar.xz>`__
 
 Changes in this version:
 
@@ -144,7 +144,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.3.3.3 <http://libvirt.org/sources/stable_updates/libvirt-1.3.3.3.tar.gz>`__
+libvirt-1.3.3.3 <https://download.libvirt.org/stable_updates/libvirt-1.3.3.3.tar.gz>`__
 
 Changes in this version:
 
@@ -161,7 +161,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.3.3.2 <http://libvirt.org/sources/stable_updates/libvirt-1.3.3.2.tar.gz>`__
+libvirt-1.3.3.2 <https://download.libvirt.org/stable_updates/libvirt-1.3.3.2.tar.gz>`__
 
 Changes in this version:
 
@@ -204,7 +204,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.3.3.1 <http://libvirt.org/sources/stable_updates/libvirt-1.3.3.1.tar.gz>`__
+libvirt-1.3.3.1 <https://download.libvirt.org/stable_updates/libvirt-1.3.3.1.tar.gz>`__
 
 Changes in this version:
 
@@ -271,7 +271,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.18.4 <http://libvirt.org/sources/stable_updates/libvirt-1.2.18.4.tar.gz>`__
+libvirt-1.2.18.4 <https://download.libvirt.org/stable_updates/libvirt-1.2.18.4.tar.gz>`__
 
 Changes in this version:
 
@@ -284,7 +284,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.18.3 <http://libvirt.org/sources/stable_updates/libvirt-1.2.18.3.tar.gz>`__
+libvirt-1.2.18.3 <https://download.libvirt.org/stable_updates/libvirt-1.2.18.3.tar.gz>`__
 
 Changes in this version:
 
@@ -323,7 +323,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.18.2 <http://libvirt.org/sources/stable_updates/libvirt-1.2.18.2.tar.gz>`__
+libvirt-1.2.18.2 <https://download.libvirt.org/stable_updates/libvirt-1.2.18.2.tar.gz>`__
 
 Changes in this version:
 
@@ -362,7 +362,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.18.1 <http://libvirt.org/sources/stable_updates/libvirt-1.2.18.1.tar.gz>`__
+libvirt-1.2.18.1 <https://download.libvirt.org/stable_updates/libvirt-1.2.18.1.tar.gz>`__
 
 Changes in this version:
 
@@ -455,7 +455,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.13.2 <http://libvirt.org/sources/stable_updates/libvirt-1.2.13.2.tar.gz>`__
+libvirt-1.2.13.2 <https://download.libvirt.org/stable_updates/libvirt-1.2.13.2.tar.gz>`__
 
 Changes in this version:
 
@@ -492,7 +492,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.13.1 <http://libvirt.org/sources/stable_updates/libvirt-1.2.13.1.tar.gz>`__
+libvirt-1.2.13.1 <https://download.libvirt.org/stable_updates/libvirt-1.2.13.1.tar.gz>`__
 
 Changes in this version:
 
@@ -620,7 +620,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.9.3 <http://libvirt.org/sources/stable_updates/libvirt-1.2.9.3.tar.gz>`__
+libvirt-1.2.9.3 <https://download.libvirt.org/stable_updates/libvirt-1.2.9.3.tar.gz>`__
 
 Changes in this version:
 
@@ -665,7 +665,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.9.2 <http://libvirt.org/sources/stable_updates/libvirt-1.2.9.2.tar.gz>`__
+libvirt-1.2.9.2 <https://download.libvirt.org/stable_updates/libvirt-1.2.9.2.tar.gz>`__
 
 Changes in this version:
 
@@ -692,7 +692,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.2.9.1 <http://libvirt.org/sources/stable_updates/libvirt-1.2.9.1.tar.gz>`__
+libvirt-1.2.9.1 <https://download.libvirt.org/stable_updates/libvirt-1.2.9.1.tar.gz>`__
 
 Changes in this version:
 
@@ -748,7 +748,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.9 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.9.tar.gz>`__
+libvirt-1.1.3.9 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.9.tar.gz>`__
 
 Changes in this version:
 
@@ -763,7 +763,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.8 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.8.tar.gz>`__
+libvirt-1.1.3.8 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.8.tar.gz>`__
 
 Changes in this version:
 
@@ -774,7 +774,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.7 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.7.tar.gz>`__
+libvirt-1.1.3.7 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.7.tar.gz>`__
 
 Changes in this version:
 
@@ -790,7 +790,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.6 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.6.tar.gz>`__
+libvirt-1.1.3.6 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.6.tar.gz>`__
 
 Changes in this version:
 
@@ -820,7 +820,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.5 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.5.tar.gz>`__
+libvirt-1.1.3.5 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.5.tar.gz>`__
 
 Changes in this version:
 
@@ -854,7 +854,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.4 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.4.tar.gz>`__
+libvirt-1.1.3.4 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.4.tar.gz>`__
 
 Changes in this version:
 
@@ -891,7 +891,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.3 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.3.tar.gz>`__
+libvirt-1.1.3.3 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.3.tar.gz>`__
 
 Changes in this version:
 
@@ -919,7 +919,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.2 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.2.tar.gz>`__
+libvirt-1.1.3.2 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.2.tar.gz>`__
 
 Changes in this version:
 
@@ -950,7 +950,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.1.3.1 <http://libvirt.org/sources/stable_updates/libvirt-1.1.3.1.tar.gz>`__
+libvirt-1.1.3.1 <https://download.libvirt.org/stable_updates/libvirt-1.1.3.1.tar.gz>`__
 
 Changes in this version:
 
@@ -1001,7 +1001,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.9 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.9.tar.gz>`__
+libvirt-1.0.5.9 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.9.tar.gz>`__
 
 Changes in this version:
 
@@ -1027,7 +1027,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.8 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.8.tar.gz>`__
+libvirt-1.0.5.8 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.8.tar.gz>`__
 
 Changes in this version:
 
@@ -1048,7 +1048,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.7 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.7.tar.gz>`__
+libvirt-1.0.5.7 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.7.tar.gz>`__
 
 Changes in this version:
 
@@ -1077,7 +1077,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.6 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.6.tar.gz>`__
+libvirt-1.0.5.6 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.6.tar.gz>`__
 
 Changes in this version:
 
@@ -1098,7 +1098,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.5 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.5.tar.gz>`__
+libvirt-1.0.5.5 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.5.tar.gz>`__
 
 Changes in this version:
 
@@ -1133,7 +1133,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.4 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.4.tar.gz>`__
+libvirt-1.0.5.4 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.4.tar.gz>`__
 
 Changes in this version:
 
@@ -1144,7 +1144,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.3 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.3.tar.gz>`__
+libvirt-1.0.5.3 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.3.tar.gz>`__
 
 Changes in this version:
 
@@ -1191,7 +1191,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.2 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.2.tar.gz>`__
+libvirt-1.0.5.2 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.2.tar.gz>`__
 
 Changes in this version:
 
@@ -1216,7 +1216,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-1.0.5.1 <http://libvirt.org/sources/stable_updates/libvirt-1.0.5.1.tar.gz>`__
+libvirt-1.0.5.1 <https://download.libvirt.org/stable_updates/libvirt-1.0.5.1.tar.gz>`__
 
 Changes in this version:
 
@@ -1256,7 +1256,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.8 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.8.tar.gz>`__
+libvirt-0.10.2.8 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.8.tar.gz>`__
 
 Changes in this version:
 
@@ -1280,7 +1280,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.7 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.7.tar.gz>`__
+libvirt-0.10.2.7 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.7.tar.gz>`__
 
 Changes in this version:
 
@@ -1302,7 +1302,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.6 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.6.tar.gz>`__
+libvirt-0.10.2.6 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.6.tar.gz>`__
 
 Changes in this version:
 
@@ -1324,7 +1324,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.5 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.5.tar.gz>`__
+libvirt-0.10.2.5 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.5.tar.gz>`__
 
 Changes in this version:
 
@@ -1340,7 +1340,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.4 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.4.tar.gz>`__
+libvirt-0.10.2.4 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.4.tar.gz>`__
 
 Changes in this version:
 
@@ -1366,7 +1366,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.3 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.3.tar.gz>`__
+libvirt-0.10.2.3 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.3.tar.gz>`__
 
 Changes in this version:
 
@@ -1404,7 +1404,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.2 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.2.tar.gz>`__
+libvirt-0.10.2.2 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.2.tar.gz>`__
 
 Changes in this version:
 
@@ -1494,7 +1494,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.10.2.1 <http://libvirt.org/sources/stable_updates/libvirt-0.10.2.1.tar.gz>`__
+libvirt-0.10.2.1 <https://download.libvirt.org/stable_updates/libvirt-0.10.2.1.tar.gz>`__
 
 Changes in this version:
 
@@ -1597,7 +1597,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.12.3 <http://libvirt.org/sources/stable_updates/libvirt-0.9.12.3.tar.gz>`__
+libvirt-0.9.12.3 <https://download.libvirt.org/stable_updates/libvirt-0.9.12.3.tar.gz>`__
 
 Changes in this version:
 
@@ -1618,7 +1618,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.12.2 <http://libvirt.org/sources/stable_updates/libvirt-0.9.12.2.tar.gz>`__
+libvirt-0.9.12.2 <https://download.libvirt.org/stable_updates/libvirt-0.9.12.2.tar.gz>`__
 
 -  Prepare for 0.9.12.2
 -  Distribute viratomic.h
@@ -1638,7 +1638,7 @@ libvirt-0.9.12.2 <http://libvirt.org/sources/stable_updates/libvirt-0.9.12.2.tar
 ~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.12.1 <http://libvirt.org/sources/stable_updates/libvirt-0.9.12.1.tar.gz>`__
+libvirt-0.9.12.1 <https://download.libvirt.org/stable_updates/libvirt-0.9.12.1.tar.gz>`__
 
 Changes in this version:
 
@@ -1671,7 +1671,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.10 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.10.tar.gz>`__
+libvirt-0.9.11.10 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.10.tar.gz>`__
 
 Changes in this version:
 
@@ -1698,7 +1698,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.9 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.9.tar.gz>`__
+libvirt-0.9.11.9 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.9.tar.gz>`__
 
 Changes in this version:
 
@@ -1716,7 +1716,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.8 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.8.tar.gz>`__
+libvirt-0.9.11.8 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.8.tar.gz>`__
 
 Changes in this version:
 
@@ -1741,7 +1741,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.7 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.7.tar.gz>`__
+libvirt-0.9.11.7 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.7.tar.gz>`__
 
 Changes in this version:
 
@@ -1760,7 +1760,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.6 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.6.tar.gz>`__
+libvirt-0.9.11.6 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.6.tar.gz>`__
 
 Changes in this version:
 
@@ -1774,7 +1774,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.5 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.5.tar.gz>`__
+libvirt-0.9.11.5 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.5.tar.gz>`__
 
 Changes in this version:
 
@@ -1872,7 +1872,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.4 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.4.tar.gz>`__
+libvirt-0.9.11.4 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.4.tar.gz>`__
 
 Changes since 0.9.11.3:
 
@@ -2028,7 +2028,7 @@ Changes since 0.9.11.3:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.3 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.3.tar.gz>`__
+libvirt-0.9.11.3 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.3.tar.gz>`__
 
 Changes since 0.9.11.2:
 
@@ -2046,7 +2046,7 @@ Changes since 0.9.11.2:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.2 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.2.tar.gz>`__
+libvirt-0.9.11.2 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.2.tar.gz>`__
 
 Only change from 0.9.11.1 is a version bump and a dist rebuild: the old
 tarball was generated with some busted autoconf bits.
@@ -2057,7 +2057,7 @@ tarball was generated with some busted autoconf bits.
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.11.1 <http://libvirt.org/sources/stable_updates/libvirt-0.9.11.1.tar.gz>`__
+libvirt-0.9.11.1 <https://download.libvirt.org/stable_updates/libvirt-0.9.11.1.tar.gz>`__
 
 Changes since 0.9.11 GA:
 
@@ -2139,7 +2139,7 @@ Changes since 0.9.11 GA:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.6.4 <http://libvirt.org/sources/stable_updates/libvirt-0.9.6.4.tar.gz>`__
+libvirt-0.9.6.4 <https://download.libvirt.org/stable_updates/libvirt-0.9.6.4.tar.gz>`__
 
 Changes in this version:
 
@@ -2152,7 +2152,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.6.3 <http://libvirt.org/sources/stable_updates/libvirt-0.9.6.3.tar.gz>`__
+libvirt-0.9.6.3 <https://download.libvirt.org/stable_updates/libvirt-0.9.6.3.tar.gz>`__
 
 Changes in this version:
 
@@ -2165,7 +2165,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.6.2 <http://libvirt.org/sources/stable_updates/libvirt-0.9.6.2.tar.gz>`__
+libvirt-0.9.6.2 <https://download.libvirt.org/stable_updates/libvirt-0.9.6.2.tar.gz>`__
 
 Changes in this version:
 
@@ -2187,7 +2187,7 @@ Changes in this version:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 `Download
-libvirt-0.9.6.1 <http://libvirt.org/sources/stable_updates/libvirt-0.9.6.1.tar.gz>`__
+libvirt-0.9.6.1 <https://download.libvirt.org/stable_updates/libvirt-0.9.6.1.tar.gz>`__
 
 Changes in this version:
 
