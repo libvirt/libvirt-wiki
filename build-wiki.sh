@@ -46,3 +46,13 @@ scripts/check-html-references.py --webroot=$(pwd)/build \
     --ignore-image logos/logo-banner-light-256.png || exit 1
 
 echo " [DONE] "
+
+echo "checking for non-relative internal links:"
+
+if scripts/check-html-references.py --webroot=$(pwd)/build --external | grep wiki.libvirt.org; then
+    echo " [ERROR] Please use relative links inside the wiki"
+    exit 1
+else
+    echo " [DONE] "
+fi
+
