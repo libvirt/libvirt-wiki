@@ -69,9 +69,28 @@ be autoloaded, but sysctl -p won't be run (and the previously "unknown"
 keys won't have been otherwise saved for application at a later time),
 so the kernel-set defaults for the tunables will remain in effect.
 
-The above description is the current state of affairs in RHEL6/CentOS6.
-Things are different in recent Fedora and RHEL7, which we'll get to
-further down.
+The best way to solve this is via udev rules but other possible
+solutions are documented below in case somebody might finds them useful. 
+
+**Working solution with udev+systmed**
+
+These sysctl settings can be applied by triggwring a udev rule on the bridge's creation (which loads the module)
+
+1) In file /etc/udev/rules.d/99-bridge.rules:
+
+::
+
+    ACTION=="add", SUBSYSTEM=="module", KERNEL=="br_netfilter", RUN+="/usr/lib/systemd/systemd-sysctl --prefix=net/bridge
+
+2) In file /etc/sysctl.d/bridge.conf:
+
+::
+
+    net.bridge.bridge-nf-call-arptables = 0
+    net.bridge.bridge-nf-call-ip6tables = 0
+    net.bridge.bridge-nf-call-iptables = 0
+
+3) Reboot or reload udev and sysctl
 
 **Attempted/Proposed Solutions in RHEL6 / pre-systemd**
 
