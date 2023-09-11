@@ -48,7 +48,12 @@ The output does not contain the option **--listen**
 Solution
 ~~~~~~~~
 
-Start the daemon with the opiton **--listen**.
+Systems with libvirt version 5.6 or higher with enabled systemd socket activation, stop the daemon and start TCP and/or TLS socket systemd units:
+
+   # systemctl stop libvirtd
+   # systemctl enable --now libvirtd-tcp.socket libvirtd-tls.socket
+
+On systems without systemd socket activation, start the daemon with the opiton **--listen**.
 
 On RHEL/Fedora/CentOS modify the file **/etc/sysconfig/libvirtd** and
 uncomment the following line:
