@@ -20,7 +20,7 @@ using a single SCSI LUN, we can see:
    Copyright 2011-2013 by Datera, Inc and others.
    For help on commands, type 'help'.
 
-   /> backstores/block create name=disk1 write_back=false \
+   /> backstores/block create name=disk0 write_back=false \
       dev=/dev/disk/by-id/dm-uuid-mpath-36005076306ffc7630000000000002000
    Created block storage object disk0 using
       /dev/disk/by-id/dm-uuid-mpath-36005076306ffc7630000000000002000.
