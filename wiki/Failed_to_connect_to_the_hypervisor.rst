@@ -6,6 +6,31 @@ Failed to connect to the hypervisor
 There are lots of errors that can occur while connecting to the server
 (when running virsh for example)
 
+The daemon was not started after installation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Symptom**
+
+After installing libvirt or a virt tool that uses libvirt, commands do
+not work with errors like:
+
+::
+
+   $ virt-builder fedora-39
+   error: failed to connect to the hypervisor
+
+**Solution**
+
+After installing libvirt for the first time you may need to start a
+libvirt daemon on the local machine.  For Linux installations using
+systemd and KVM use:
+
+::
+
+   # systemctl start virtqemud.socket
+
+Alternately, rebooting the machine should work.
+
 No connection driver available
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
