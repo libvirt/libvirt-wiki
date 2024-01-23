@@ -6,15 +6,36 @@ RST2HTML_PROGS=("rst2html5" "rst2html5.py" "rst2html5-3")
 
 unset RST2HTML_BIN
 for i in ${RST2HTML_PROGS[@]}; do
-    ver=$($i --version 2>/dev/null | grep "Docutils");
-    if test "x$ver" != "x"; then
+    # There are two versions of rst2html5 in the wild: one is the version
+    # coming from the docutils package, and the other is the one coming
+    # from the rst2html5 package. These versions are subtly different,
+    # and the wiki can only be successfully generated using the docutils
+    # version.
+    #
+    # The only reliable way to tell the two binaries apart seems to be
+    # looking look at their version information: the docutils version
+    # will report
+    #
+    #   rst2html5 (Docutils ..., Python ..., on ...)
+    #
+    # whereas the rst2html5 version will report
+    #
+    #   rst2html5 ... (Docutils ..., Python ..., on ...)
+    #
+    # with the additional bit of information being the version number for
+    # the rst2html5 package itself.
+    #
+    # Use this knowledge to detect the version that we know doesn't work
+    # for building the wiki and ignore it
+    ver=$($i --version 2>/dev/null | awk '{print $2}')
+    if test "$ver" = "(Docutils"; then
         RST2HTML_BIN=$i
         break;
     fi
 done
 
 if test -z ${RST2HTML_BIN+x}; then
-    echo "Please uninstall the rst2html5 package and install the docutils package" >&2
+    echo "rst2html5 not found, please install the docutils package" >&2
     exit 1
 fi
 
