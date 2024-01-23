@@ -154,12 +154,13 @@ Google Summer of Code
 =====================
 
 There is a separate page dedicated to `Google Summer of Code
-2023 <Google_Summer_of_Code_2023.html>`__.
+2024 <Google_Summer_of_Code_2024.html>`__.
 
 Also, the list for future ideas for projects can be found here `Google
 Summer of Code Ideas <Google_Summer_of_Code_Ideas.html>`__.
 
 The previous years can be found here:
+`2023 <Google_Summer_of_Code_2023.html>`__,
 `2022 <Google_Summer_of_Code_2022.html>`__,
 `2021 <Google_Summer_of_Code_2021.html>`__,
 `2020 <Google_Summer_of_Code_2020.html>`__,
