@@ -44,6 +44,10 @@ Template
 Suggested ideas
 ---------------
 
+More extensive list of ideas can be found also as
+`issues <https://gitlab.com/libvirt/libvirt/-/issues/?sort=created_date&state=opened&label_name[]=gsoc%3A%3Aideas>`__
+on our gitlab.
+
 QEMU command line generator XML fuzzing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
