@@ -2,6 +2,22 @@
 
 timestamp=$(date)
 
+RST2HTML_PROGS=("rst2html5" "rst2html5.py" "rst2html5-3")
+
+unset RST2HTML_BIN
+for i in ${RST2HTML_PROGS[@]}; do
+    ver=$($i --version 2>/dev/null | grep "Docutils");
+    if test "x$ver" != "x"; then
+        RST2HTML_BIN=$i
+        break;
+    fi
+done
+
+if test -z ${RST2HTML_BIN+x}; then
+    echo "Please uninstall the rst2html5 package and install the docutils package" >&2
+    exit 1
+fi
+
 rm -rf build
 mkdir build
 mkdir build/.tmp
@@ -14,7 +30,7 @@ for file in wiki/*.rst; do
 
     echo -n "building '$article'"
 
-    rst2html5 \
+    ${RST2HTML_BIN} \
         --stylesheet= \
         --strict \
         "$file" > build/.tmp/$article.html.in  || exit 1
