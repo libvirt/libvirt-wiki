@@ -71,16 +71,16 @@
             </ul>
           </div>
           <div id="search">
-            <form id="simplesearch" action="https://www.google.com/search" enctype="application/x-www-form-urlencoded" method="get">
+            <form id="simplesearch" action="https://duckduckgo.com/" enctype="application/x-www-form-urlencoded" method="get">
               <div>
-                <input id="searchsite" name="sitesearch" type="hidden" value="wiki.libvirt.org"/>
+                <input id="searchsite" name="sites" type="hidden" value="wiki.libvirt.org"/>
                 <input id="searchq" name="q" type="text" size="12" value=""/>
                 <input name="submit" type="submit" value="Go"/>
               </div>
             </form>
             <div id="advancedsearch">
-              <span><input type="radio" name="what" id="whatwebsite" value="website"/><label for="whatwebsite">Website</label></span>
-              <span><input type="radio" name="what" id="whatwiki" checked="checked" value="wiki"/><label for="whatwiki">Wiki</label></span>
+              <span><input type="radio" name="what" id="whatwebsite" checked="checked" value="website"/><label for="whatwebsite">Website <i>(via DuckDuckGo)</i></label></span>
+              <span><input type="radio" name="what" id="whatwiki" value="wiki"/><label for="whatwiki">Wiki <i>(via DuckDuckGo)</i></label></span>
               <span><input type="radio" name="what" id="whatdevs" value="devs"/><label for="whatdevs">Developers list</label></span>
               <span><input type="radio" name="what" id="whatusers" value="users"/><label for="whatusers">Users list</label></span>
             </div>

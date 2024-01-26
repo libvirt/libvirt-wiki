@@ -38,13 +38,15 @@ function advancedsearch(e) {
     e.stopPropagation();
 
     var form = document.createElement("form");
-    form.setAttribute("method", "get");
-
-    var newq = document.createElement("input");
-    newq.setAttribute("type", "hidden");
-    form.appendChild(newq);
+    form.method = "get";
 
     var q = document.getElementById("searchq");
+    var newq = document.createElement("input");
+    newq.type = "hidden";
+    newq.name = "q";
+    newq.value = q.value;
+    form.appendChild(newq);
+
     var whats = document.getElementsByName("what");
     var what = "website";
     for (var i = 0; i < whats.length; i++) {
@@ -54,17 +56,32 @@ function advancedsearch(e) {
         }
     }
 
-    form.setAttribute("action", "https://google.com/search");
-    newq.setAttribute("name", "q");
+    if (what == "website" || what == "wiki") {
+        form.action = "https://duckduckgo.com/";
 
-    if (what == "website") {
-        newq.value = "site:libvirt.org " + q.value;
-    } else if (what == "wiki") {
-        newq.value = "site:wiki.libvirt.org " + q.value;
-    } else if (what == "devs") {
-        newq.value = "site:redhat.com/archives/libvir-list " + q.value;
-    } else if (what == "users") {
-        newq.value = "site:redhat.com/archives/libvirt-users " + q.value;
+        var newsite = document.createElement("input");
+        newsite.type = "hidden";
+        newsite.name = "sites";
+        form.appendChild(newsite);
+
+        if (what == "website") {
+            newsite.value = "libvirt.org";
+        } else {
+            newsite.value = "wiki.libvirt.org";
+        }
+    } else if (what == "devs" || "users") {
+        form.action = "https://lists.libvirt.org/archives/search";
+
+        var newl = document.createElement("input");
+        newl.type = "hidden";
+        newl.name = "mlist";
+        form.appendChild(newl);
+
+        if (what == "devs") {
+            newl.value = "devel@lists.libvirt.org";
+        } else {
+            newl.value = "users@lists.libvirt.org";
+        }
     }
 
     document.body.appendChild(form);
