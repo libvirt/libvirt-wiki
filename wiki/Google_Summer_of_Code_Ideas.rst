@@ -10,17 +10,15 @@ FAQ
 Yearly programs
 ---------------
 
-::
-
-   *  2024
-   *  2023
-   *  2022
-   *  2021
-   *  2020
-   *  2019
-   *  2018
-   *  2017
-   *  2016
+*  `2024 <Google_Summer_of_Code_2024.html>`__
+*  `2023 <Google_Summer_of_Code_2023.html>`__
+*  `2022 <Google_Summer_of_Code_2022.html>`__
+*  `2021 <Google_Summer_of_Code_2021.html>`__
+*  `2020 <Google_Summer_of_Code_2020.html>`__
+*  `2019 <Google_Summer_of_Code_2019.html>`__
+*  `2018 <Google_Summer_of_Code_2018.html>`__
+*  `2017 <Google_Summer_of_Code_2017.html>`__
+*  `2016 <Google_Summer_of_Code_2016.html>`__
 
 Template
 --------
