@@ -47,8 +47,13 @@ cp -R libvirt-assets/* build
 cp -R assets/* build
 cp -R images/ build
 
-for file in wiki/*.rst; do
+for file in 404.rst wiki/*.rst; do
     article=$(basename -s .rst $file)
+    href_base=""
+
+    if [ "$file" = "404.rst" ]; then
+        href_base="/"
+    fi
 
     echo -n "building '$article'"
 
@@ -58,9 +63,9 @@ for file in wiki/*.rst; do
         "$file" > build/.tmp/$article.html.in  || exit 1
 
     xsltproc \
-        --stringparam pagesrc "wiki/$article.rst" \
+        --stringparam pagesrc "$file" \
         --stringparam timestamp "$timestamp" \
-        --stringparam href_base "" \
+        --stringparam href_base "$href_base" \
         page.xsl \
         build/.tmp/$article.html.in > build/$article.html || exit 1
 
@@ -68,13 +73,6 @@ for file in wiki/*.rst; do
 done
 
 rm -rf build/.tmp
-
-xsltproc \
-    --stringparam pagesrc "" \
-    --stringparam timestamp "$timestamp" \
-    --stringparam href_base "/" \
-    page.xsl \
-    404.html.in > build/404.html || exit 1
 
 echo "checking linking:"
 
