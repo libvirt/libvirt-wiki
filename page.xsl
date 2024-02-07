@@ -7,8 +7,6 @@
   exclude-result-prefixes="xsl exsl html"
   version="1.0">
 
-  <xsl:param name="builddir" select="'..'"/>
-
   <xsl:template match="node() | @*" mode="content">
     <xsl:copy>
       <xsl:apply-templates select="node() | @*" mode="content"/>
@@ -19,6 +17,8 @@
   <xsl:template match="/" mode="page">
     <xsl:param name="pagesrc"/>
     <xsl:param name="timestamp"/>
+    <xsl:param name="link_href_base"/>
+    <xsl:param name="asset_href_base"/>
     <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
     <html data-sourcedoc="{$pagesrc}">
@@ -32,7 +32,7 @@
       <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="{$href_base}css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="{$asset_href_base}css/main.css"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
@@ -40,9 +40,11 @@
         <meta name="theme-color" content="#ffffff"/>
         <title>libvirt: <xsl:value-of select="html:html/html:body//html:h1"/></title>
         <meta name="description" content="libvirt, virtualization, virtualization API"/>
-        <xsl:apply-templates select="/html:html/html:head/html:script" mode="content"/>
+        <xsl:if test="/html:html/html:head/html:meta[@name='go-import']">
+            <meta name="go-import" content="{/html:html/html:head/html:meta[@name='go-import']/@content}"/>
+        </xsl:if>
 
-        <script type="text/javascript" src="{$href_base}js/main.js">
+        <script type="text/javascript" src="{$asset_href_base}js/main.js">
           <xsl:comment>// forces non-empty element</xsl:comment>
         </script>
       </head>
@@ -61,19 +63,19 @@
         </div>
         <div id="nav">
           <div id="home">
-            <a href="{$href_base}index.html">Home</a>
+            <a href="{$link_href_base}index.html">Home</a>
           </div>
           <div id="jumplinks">
             <ul>
-              <li><a href="https://libvirt.org/downloads.html">Download</a></li>
-              <li><a href="https://libvirt.org/contribute.html">Contribute</a></li>
-              <li><a href="https://libvirt.org/docs.html">Docs</a></li>
+              <li><a href="{$link_href_base}downloads.html">Download</a></li>
+              <li><a href="{$link_href_base}contribute.html">Contribute</a></li>
+              <li><a href="{$link_href_base}docs.html">Docs</a></li>
             </ul>
           </div>
           <div id="search">
             <form id="simplesearch" action="https://duckduckgo.com/" enctype="application/x-www-form-urlencoded" method="get">
               <div>
-                <input id="searchsite" name="sites" type="hidden" value="wiki.libvirt.org"/>
+                <input id="searchsite" name="sites" type="hidden" value="libvirt.org"/>
                 <input id="searchq" name="q" type="text" size="12" value=""/>
                 <input name="submit" type="submit" value="Go"/>
               </div>
@@ -90,8 +92,8 @@
           <div id="contact">
             <h3>Contact</h3>
             <ul>
-              <li><a href="https://libvirt.org/contact.html#mailing-lists">email</a></li>
-              <li><a href="https://libvirt.org/contact.html#irc">irc</a></li>
+              <li><a href="{$link_href_base}contact.html#mailing-lists">email</a></li>
+              <li><a href="{$link_href_base}contact.html#irc">irc</a></li>
             </ul>
           </div>
           <div id="community">
@@ -106,12 +108,12 @@
             <div id="contribute">
               <h3>Contribute</h3>
               <ul>
-                <li><a href="https://gitlab.com/libvirt/libvirt-wiki/-/blob/master/{$pagesrc}">edit this page</a></li>
+                <li><a href="https://gitlab.com/libvirt/libvirt/-/blob/master/{$pagesrc}">edit this page</a></li>
               </ul>
             </div>
           </xsl:if>
           <div id="conduct">
-              Participants in the libvirt project agree to abide by <a href="https://libvirt.org/governance.html#code-of-conduct">the project code of conduct</a>
+            Participants in the libvirt project agree to abide by <a href="{$link_href_base}governance.html#code-of-conduct">the project code of conduct</a>
           </div>
           <br class="clear"/>
         </div>
@@ -124,6 +126,9 @@
       <xsl:apply-templates mode="copy" />
       <xsl:if test="./html:a/@id">
         <a class="headerlink" href="#{html:a/@id}" title="Link to this headline">&#xb6;</a>
+      </xsl:if>
+      <xsl:if test="parent::html:section">
+        <a class="headerlink" href="#{../@id}" title="Link to this headline">&#xb6;</a>
       </xsl:if>
       <xsl:if test="parent::html:div[@class='section']">
         <a class="headerlink" href="#{../@id}" title="Link to this headline">&#xb6;</a>
@@ -141,18 +146,4 @@
       <xsl:apply-templates mode="copy" />
     </xsl:element>
   </xsl:template>
-
-  <xsl:output
-    method="xml"
-    encoding="UTF-8"
-    indent="yes"/>
-
-  <xsl:template match="/">
-    <xsl:apply-templates select="." mode="page">
-      <xsl:with-param name="pagesrc" select="$pagesrc"/>
-      <xsl:with-param name="timestamp" select="$timestamp"/>
-      <xsl:with-param name="href_base" select="$href_base"/>
-    </xsl:apply-templates>
-  </xsl:template>
-
 </xsl:stylesheet>

@@ -65,8 +65,9 @@ for file in 404.rst wiki/*.rst; do
     xsltproc \
         --stringparam pagesrc "$file" \
         --stringparam timestamp "$timestamp" \
-        --stringparam href_base "$href_base" \
-        page.xsl \
+        --stringparam asset_href_base "$href_base" \
+        --stringparam link_href_base "https://libvirt.org/" \
+        site.xsl \
         build/.tmp/$article.html.in > build/$article.html || exit 1
 
     echo " ... DONE"
