@@ -43,6 +43,7 @@ rm -rf build
 mkdir build
 mkdir build/.tmp
 
+cp -R libvirt-assets/* build
 cp -R assets/* build
 cp -R images/ build
 
