@@ -25,20 +25,22 @@ Template
 
 ::
 
-   === TITLE ===
+    TITLE
+    ~~~~~
     
-    '''Summary:''' Short description of the project
+    **Summary:** Short description of the project
     
     Detailed description of the project.
     
-    '''Links:'''
-    * Wiki links to relevant material
-    * External links to mailing lists or web sites
+    **Links:**
+    -  Wiki links to relevant material
+    -  External links to mailing lists or web sites
     
-    '''Details:'''
-    * Skill level: beginner or intermediate or advanced
-    * Language: C
-    * Suggested by: Person who suggested the idea
+    **Details:**
+    -  Skill level: beginner or intermediate or advanced
+    -  Project size: 90/175/350 hours
+    -  Language: C
+    -  Suggested by: Person who suggested the idea
 
 Suggested ideas
 ---------------
@@ -65,8 +67,9 @@ crashes.
 
 -  Component: libvirt
 -  Skill level: intermediate
+-  Project size: 350 hours
 -  Language: C
--  Mentor:
+-  Mentor: Michal Prívozník <mprivozn@redhat.com>
 -  Suggested by: Daniel Berrange
 
 
@@ -131,8 +134,37 @@ covering networks, nwfilters, storage pools and secrets.
 **Details:**
 
 -  Skill level: beginner
+-  Project size: 175 hours
 -  Language: C
+-  Mentor: Michal Prívozník <mprivozn@redhat.com>
 -  Suggested by: Daniel Berrange
+
+
+Introducing job control to the storage driver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Summary:** Implement abstract job control and use it to improve storage driver.
+
+Currently, libvirt support job cancellation and progress reporting on domains.
+That is, if there's a long running job on a domain, e.g. migration, libvirt
+reports how much data has already been transferred to the destination and how
+much still needs to be transferred. However, libvirt lacks such information
+reporting in storage area, to which libvirt developers refer to as the storage
+driver. The aim is to report progress on several storage tasks, like volume
+wiping, file allocation an others.
+
+**Links:**
+-  `<https://gitlab.com/libvirt/libvirt/-/issues/18>`__
+
+**Details:**
+
+-  Component: libvirt
+-  Skill level: advanced
+-  Language: C
+-  Expected size: 350 hours
+-  Mentor: Michal Privoznik <mprivozn@redhat.com>, Pavel Hrdina <phrdina@redhat.com>
+-  Suggested by: Michal Privoznik
+
 
 libnbd bindings for Rust
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -153,5 +185,7 @@ OCaml script so they keep up to date with future changes to the API.
 **Details:**
 
 -  Skill level: intermediate or maybe advanced
+-  Project size: 175 hours
 -  Language: Rust and a bit of OCaml
+-  Mentor: Michal Prívozník
 -  Suggested by: Richard W.M. Jones <rjones@redhat.com>
