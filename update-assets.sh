@@ -1,6 +1,6 @@
 #!/bin/bash
 
-UPSTREAM_URL="https://gitlab.com/libvirt/libvirt/-/raw/master/docs/"
+UPSTREAM_URL="https://gitlab.com/libvirt/libvirt/-/raw/master/docs"
 
 DOCS_ASSETS=(
     "fonts/overpass-regular.woff"
@@ -44,15 +44,15 @@ mkdir libvirt-assets
 for asset in ${DOCS_ASSETS[@]}; do
     d=$(dirname "${asset}")
 
-    echo "Fetching asset $UPSTREAM_URL$asset to libvirt-assets/$asset"
+    echo "Fetching asset $UPSTREAM_URL/$asset to libvirt-assets/$asset"
 
-    curl --silent --show-error "$UPSTREAM_URL$asset" --output-dir "libvirt-assets/$d" --create-dirs -O
+    curl --silent --show-error "$UPSTREAM_URL/$asset" --output-dir "libvirt-assets/$d" --create-dirs -O
 done
 
 for asset in ${BUILD_ASSETS[@]}; do
     d=$(dirname "${asset}")
 
-    echo "Fetching asset $UPSTREAM_URL$asset to $asset"
+    echo "Fetching asset $UPSTREAM_URL/$asset to $asset"
 
-    curl --silent --show-error "$UPSTREAM_URL$asset" --output-dir "$d" -O
+    curl --silent --show-error "$UPSTREAM_URL/$asset" --output-dir "$d" -O
 done
