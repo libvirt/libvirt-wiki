@@ -51,6 +51,7 @@ previous coding exercises can be found here:
 -  `2020 <https://github.com/zippy2/gsoc_2020>`__
 -  `2021 <https://github.com/zippy2/gsoc_2021>`__
 -  `2022 <https://github.com/zippy2/gsoc_2022>`__
+-  `2023 <https://github.com/zippy2/gsoc_2023>`__
 
 How can I have an upstream contribution?
 ----------------------------------------
