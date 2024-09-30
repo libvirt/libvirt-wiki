@@ -272,7 +272,7 @@ The Virtual Machine Manager (virt-manager)
 
 In virt-manager is possibility to view and manage virtual networks. To
 open "QEMU/KVM - Connection Details" window in "Virtual Machine Manager"
-choouse Edit->Connection Details.
+select Edit->Connection Details.
 Information available through virt-manager can be seen in this image:
 
 .. image:: images/Virtual_network_tab_default_overview.png
