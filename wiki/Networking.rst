@@ -275,7 +275,7 @@ NetworkManager, it likely supports bridging natively. See these
 instructions for creating a bridge directly with NetworkManager:
 
 -  Using nm-connection-editor UI:
-   https://www.happyassassin.net/2014/07/23/bridged-networking-for-libvirt-with-networkmanager-2014-fedora-21/
+   https://www.happyassassin.net/posts/2014/07/23/bridged-networking-for-libvirt-with-networkmanager-2014-fedora-21/
 -  Using the command line:
    https://lukas.zapletalovi.com/2015/09/fedora-22-libvirt-with-bridge.html
 
