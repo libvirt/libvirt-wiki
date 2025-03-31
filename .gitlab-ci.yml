@@ -1,5 +1,5 @@
 .publish:
-  image: registry.gitlab.com/libvirt/libvirt/ci-almalinux-8:latest
+  image: registry.gitlab.com/libvirt/libvirt/ci-almalinux-9:latest
   script:
     - ./build-wiki.sh
     - mv build public
