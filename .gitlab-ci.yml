@@ -11,8 +11,11 @@
 web:
   extends: .publish
   rules:
-    # Only run if it is a merge request, or a forced pipeline
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" || $RUN_PIPELINE == "1"'
+    # Only run if it is a merge request
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: on_success
+    # Or a or a forced pipeline on non-default branch
+    - if: '$CI_PIPELINE_SOURCE =~ /(push|scheduled|web)/ && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH && $RUN_PIPELINE == "1"'
       when: on_success
     - when: never
 
@@ -21,6 +24,6 @@ pages:
   extends: .publish
   rules:
     # We can publish the website from pushes to the main branch only
-    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - if: '$CI_PIPELINE_SOURCE =~ /(push|scheduled|web)/ && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
       when: on_success
     - when: never
