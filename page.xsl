@@ -109,7 +109,7 @@
             <div id="contribute">
               <h3>Contribute</h3>
               <ul>
-                <li><a href="https://gitlab.com/libvirt/libvirt/-/blob/master/{$pagesrc}">edit this page</a></li>
+                <li><a href="https://gitlab.com/libvirt/libvirt-wiki/-/blob/master/{$pagesrc}">edit this page</a></li>
               </ul>
             </div>
           </xsl:if>

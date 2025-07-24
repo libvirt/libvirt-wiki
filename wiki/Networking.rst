@@ -205,17 +205,21 @@ guest GNAME:
       if [ "${1}" = "VM NAME" ]; then
 
          # Update the following variables to fit your setup
-         GUEST_IP=
-         GUEST_PORT=
-         HOST_PORT=
+         GUEST_IP=                     # 10.0.0.2
+         GUEST_PORT=                   # 80
+         HOST_LIBVIRT_INTERFACE=       # virbr0
+         HOST_PORT=                    # 8080
+         HOST_IP_ON_BRIDGE=            # 192.168.1.2
+         HOST_INTERFACE_ON_BRIDGE=     # enp1s0
+         TRANSPORT_PROTOCOL=           # tcp
 
          if [ "${2}" = "stopped" ] || [ "${2}" = "reconnect" ]; then
-          /sbin/iptables -D FORWARD -o virbr0 -p tcp -d $GUEST_IP --dport $GUEST_PORT -j ACCEPT
-          /sbin/iptables -t nat -D PREROUTING -p tcp --dport $HOST_PORT -j DNAT --to $GUEST_IP:$GUEST_PORT
+          /sbin/iptables -D FORWARD -o $HOST_LIBVIRT_INTERFACE -p $TRANSPORT_PROTOCOL -d $GUEST_IP --dport $GUEST_PORT -j ACCEPT
+          /sbin/iptables -t nat -D PREROUTING -p $TRANSPORT_PROTOCOL -d $HOST_IP_ON_BRIDGE --dport $HOST_PORT -j DNAT --to $GUEST_IP:$GUEST_PORT
          fi
          if [ "${2}" = "start" ] || [ "${2}" = "reconnect" ]; then
-          /sbin/iptables -I FORWARD -o virbr0 -p tcp -d $GUEST_IP --dport $GUEST_PORT -j ACCEPT
-          /sbin/iptables -t nat -I PREROUTING -p tcp --dport $HOST_PORT -j DNAT --to $GUEST_IP:$GUEST_PORT
+          /sbin/iptables -I FORWARD 1 -i $HOST_INTERFACE_ON_BRIDGE -o $HOST_LIBVIRT_INTERFACE -p $TRANSPORT_PROTOCOL -d $GUEST_IP --dport $GUEST_PORT -j ACCEPT
+          /sbin/iptables -t nat -I PREROUTING 1 -p $TRANSPORT_PROTOCOL -d $HOST_IP_ON_BRIDGE --dport $HOST_PORT -j DNAT --to $GUEST_IP:$GUEST_PORT
          fi
       fi
 
