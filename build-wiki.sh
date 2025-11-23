@@ -69,6 +69,7 @@ for file in 404.rst wiki/*.rst; do
         --stringparam timestamp "$timestamp" \
         --stringparam asset_href_base "$href_base" \
         --stringparam link_href_base "https://libvirt.org/" \
+        --stringparam edit_href_base "https://gitlab.com/libvirt/libvirt-wiki/-/blob/master/" \
         site.xsl \
         build/.tmp/$article.html.in > build/$article.html || exit 1
 
