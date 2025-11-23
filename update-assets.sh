@@ -20,6 +20,7 @@ DOCS_ASSETS=(
     "css/mobile-template.css"
     "css/libvirt-template.css"
     "css/fonts.css"
+    "css/main.css"
     "js/main.js"
     "logos/logo-banner-dark-800.png"
     "logos/logo-banner-dark-256.png"
@@ -38,6 +39,7 @@ DOCS_ASSETS=(
 BUILD_ASSETS=(
     "404.rst"
     "page.xsl"
+    "site.xsl"
 )
 
 rm -rf libvirt-assets
