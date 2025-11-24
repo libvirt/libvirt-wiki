@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
 UPSTREAM_URL="https://gitlab.com/libvirt/libvirt/-/raw/master/docs"
 
 DOCS_ASSETS=(

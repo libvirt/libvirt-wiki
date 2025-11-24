@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
 timestamp=$(date)
 
 RST2HTML_PROGS=("rst2html5" "rst2html5.py" "rst2html5-3")
