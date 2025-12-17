@@ -53,12 +53,14 @@ world. Do not add interfaces
 Libvirt will add iptables rules to allow traffic to/from guests attached
 to the virbr0 device in the INPUT, FORWARD, OUTPUT and POSTROUTING
 chains. It will also attempt to enable ip_forward. Some other
-applications may disable it, so the best option is to add the following
-to /etc/sysctl.conf
+applications may disable it, so the best option is to add new conf file
 
 ::
 
-    net.ipv4.ip_forward = 1
+   bash -c 'cat << EOF > /etc/sysctl.d/99-forward.conf
+   # enable packet forwarding for IPv4
+   net.ipv4.ip_forward=1
+   EOF'
 
 If you are already running dnsmasq on your machine, please see `libvirtd
 and dnsmasq <Libvirtd_and_dnsmasq.html>`__.
