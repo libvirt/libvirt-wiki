@@ -62,6 +62,12 @@ applications may disable it, so the best option is to add new conf file
    net.ipv4.ip_forward=1
    EOF'
 
+You can check current ip_forward state, expected stdout is "net.ipv4.ip_forward = 1"
+
+::
+
+   sysctl net.ipv4.ip_forward
+
 If you are already running dnsmasq on your machine, please see `libvirtd
 and dnsmasq <Libvirtd_and_dnsmasq.html>`__.
 
