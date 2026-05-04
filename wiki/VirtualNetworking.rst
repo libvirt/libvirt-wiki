@@ -177,10 +177,8 @@ outside of the host, nor can they receive traffic from outside the host.
 .. image:: images/Virtual_network_switch_in_isolated_mode.png
 
 The use of dnsmasq in this mode is possible and in fact needed since it
-is used to answer DHCP requests. However, even if this network is
-isolated from any physical network, DNS names are still resolved.
-Therefore one can get into the situation where DNS is resolved but
-guests are unable to ping.
+is used to answer DHCP requests. However, DNS names are not resolved by
+default because of 'no-resolv' option in dnsmasq configuration file.
 
 The default configuration
 -------------------------
